@@ -1369,9 +1369,10 @@ async function updateNews() {
     renderNews('industry-news', items, 'TSNN');
   } catch {
     renderNews('industry-news', [
-      { title: 'Global B2B events market projected to surpass $40B by 2027 — IBISWorld', pubDate: new Date(), source: 'IBISWorld' },
-      { title: 'Hybrid event formats gaining traction across industrial sectors', pubDate: new Date(), source: 'Industry' },
-      { title: 'Visit TSNN.com for the latest trade show industry headlines', pubDate: new Date(), source: 'TSNN' }
+      { title: 'Global B2B events market on track to surpass $40B by 2027', pubDate: new Date(), source: 'IBISWorld' },
+      { title: 'Face-to-face events continue to outperform digital channels for lead quality in B2B', pubDate: new Date(), source: 'UFI Global' },
+      { title: 'McCormick Place remains #1 convention center in North America by total exhibit space', pubDate: new Date(), source: 'Crain\'s Chicago' },
+      { title: 'Sustainability requirements now standard in >60% of major trade show RFPs', pubDate: new Date(), source: 'IAEE' }
     ], 'Industry');
   }
 
@@ -1403,14 +1404,16 @@ async function updateNews() {
    UPCOMING SHOWS
    =========================================================== */
 function fmtRange(start, end) {
-  const s = new Date(start), e = new Date(end);
+  // Append T12:00:00 to force noon-local parsing — prevents UTC-midnight
+  // rolling back one day in US timezones (e.g. "2026-06-09" → Jun 8 in CDT)
+  const s = new Date(start + 'T12:00:00'), e = new Date(end + 'T12:00:00');
   const mo = s.toLocaleDateString('en-US', { month: 'short' }).toUpperCase();
   const eMo = e.toLocaleDateString('en-US', { month: 'short' }).toUpperCase();
   if (mo === eMo) return `${mo} ${s.getDate()}–${e.getDate()}`;
   return `${mo} ${s.getDate()} – ${eMo} ${e.getDate()}`;
 }
 function daysUntil(d) {
-  return Math.ceil((new Date(d) - new Date()) / 86400000);
+  return Math.ceil((new Date(d + 'T12:00:00') - new Date()) / 86400000);
 }
 function renderShows() {
   const grid = document.getElementById('shows-grid');
@@ -1720,7 +1723,6 @@ function renderTicker() {
     { tag: 'EXPANSION',text: '€193M new building near Messe/Deutz to break ground post-Anuga 2027' },
     { tag: 'EVENT',    text: 'gamescom 2026 returns Aug 26–30 — 350,000+ expected' },
     { tag: 'NEW',      text: 'CAIHE — Central Asia Hardware Expo launches Nov 2026 (Tashkent)' },
-    { tag: 'TEAM',     text: 'Submit Q3 pipeline updates by month-end' },
     { tag: 'NAFTA',    text: 'Koelnmesse Inc. — your North American gateway to Cologne' }
   ];
   const track = document.getElementById('ticker-track');
