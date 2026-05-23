@@ -205,7 +205,7 @@
     justify-content: space-between;
     align-items: center;
     background: var(--km-surface-2);
-    padding: 10px 12px;
+    padding: 8px 12px;
     border-radius: 6px;
     border-left: 3px solid var(--km-gold);
   }
@@ -216,7 +216,7 @@
     color: var(--km-text-dim);
   }
   .currency-value {
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 800;
     font-variant-numeric: tabular-nums;
   }
@@ -760,6 +760,20 @@
             </div>
             <div class="currency-change" id="eur-usd-change">—</div>
           </div>
+          <div class="currency-box" style="border-left-color: var(--km-blue);">
+            <div>
+              <div class="currency-label">USD → GBP</div>
+              <div class="currency-value" id="usd-gbp">—</div>
+            </div>
+            <div class="currency-change" id="usd-gbp-change">—</div>
+          </div>
+          <div class="currency-box" style="border-left-color: var(--km-gold); opacity: 0.85;">
+            <div>
+              <div class="currency-label">USD → CNY</div>
+              <div class="currency-value" id="usd-cny">—</div>
+            </div>
+            <div class="currency-change" id="usd-cny-change">—</div>
+          </div>
           <div class="market-meta" id="market-meta">Refreshes 8:00 AM CT daily</div>
         </div>
       </section>
@@ -1256,15 +1270,15 @@ function updateWeather() {
    MARKETS — daily morning snapshot + hourly refresh
    USD/EUR, EUR/USD, USD/GBP via Frankfurter (ECB)
    =========================================================== */
-let lastFx = { eur: null };
+let lastFx = { eur: null, gbp: null, cny: null };
 
 async function fetchFxPrimary() {
   // Frankfurter v1 (current ECB-backed endpoint as of 2025)
-  const r = await fetch('https://api.frankfurter.dev/v1/latest?base=USD&symbols=EUR');
+  const r = await fetch('https://api.frankfurter.dev/v1/latest?base=USD&symbols=EUR,GBP,CNY');
   if (!r.ok) throw new Error('frankfurter ' + r.status);
   const d = await r.json();
   if (!d.rates || !d.rates.EUR) throw new Error('no rate');
-  return { eur: d.rates.EUR, source: 'ECB' };
+  return { eur: d.rates.EUR, gbp: d.rates.GBP || null, cny: d.rates.CNY || null, source: 'ECB' };
 }
 async function fetchFxBackup() {
   // Fallback: open.er-api.com — free, no key, CORS-enabled
@@ -1272,7 +1286,7 @@ async function fetchFxBackup() {
   if (!r.ok) throw new Error('er-api ' + r.status);
   const d = await r.json();
   if (!d.rates || !d.rates.EUR) throw new Error('no rate');
-  return { eur: d.rates.EUR, source: 'open.er-api' };
+  return { eur: d.rates.EUR, gbp: d.rates.GBP || null, cny: d.rates.CNY || null, source: 'open.er-api' };
 }
 
 async function updateFx() {
@@ -1283,6 +1297,8 @@ async function updateFx() {
   if (!fx) {
     document.getElementById('usd-eur').textContent = '—';
     document.getElementById('eur-usd').textContent = '—';
+    document.getElementById('usd-gbp').textContent = '—';
+    document.getElementById('usd-cny').textContent = '—';
     document.getElementById('market-meta').textContent = 'Market feed offline — retrying';
     return;
   }
@@ -1290,12 +1306,17 @@ async function updateFx() {
   try {
     const eur = fx.eur;
     const eurInv = 1 / eur;
+    const gbp = fx.gbp;
+    const cny = fx.cny;
 
     document.getElementById('usd-eur').textContent = '€' + eur.toFixed(4);
     document.getElementById('eur-usd').textContent = '$' + eurInv.toFixed(4);
+    if (gbp) document.getElementById('usd-gbp').textContent = '£' + gbp.toFixed(4);
+    if (cny) document.getElementById('usd-cny').textContent = '¥' + cny.toFixed(2);
 
     function diff(elId, current, prev, invert) {
       const el = document.getElementById(elId);
+      if (!el) return;
       if (prev === null) { el.textContent = 'ECB'; return; }
       const change = (current - prev) / prev * 100;
       const up = change >= 0;
@@ -1305,8 +1326,12 @@ async function updateFx() {
     }
     diff('usd-eur-change', eur, lastFx.eur, false);
     diff('eur-usd-change', eur, lastFx.eur, true);
+    if (gbp) diff('usd-gbp-change', gbp, lastFx.gbp, false);
+    if (cny) diff('usd-cny-change', cny, lastFx.cny, false);
 
     lastFx.eur = eur;
+    if (gbp) lastFx.gbp = gbp;
+    if (cny) lastFx.cny = cny;
 
     // Stamp last update in Chicago time
     const stamp = new Date().toLocaleString('en-US', {
@@ -1319,6 +1344,8 @@ async function updateFx() {
   } catch (e) {
     document.getElementById('usd-eur').textContent = '—';
     document.getElementById('eur-usd').textContent = '—';
+    document.getElementById('usd-gbp').textContent = '—';
+    document.getElementById('usd-cny').textContent = '—';
     document.getElementById('market-meta').textContent = 'Market feed offline — retrying';
   }
 }
