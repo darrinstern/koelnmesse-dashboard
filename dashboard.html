@@ -649,6 +649,15 @@
     z-index: 2;
     box-shadow: 6px 0 12px rgba(0,0,0,0.45);  /* soft fade against scrolling text */
   }
+  .ticker-sync {
+    color: rgba(255,255,255,0.45);
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 0 16px 0 0;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
   /* Viewport isolates the marquee so it cannot bleed onto the LIVE badge */
   .ticker-viewport {
     flex: 1;
@@ -888,6 +897,7 @@
     <!-- TICKER -->
     <footer class="ticker">
       <div class="ticker-label"><span class="status-dot"></span>Live</div>
+      <div class="ticker-sync" id="ticker-sync"></div>
       <div class="ticker-viewport">
         <div class="ticker-track" id="ticker-track"></div>
       </div>
@@ -1187,6 +1197,12 @@ async function loadDynamicData() {
     const data = await res.json();
     if (data.outOfOffice) CONFIG.outOfOffice = data.outOfOffice;
     if (data.news)        CONFIG.news        = data.news;
+    if (data.lastSynced) {
+      const d = new Date(data.lastSynced + 'T12:00:00');
+      const label = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+      const el = document.getElementById('ticker-sync');
+      if (el) el.textContent = `Synced ${label}`;
+    }
     return true;
   } catch (e) {
     console.warn('Dynamic data fetch failed — using fallback defaults', e);
