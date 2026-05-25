@@ -1,46 +1,47 @@
 {
-  "lastSynced": "2026-05-23",
+  "lastSynced": "2026-05-25",
   "outOfOffice": {
-    "lastSynced": "2026-05-23",
+    "lastSynced": "2026-05-25",
     "synced": [
-      { "name": "Cathy",    "status": "Vacation",        "until": "2026-05-27" },
-      { "name": "Courtney", "status": "OOO",             "until": "2026-05-28" },
-      { "name": "Darrin",   "status": "Washington DC",   "until": "2026-05-29" },
-      { "name": "Kate",     "status": "Vacation",        "until": "2026-05-29" },
-      { "name": "Leslie",   "status": "OOO",             "until": "2026-05-29" },
-      { "name": "Mette",    "status": "OOO",             "until": "2026-05-29" },
-      { "name": "George",   "status": "Thaifex",         "until": "2026-05-30" },
-      { "name": "VW",       "status": "Thaifex",         "until": "2026-06-01" },
-      { "name": "Cathy",    "status": "OOO",             "until": "2026-06-05" },
-      { "name": "Courtney", "status": "Vacation",        "until": "2026-06-05" },
-      { "name": "Mette",    "status": "OOO",             "until": "2026-06-05" },
-      { "name": "Kate",     "status": "Vacation",        "until": "2026-06-12" },
-      { "name": "George",   "status": "Alimentec",       "until": "2026-06-13" },
-      { "name": "VW",       "status": "Alimentec Anuga", "until": "2026-06-13" }
+      { "name": "Cathy", "status": "Vacation", "until": "2026-05-27" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-05-28" },
+      { "name": "Darrin", "status": "Washington DC", "until": "2026-05-29" },
+      { "name": "Leslie", "status": "OOO", "until": "2026-05-29" },
+      { "name": "Kate", "status": "Vacation", "until": "2026-05-29" },
+      { "name": "Mette", "status": "OOO", "until": "2026-05-29" },
+      { "name": "George", "status": "Thaifex", "until": "2026-05-30" },
+      { "name": "VW", "status": "Thaifex", "until": "2026-06-01" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-05" },
+      { "name": "Courtney", "status": "Vacation", "until": "2026-06-05" },
+      { "name": "Mette", "status": "OOO", "until": "2026-06-05" },
+      { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
+      { "name": "Mette", "status": "OOO", "until": "2026-06-12" },
+      { "name": "George", "status": "Alimentec", "until": "2026-06-13" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-05-23",
+    "lastSynced": "2026-05-25",
     "world": {
-      "headline": "Trump meets Xi at superpower summit; China offers to help reopen Strait of Hormuz amid US-Iran standoff",
-      "source": "World Economic Forum",
+      "headline": "Russia fires Oreshnik hypersonic missile at Kyiv, killing 2 and wounding 77",
+      "source": "CBS News",
       "time": "Today"
     },
     "germany": {
-      "headline": "Ford to cut 1,000 jobs at its Cologne plant amid weak European electric vehicle demand",
+      "headline": "20,000+ evacuated from Cologne's Deutz district to defuse three WWII-era American bombs",
       "source": "The Local",
       "time": "Today"
     },
     "chicago": {
-      "headline": "Obama Presidential Center set to open this summer on a 19-acre Jackson Park campus in Chicago",
-      "source": "Choose Chicago",
+      "headline": "Driver plows into Near West Side crowd injuring 5 Chicago police officers; 14 arrested",
+      "source": "NBC Chicago",
       "time": "Today"
     },
     "sports": {
-      "team": "White Sox",
-      "headline": "White Sox surge as surprise playoff contenders after beating Cubs in Crosstown Classic series",
-      "source": "Chicago Sun-Times",
+      "team": "Bulls",
+      "headline": "Chicago Bulls in ECF action this week; Game 3 at United Center May 28, White Sox host Twins today",
+      "source": "CBS Sports",
       "time": "Today"
     }
   }
