@@ -11,36 +11,36 @@
       { "name": "Mette", "status": "OOO", "until": "2026-05-29" },
       { "name": "George", "status": "Thaifex", "until": "2026-05-30" },
       { "name": "VW", "status": "Thaifex", "until": "2026-06-01" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-05" },
       { "name": "Courtney", "status": "Vacation", "until": "2026-06-05" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-05" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-05" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
       { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-12" },
-      { "name": "George", "status": "Alimentec", "until": "2026-06-13" }
+      { "name": "VW", "status": "Alimentec Anuga", "until": "2026-06-13" }
     ],
     "manual": []
   },
   "news": {
     "lastSynced": "2026-05-26",
     "world": {
-      "headline": "U.S.-Iran standoff enters 3rd month; crude tops $100/bbl as Strait of Hormuz remains effectively blockaded",
-      "source": "World Economic Forum",
+      "headline": "Trump signals Iran deal nearly done; U.S. military strikes Iranian positions same day",
+      "source": "Global National",
       "time": "Today"
     },
     "germany": {
-      "headline": "20,000+ evacuated in Cologne's Deutz district as authorities prepare to defuse three WWII-era American bombs",
+      "headline": "20,000+ evacuated from Cologne's Deutz district as officials defuse three WWII bombs",
       "source": "Ground News",
       "time": "Today"
     },
     "chicago": {
-      "headline": "Mayor Johnson moves to block Bears' suburban relocation as Chicago beaches open Memorial Day weekend",
-      "source": "NBC 5 Chicago",
+      "headline": "Driver plows into Near West Side crowd, injuring 5 CPD officers; 14 arrested",
+      "source": "Chicago Sun-Times",
       "time": "Today"
     },
     "sports": {
       "team": "Cubs",
-      "headline": "Cubs drop 8 straight at home, fall to 3rd in NL Central; top prospect Ramirez recalled from minors",
+      "headline": "Cubs skid hits 12 losses in 14 games, tumbling from 1st to 3rd in NL Central",
       "source": "Bleacher Nation",
       "time": "Today"
     }
