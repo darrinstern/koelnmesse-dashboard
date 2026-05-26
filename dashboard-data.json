@@ -6,16 +6,16 @@
       { "name": "Cathy", "status": "Vacation", "until": "2026-05-27" },
       { "name": "Courtney", "status": "OOO", "until": "2026-05-28" },
       { "name": "Darrin", "status": "Washington DC", "until": "2026-05-29" },
-      { "name": "Leslie", "status": "OOO", "until": "2026-05-29" },
       { "name": "Kate", "status": "Vacation", "until": "2026-05-29" },
+      { "name": "Leslie", "status": "OOO", "until": "2026-05-29" },
       { "name": "Mette", "status": "OOO", "until": "2026-05-29" },
       { "name": "George", "status": "Thaifex", "until": "2026-05-30" },
       { "name": "VW", "status": "Thaifex", "until": "2026-06-01" },
-      { "name": "Courtney", "status": "Vacation", "until": "2026-06-05" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-05" },
+      { "name": "Courtney", "status": "Vacation", "until": "2026-06-05" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-05" },
-      { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
+      { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-12" },
       { "name": "George", "status": "Alimentec", "until": "2026-06-13" }
     ],
@@ -23,9 +23,26 @@
   },
   "news": {
     "lastSynced": "2026-05-26",
-    "world": { "headline": "Russia strikes Kyiv with hypersonic Oreshnik missile, killing 2 and injuring 77", "source": "Al Jazeera", "time": "Today" },
-    "germany": { "headline": "Cologne evacuates 20,000 residents in Deutz district to defuse three WWII-era American bombs", "source": "Ground News", "time": "Today" },
-    "chicago": { "headline": "Chicago beaches open for Memorial Day weekend; pools to follow June 19", "source": "NBC Chicago", "time": "Today" },
-    "sports": { "team": "Cubs", "headline": "Cubs fall from 1st to 3rd in NL Central amid 8-game losing streak", "source": "ESPN", "time": "Today" }
+    "world": {
+      "headline": "U.S.-Iran standoff enters 3rd month; crude tops $100/bbl as Strait of Hormuz remains effectively blockaded",
+      "source": "World Economic Forum",
+      "time": "Today"
+    },
+    "germany": {
+      "headline": "20,000+ evacuated in Cologne's Deutz district as authorities prepare to defuse three WWII-era American bombs",
+      "source": "Ground News",
+      "time": "Today"
+    },
+    "chicago": {
+      "headline": "Mayor Johnson moves to block Bears' suburban relocation as Chicago beaches open Memorial Day weekend",
+      "source": "NBC 5 Chicago",
+      "time": "Today"
+    },
+    "sports": {
+      "team": "Cubs",
+      "headline": "Cubs drop 8 straight at home, fall to 3rd in NL Central; top prospect Ramirez recalled from minors",
+      "source": "Bleacher Nation",
+      "time": "Today"
+    }
   }
 }
