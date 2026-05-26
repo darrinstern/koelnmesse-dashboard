@@ -1,7 +1,7 @@
 {
-  "lastSynced": "2026-05-25",
+  "lastSynced": "2026-05-26",
   "outOfOffice": {
-    "lastSynced": "2026-05-25",
+    "lastSynced": "2026-05-26",
     "synced": [
       { "name": "Cathy", "status": "Vacation", "until": "2026-05-27" },
       { "name": "Courtney", "status": "OOO", "until": "2026-05-28" },
@@ -11,8 +11,8 @@
       { "name": "Mette", "status": "OOO", "until": "2026-05-29" },
       { "name": "George", "status": "Thaifex", "until": "2026-05-30" },
       { "name": "VW", "status": "Thaifex", "until": "2026-06-01" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-05" },
       { "name": "Courtney", "status": "Vacation", "until": "2026-06-05" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-05" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-05" },
       { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
@@ -22,27 +22,10 @@
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-05-25",
-    "world": {
-      "headline": "Russia fires Oreshnik hypersonic missile at Kyiv, killing 2 and wounding 77",
-      "source": "CBS News",
-      "time": "Today"
-    },
-    "germany": {
-      "headline": "20,000+ evacuated from Cologne's Deutz district to defuse three WWII-era American bombs",
-      "source": "The Local",
-      "time": "Today"
-    },
-    "chicago": {
-      "headline": "Driver plows into Near West Side crowd injuring 5 Chicago police officers; 14 arrested",
-      "source": "NBC Chicago",
-      "time": "Today"
-    },
-    "sports": {
-      "team": "Bulls",
-      "headline": "Chicago Bulls in ECF action this week; Game 3 at United Center May 28, White Sox host Twins today",
-      "source": "CBS Sports",
-      "time": "Today"
-    }
+    "lastSynced": "2026-05-26",
+    "world": { "headline": "Russia strikes Kyiv with hypersonic Oreshnik missile, killing 2 and injuring 77", "source": "Al Jazeera", "time": "Today" },
+    "germany": { "headline": "Cologne evacuates 20,000 residents in Deutz district to defuse three WWII-era American bombs", "source": "Ground News", "time": "Today" },
+    "chicago": { "headline": "Chicago beaches open for Memorial Day weekend; pools to follow June 19", "source": "NBC Chicago", "time": "Today" },
+    "sports": { "team": "Cubs", "headline": "Cubs fall from 1st to 3rd in NL Central amid 8-game losing streak", "source": "ESPN", "time": "Today" }
   }
 }
