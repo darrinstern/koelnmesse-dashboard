@@ -1,13 +1,13 @@
 {
-  "lastSynced": "2026-05-26",
+  "lastSynced": "2026-05-27",
   "outOfOffice": {
-    "lastSynced": "2026-05-26",
+    "lastSynced": "2026-05-27",
     "synced": [
       { "name": "Cathy", "status": "Vacation", "until": "2026-05-27" },
       { "name": "Courtney", "status": "OOO", "until": "2026-05-28" },
       { "name": "Darrin", "status": "Washington DC", "until": "2026-05-29" },
-      { "name": "Kate", "status": "Vacation", "until": "2026-05-29" },
       { "name": "Leslie", "status": "OOO", "until": "2026-05-29" },
+      { "name": "Kate", "status": "Vacation", "until": "2026-05-29" },
       { "name": "Mette", "status": "OOO", "until": "2026-05-29" },
       { "name": "George", "status": "Thaifex", "until": "2026-05-30" },
       { "name": "VW", "status": "Thaifex", "until": "2026-06-01" },
@@ -17,32 +17,15 @@
       { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-12" },
-      { "name": "VW", "status": "Alimentec Anuga", "until": "2026-06-13" }
+      { "name": "George", "status": "Alimentec", "until": "2026-06-13" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-05-26",
-    "world": {
-      "headline": "Trump signals Iran deal nearly done; U.S. military strikes Iranian positions same day",
-      "source": "Global National",
-      "time": "Today"
-    },
-    "germany": {
-      "headline": "20,000+ evacuated from Cologne's Deutz district as officials defuse three WWII bombs",
-      "source": "Ground News",
-      "time": "Today"
-    },
-    "chicago": {
-      "headline": "Driver plows into Near West Side crowd, injuring 5 CPD officers; 14 arrested",
-      "source": "Chicago Sun-Times",
-      "time": "Today"
-    },
-    "sports": {
-      "team": "Cubs",
-      "headline": "Cubs skid hits 12 losses in 14 games, tumbling from 1st to 3rd in NL Central",
-      "source": "Bleacher Nation",
-      "time": "Today"
-    }
+    "lastSynced": "2026-05-27",
+    "world": { "headline": "US strikes Iranian missile launch sites; Iran threatens retaliation as peace deal talks intensify", "source": "CNN", "time": "Today" },
+    "germany": { "headline": "Over 20,000 evacuated in Cologne's Deutz district for WWII bomb disposal operation", "source": "The Local", "time": "Today" },
+    "chicago": { "headline": "Chicago gas prices hit 4-year high as Memorial Day weekend road trips wind down", "source": "NBC 5 Chicago", "time": "Today" },
+    "sports": { "team": "Bears", "headline": "Bears set for Thanksgiving showdown at Detroit Lions on CBS; team adds receiver depth", "source": "Chicago Sun-Times", "time": "Today" }
   }
 }
