@@ -1,9 +1,8 @@
 {
-  "lastSynced": "2026-05-27",
+  "lastSynced": "2026-05-28",
   "outOfOffice": {
-    "lastSynced": "2026-05-27",
+    "lastSynced": "2026-05-28",
     "synced": [
-      { "name": "Cathy", "status": "Vacation", "until": "2026-05-27" },
       { "name": "Courtney", "status": "OOO", "until": "2026-05-28" },
       { "name": "Darrin", "status": "Washington DC", "until": "2026-05-29" },
       { "name": "Leslie", "status": "OOO", "until": "2026-05-29" },
@@ -11,21 +10,22 @@
       { "name": "Mette", "status": "OOO", "until": "2026-05-29" },
       { "name": "George", "status": "Thaifex", "until": "2026-05-30" },
       { "name": "VW", "status": "Thaifex", "until": "2026-06-01" },
-      { "name": "Courtney", "status": "Vacation", "until": "2026-06-05" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-03" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-05" },
+      { "name": "Courtney", "status": "Vacation", "until": "2026-06-05" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-05" },
       { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
-      { "name": "Mette", "status": "OOO", "until": "2026-06-12" },
+      { "name": "VW", "status": "Alimentec Anuga", "until": "2026-06-13" },
       { "name": "George", "status": "Alimentec", "until": "2026-06-13" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-05-27",
-    "world": { "headline": "US strikes Iranian missile launch sites; Iran threatens retaliation as peace deal talks intensify", "source": "CNN", "time": "Today" },
-    "germany": { "headline": "Over 20,000 evacuated in Cologne's Deutz district for WWII bomb disposal operation", "source": "The Local", "time": "Today" },
-    "chicago": { "headline": "Chicago gas prices hit 4-year high as Memorial Day weekend road trips wind down", "source": "NBC 5 Chicago", "time": "Today" },
-    "sports": { "team": "Bears", "headline": "Bears set for Thanksgiving showdown at Detroit Lions on CBS; team adds receiver depth", "source": "Chicago Sun-Times", "time": "Today" }
+    "lastSynced": "2026-05-28",
+    "world": { "headline": "Israel intensifies Lebanon strikes & U.S. hits Iranian sites as ceasefire talks continue", "source": "World Economic Forum", "time": "Today" },
+    "germany": { "headline": "20,000+ evacuated in Cologne's Deutz district as crews defuse 3 WWII-era bombs, disrupting rail", "source": "Ground News", "time": "Today" },
+    "chicago": { "headline": "Obama Presidential Center opens June 19 at Jackson Park with 225-ft tower on 19-acre campus", "source": "Choose Chicago", "time": "Today" },
+    "sports": { "team": "Cubs", "headline": "Cubs drop 9th straight, fall 2-1 to Pittsburgh; pitcher Boyd sidelined with biceps strain", "source": "CBS Sports", "time": "Today" }
   }
 }
