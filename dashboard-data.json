@@ -1,31 +1,48 @@
 {
-  "lastSynced": "2026-05-28",
+  "lastSynced": "2026-05-29",
   "outOfOffice": {
-    "lastSynced": "2026-05-28",
+    "lastSynced": "2026-05-29",
     "synced": [
-      { "name": "Courtney", "status": "OOO", "until": "2026-05-28" },
       { "name": "Darrin", "status": "Washington DC", "until": "2026-05-29" },
       { "name": "Leslie", "status": "OOO", "until": "2026-05-29" },
       { "name": "Kate", "status": "Vacation", "until": "2026-05-29" },
       { "name": "Mette", "status": "OOO", "until": "2026-05-29" },
+      { "name": "Jessica", "status": "Half Day", "until": "2026-05-29" },
       { "name": "George", "status": "Thaifex", "until": "2026-05-30" },
       { "name": "VW", "status": "Thaifex", "until": "2026-06-01" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-03" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-05" },
       { "name": "Courtney", "status": "Vacation", "until": "2026-06-05" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-05" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-05" },
+      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-09" },
       { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
-      { "name": "VW", "status": "Alimentec Anuga", "until": "2026-06-13" },
-      { "name": "George", "status": "Alimentec", "until": "2026-06-13" }
+      { "name": "Mette", "status": "OOO", "until": "2026-06-12" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-05-28",
-    "world": { "headline": "Israel intensifies Lebanon strikes & U.S. hits Iranian sites as ceasefire talks continue", "source": "World Economic Forum", "time": "Today" },
-    "germany": { "headline": "20,000+ evacuated in Cologne's Deutz district as crews defuse 3 WWII-era bombs, disrupting rail", "source": "Ground News", "time": "Today" },
-    "chicago": { "headline": "Obama Presidential Center opens June 19 at Jackson Park with 225-ft tower on 19-acre campus", "source": "Choose Chicago", "time": "Today" },
-    "sports": { "team": "Cubs", "headline": "Cubs drop 9th straight, fall 2-1 to Pittsburgh; pitcher Boyd sidelined with biceps strain", "source": "CBS Sports", "time": "Today" }
+    "lastSynced": "2026-05-29",
+    "world": {
+      "headline": "Strait of Hormuz blockade amid US-Iran conflict disrupts global oil supply, spiking fuel and fertilizer prices",
+      "source": "ZeroFox / WEF",
+      "time": "Today"
+    },
+    "germany": {
+      "headline": "20,000 Cologne residents evacuated from Deutz district as officials prepare to defuse three WWII American bombs",
+      "source": "The Local",
+      "time": "Today"
+    },
+    "chicago": {
+      "headline": "McCormick Place named among world's top 25 convention centers by EXHIBITOR magazine, earns Gold sustainability certification",
+      "source": "Choose Chicago",
+      "time": "Today"
+    },
+    "sports": {
+      "team": "Cubs",
+      "headline": "Cubs' Colin Rea fans 5 in win over Pittsburgh Pirates, keeping Chicago in the NL Central hunt",
+      "source": "ESPN",
+      "time": "Today"
+    }
   }
 }
