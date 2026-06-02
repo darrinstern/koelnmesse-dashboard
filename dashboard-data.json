@@ -1,48 +1,23 @@
 {
-  "lastSynced": "2026-06-01",
+  "lastSynced": "2026-06-02",
   "outOfOffice": {
-    "lastSynced": "2026-06-01",
+    "lastSynced": "2026-06-02",
     "synced": [
-      { "name": "VW", "status": "Thaifex", "until": "2026-06-01" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-03" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-05" },
       { "name": "Courtney", "status": "Vacation", "until": "2026-06-05" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-05" },
       { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
-      { "name": "Mette", "status": "OOO", "until": "2026-06-12" },
       { "name": "George", "status": "Alimentec", "until": "2026-06-13" },
       { "name": "VW", "status": "Alimentec Anuga", "until": "2026-06-13" },
-      { "name": "George", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Mette", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
-      { "name": "George", "status": "OOO", "until": "2026-06-22" }
+      { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-01",
-    "world": {
-      "headline": "New drug shows 'unprecedented' results for pancreatic cancer, doubling survival time in advanced patients",
-      "source": "NBC News",
-      "time": "Today"
-    },
-    "germany": {
-      "headline": "Deutsche Bahn expands cross-border high-speed rail from Cologne to Brussels and Belgium's North Sea coast",
-      "source": "The Local",
-      "time": "Today"
-    },
-    "chicago": {
-      "headline": "Mayor Brandon Johnson meets Pope Leo XIV at Vatican, discusses social justice and migration priorities",
-      "source": "Chicago Sun-Times",
-      "time": "Today"
-    },
-    "sports": {
-      "team": "World Cup",
-      "headline": "Germany plays World Cup warm-up vs. USA in Chicago on June 6 ahead of the 2026 tournament",
-      "source": "Choose Chicago",
-      "time": "Today"
-    }
+    "lastSynced": "2026-06-02",
+    "world": { "headline": "U.S. strikes Iranian radar and drone sites after Iran shoots down American MQ-1 Predator drone", "source": "NPR", "time": "Today" },
+    "germany": { "headline": "Over 20,000 evacuated from Cologne's Deutz district as city prepares to defuse 3 WWII bombs", "source": "Ground News", "time": "Today" },
+    "chicago": { "headline": "Illinois lawmakers adjourn without passing Bears stadium bill, leaving team free to weigh Indiana sites", "source": "Chicago Sun-Times", "time": "Today" },
+    "sports": { "team": "Bulls", "headline": "Chicago Bulls in the NBA Finals; next games scheduled for June 8 and June 16", "source": "ESPN", "time": "Today" }
   }
 }
