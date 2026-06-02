@@ -5,6 +5,7 @@
     "synced": [
       { "name": "VW", "status": "Thaifex", "until": "2026-06-01" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-03" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-05" },
       { "name": "Courtney", "status": "Vacation", "until": "2026-06-05" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-05" },
       { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
@@ -13,18 +14,35 @@
       { "name": "George", "status": "Alimentec", "until": "2026-06-13" },
       { "name": "VW", "status": "Alimentec Anuga", "until": "2026-06-13" },
       { "name": "George", "status": "OOO", "until": "2026-06-19" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-19" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Kasia", "status": "Vac.", "until": "2026-06-22" },
-      { "name": "George", "status": "OOO", "until": "2026-06-22" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-24" }
+      { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
+      { "name": "George", "status": "OOO", "until": "2026-06-22" }
     ],
     "manual": []
   },
   "news": {
     "lastSynced": "2026-06-01",
-    "world": { "headline": "US military ready to resume Gulf combat if Iran nuclear talks collapse, defense secretary warns", "source": "CNN", "time": "Today" },
-    "germany": { "headline": "Ford to cut up to 1,000 jobs at Cologne plant as electric vehicle demand remains weak", "source": "The Local", "time": "Today" },
-    "chicago": { "headline": "Chicago Mayor Brandon Johnson meets Pope Leo XIV at Vatican to discuss social justice and migration", "source": "ABC7", "time": "Today" },
-    "sports": { "team": "White Sox", "headline": "Chicago White Sox ride 4-game win streak to sit four games over .500 heading into June", "source": "Chicago Sun-Times", "time": "Today" }
+    "world": {
+      "headline": "New drug shows 'unprecedented' results for pancreatic cancer, doubling survival time in advanced patients",
+      "source": "NBC News",
+      "time": "Today"
+    },
+    "germany": {
+      "headline": "Deutsche Bahn expands cross-border high-speed rail from Cologne to Brussels and Belgium's North Sea coast",
+      "source": "The Local",
+      "time": "Today"
+    },
+    "chicago": {
+      "headline": "Mayor Brandon Johnson meets Pope Leo XIV at Vatican, discusses social justice and migration priorities",
+      "source": "Chicago Sun-Times",
+      "time": "Today"
+    },
+    "sports": {
+      "team": "World Cup",
+      "headline": "Germany plays World Cup warm-up vs. USA in Chicago on June 6 ahead of the 2026 tournament",
+      "source": "Choose Chicago",
+      "time": "Today"
+    }
   }
 }
