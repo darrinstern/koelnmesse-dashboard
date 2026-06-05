@@ -1,23 +1,41 @@
 {
-  "lastSynced": "2026-06-02",
+  "lastSynced": "2026-06-05",
   "outOfOffice": {
-    "lastSynced": "2026-06-02",
+    "lastSynced": "2026-06-05",
     "synced": [
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-03" },
       { "name": "Courtney", "status": "Vacation", "until": "2026-06-05" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-05" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-05" },
       { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
       { "name": "George", "status": "Alimentec", "until": "2026-06-13" },
       { "name": "VW", "status": "Alimentec Anuga", "until": "2026-06-13" },
-      { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" }
+      { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
+      { "name": "Kym", "status": "OOO", "until": "2026-06-26" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-02",
-    "world": { "headline": "U.S. strikes Iranian radar and drone sites after Iran shoots down American MQ-1 Predator drone", "source": "NPR", "time": "Today" },
-    "germany": { "headline": "Over 20,000 evacuated from Cologne's Deutz district as city prepares to defuse 3 WWII bombs", "source": "Ground News", "time": "Today" },
-    "chicago": { "headline": "Illinois lawmakers adjourn without passing Bears stadium bill, leaving team free to weigh Indiana sites", "source": "Chicago Sun-Times", "time": "Today" },
-    "sports": { "team": "Bulls", "headline": "Chicago Bulls in the NBA Finals; next games scheduled for June 8 and June 16", "source": "ESPN", "time": "Today" }
+    "lastSynced": "2026-06-05",
+    "world": {
+      "headline": "Ukrainian drones strike St. Petersburg oil terminal, setting it ablaze during Russia's annual economic forum",
+      "source": "NPR",
+      "time": "Today"
+    },
+    "germany": {
+      "headline": "Cologne Cathedral to charge €12 admission starting July 1, ending free access to cover rising maintenance costs",
+      "source": "The Local",
+      "time": "Today"
+    },
+    "chicago": {
+      "headline": "Obama Presidential Center offers first interior preview ahead of June 19 grand opening at Jackson Park",
+      "source": "WTTW",
+      "time": "Today"
+    },
+    "sports": {
+      "team": "USA/Germany",
+      "headline": "Germany faces USA in Chicago friendly Saturday — a World Cup preview as the US co-hosts the 2026 tournament",
+      "source": "Choose Chicago",
+      "time": "Today"
+    }
   }
 }
