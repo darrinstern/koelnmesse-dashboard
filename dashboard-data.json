@@ -1,40 +1,47 @@
 {
-  "lastSynced": "2026-06-05",
+  "lastSynced": "2026-06-07",
   "outOfOffice": {
-    "lastSynced": "2026-06-05",
+    "lastSynced": "2026-06-07",
     "synced": [
-      { "name": "Courtney", "status": "Vacation", "until": "2026-06-05" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-05" },
-      { "name": "Mette", "status": "OOO", "until": "2026-06-05" },
+      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-09" },
       { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
+      { "name": "Mette", "status": "OOO", "until": "2026-06-12" },
       { "name": "George", "status": "Alimentec", "until": "2026-06-13" },
       { "name": "VW", "status": "Alimentec Anuga", "until": "2026-06-13" },
+      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-16" },
+      { "name": "George", "status": "OOO", "until": "2026-06-19" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-19" },
+      { "name": "Mette", "status": "OOO", "until": "2026-06-19" },
       { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
+      { "name": "George", "status": "OOO", "until": "2026-06-22" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-24" },
+      { "name": "George", "status": "OOO", "until": "2026-06-26" },
       { "name": "Kym", "status": "OOO", "until": "2026-06-26" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-05",
+    "lastSynced": "2026-06-07",
     "world": {
-      "headline": "Ukrainian drones strike St. Petersburg oil terminal, setting it ablaze during Russia's annual economic forum",
+      "headline": "Pope Leo XIV presides over Corpus Christi Mass in Madrid in first papal visit to Spain in 15 years",
       "source": "NPR",
       "time": "Today"
     },
     "germany": {
-      "headline": "Cologne Cathedral to charge €12 admission starting July 1, ending free access to cover rising maintenance costs",
-      "source": "The Local",
+      "headline": "20,000+ evacuated from Cologne's Deutz district as officials prepare to defuse 3 WWII-era bombs",
+      "source": "inkl",
       "time": "Today"
     },
     "chicago": {
-      "headline": "Obama Presidential Center offers first interior preview ahead of June 19 grand opening at Jackson Park",
-      "source": "WTTW",
+      "headline": "Chicago Bears advance Hammond, Indiana stadium plan as Illinois debate over team's move intensifies",
+      "source": "Chicago Sun-Times",
       "time": "Today"
     },
     "sports": {
-      "team": "USA/Germany",
-      "headline": "Germany faces USA in Chicago friendly Saturday — a World Cup preview as the US co-hosts the 2026 tournament",
-      "source": "Choose Chicago",
+      "team": "Cubs",
+      "headline": "Ian Happ's three-run homer sparks six-run 7th inning as Cubs cruise to 10-4 win",
+      "source": "Chicago Sun-Times",
       "time": "Today"
     }
   }
