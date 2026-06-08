@@ -23,26 +23,9 @@
   },
   "news": {
     "lastSynced": "2026-06-07",
-    "world": {
-      "headline": "US-Iran war halts Strait of Hormuz traffic; companies scramble to reroute oil and cargo supply chains",
-      "source": "CNN",
-      "time": "Today"
-    },
-    "germany": {
-      "headline": "Deutsche Bahn adds new Cologne-Brussels high-speed rail connections and cross-border services this summer",
-      "source": "The Local",
-      "time": "Today"
-    },
-    "chicago": {
-      "headline": "Chicago Bears board approves move to new domed stadium in Hammond, Indiana, leaving Soldier Field",
-      "source": "Block Club Chicago",
-      "time": "Today"
-    },
-    "sports": {
-      "team": "Cubs",
-      "headline": "Cubs beat Giants 10-4 at Wrigley Field; Ian Happ's three-run homer sparks decisive 7th inning",
-      "source": "Chicago Sun-Times",
-      "time": "Yesterday"
-    }
+    "world": { "headline": "US and Iran trade strikes amid ceasefire uncertainty; US intercepts missiles, hits Iranian radar sites", "source": "CNN", "time": "Today" },
+    "germany": { "headline": "20,000+ evacuated from Cologne's Deutz district as officials prepare to defuse three WWII bombs", "source": "Ground News", "time": "Today" },
+    "chicago": { "headline": "Chicago Bears vote to advance new stadium project in Hammond, Indiana", "source": "ABC7 Chicago", "time": "Today" },
+    "sports": { "team": "White Sox", "headline": "White Sox top Phillies 6-3; Jacob Gonzalez launches first career MLB home run", "source": "Chicago Sun-Times", "time": "Today" }
   }
 }
