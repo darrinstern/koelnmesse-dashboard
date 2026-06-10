@@ -1,7 +1,7 @@
 {
-  "lastSynced": "2026-06-07",
+  "lastSynced": "2026-06-09",
   "outOfOffice": {
-    "lastSynced": "2026-06-07",
+    "lastSynced": "2026-06-09",
     "synced": [
       { "name": "Cathy", "status": "OOO AM", "until": "2026-06-09" },
       { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
@@ -13,8 +13,8 @@
       { "name": "George", "status": "OOO", "until": "2026-06-19" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-19" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
       { "name": "George", "status": "OOO", "until": "2026-06-22" },
+      { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-24" },
       { "name": "George", "status": "OOO", "until": "2026-06-26" },
       { "name": "Kym", "status": "OOO", "until": "2026-06-26" }
@@ -22,10 +22,10 @@
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-07",
-    "world": { "headline": "US and Iran trade strikes amid ceasefire uncertainty; US intercepts missiles, hits Iranian radar sites", "source": "CNN", "time": "Today" },
-    "germany": { "headline": "20,000+ evacuated from Cologne's Deutz district as officials prepare to defuse three WWII bombs", "source": "Ground News", "time": "Today" },
-    "chicago": { "headline": "Chicago Bears vote to advance new stadium project in Hammond, Indiana", "source": "ABC7 Chicago", "time": "Today" },
-    "sports": { "team": "White Sox", "headline": "White Sox top Phillies 6-3; Jacob Gonzalez launches first career MLB home run", "source": "Chicago Sun-Times", "time": "Today" }
+    "lastSynced": "2026-06-09",
+    "world": { "headline": "Magnitude 7.8 earthquake strikes southern Philippines, killing 32 and triggering a 3-foot tsunami along the coast.", "source": "CNN", "time": "Today" },
+    "germany": { "headline": "20,000+ residents evacuated from Cologne's Deutz district as authorities work to defuse three unexploded WWII-era bombs.", "source": "The Local", "time": "Today" },
+    "chicago": { "headline": "Chicago Bears confirm Hammond, Indiana as stadium site, officially moving forward with plans to leave Illinois.", "source": "WTTW", "time": "Today" },
+    "sports": { "team": "Cubs", "headline": "Cubs' Shaw (back) expected to return to lineup vs. Rockies as Chicago looks to continue recent momentum.", "source": "ESPN", "time": "Today" }
   }
 }
