@@ -1,31 +1,31 @@
 {
-  "lastSynced": "2026-06-09",
+  "lastSynced": "2026-06-10",
   "outOfOffice": {
-    "lastSynced": "2026-06-09",
+    "lastSynced": "2026-06-10",
     "synced": [
-      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-09" },
-      { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
-      { "name": "Mette", "status": "OOO", "until": "2026-06-12" },
-      { "name": "George", "status": "Alimentec", "until": "2026-06-13" },
-      { "name": "VW", "status": "Alimentec Anuga", "until": "2026-06-13" },
-      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-16" },
-      { "name": "George", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Mette", "status": "OOO", "until": "2026-06-19" },
-      { "name": "George", "status": "OOO", "until": "2026-06-22" },
-      { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-24" },
-      { "name": "George", "status": "OOO", "until": "2026-06-26" },
-      { "name": "Kym", "status": "OOO", "until": "2026-06-26" }
+      {"name": "Kate", "status": "Vacation", "until": "2026-06-12"},
+      {"name": "Cathy", "status": "OOO", "until": "2026-06-12"},
+      {"name": "Mette", "status": "OOO", "until": "2026-06-12"},
+      {"name": "George", "status": "Alimentec", "until": "2026-06-13"},
+      {"name": "VW", "status": "Alimentec Anuga", "until": "2026-06-13"},
+      {"name": "Cathy", "status": "OOO AM", "until": "2026-06-16"},
+      {"name": "George", "status": "OOO", "until": "2026-06-19"},
+      {"name": "Cathy", "status": "OOO", "until": "2026-06-19"},
+      {"name": "Mette", "status": "OOO", "until": "2026-06-19"},
+      {"name": "Kasia", "status": "Vacation", "until": "2026-06-22"},
+      {"name": "George", "status": "OOO", "until": "2026-06-22"},
+      {"name": "Cathy", "status": "OOO", "until": "2026-06-24"},
+      {"name": "George", "status": "OOO", "until": "2026-06-26"},
+      {"name": "Kym", "status": "OOO", "until": "2026-06-26"},
+      {"name": "Cathy", "status": "OOO", "until": "2026-06-26"}
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-09",
-    "world": { "headline": "Magnitude 7.8 earthquake strikes southern Philippines, killing 32 and triggering a 3-foot tsunami along the coast.", "source": "CNN", "time": "Today" },
-    "germany": { "headline": "20,000+ residents evacuated from Cologne's Deutz district as authorities work to defuse three unexploded WWII-era bombs.", "source": "The Local", "time": "Today" },
-    "chicago": { "headline": "Chicago Bears confirm Hammond, Indiana as stadium site, officially moving forward with plans to leave Illinois.", "source": "WTTW", "time": "Today" },
-    "sports": { "team": "Cubs", "headline": "Cubs' Shaw (back) expected to return to lineup vs. Rockies as Chicago looks to continue recent momentum.", "source": "ESPN", "time": "Today" }
+    "lastSynced": "2026-06-10",
+    "world": {"headline": "World Cup 2026 gets underway as Messi scores on return for Argentina", "source": "ESPN", "time": "Today"},
+    "germany": {"headline": "Ford to cut up to 1,000 jobs at Cologne plant amid weak European demand for EVs", "source": "The Local", "time": "Today"},
+    "chicago": {"headline": "United Airlines flight attendants approve new contract, first pay raise in six years", "source": "NBC Chicago", "time": "Today"},
+    "sports": {"team": "Bears", "headline": "Caleb Williams becomes first Chicago Bears QB to appear on cover of an NFL video game", "source": "ChiCitySports", "time": "Today"}
   }
 }
