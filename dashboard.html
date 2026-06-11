@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,7 +48,7 @@
   /* ---------- Layout ---------- */
   .dashboard {
     display: grid;
-    grid-template-rows: 96px 1fr 108px 88px 52px;
+    grid-template-rows: 96px 1fr 206px 52px;
     height: 100vh;
     gap: 10px;
     padding: 10px;
@@ -270,16 +271,24 @@
     background: #000;
   }
 
-  /* ---------- Picture-in-Picture News (bottom-right) ---------- */
-  /* Floating cable-news style PIP — Bloomberg TV+ 24/7 live with captions.
-     Positioned to sit above the LIVE ticker so it never gets clipped. */
+  /* ---------- Bottom Area Grid (Inspiration + News + PIP) ---------- */
+  /* Three-element grid: left column stacks Inspiration row over News row,
+     right column holds the Bloomberg PIP spanning both rows.
+     This stops the PIP from overlapping the four news cards. */
+  .bottom-area {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    grid-template-rows: 108px 88px;
+    gap: 10px;
+    min-height: 0;
+  }
+  .bottom-area .inspiration { grid-column: 1; grid-row: 1; min-height: 0; }
+  .bottom-area .news-row    { grid-column: 1; grid-row: 2; min-height: 0; }
+  .bottom-area .news-pip    { grid-column: 2; grid-row: 1 / span 2; }
+
+  /* ---------- Picture-in-Picture News (bottom-right grid cell) ---------- */
+  /* Cable-news style PIP — Bloomberg TV+ 24/7 live with captions. */
   .news-pip {
-    position: fixed;
-    bottom: 72px;
-    right: 14px;
-    width: 360px;
-    height: 220px;
-    z-index: 50;
     background: #000;
     border-radius: 8px;
     overflow: hidden;
@@ -288,6 +297,7 @@
       0 8px 24px rgba(0,0,0,0.65);
     display: flex;
     flex-direction: column;
+    min-height: 0;
   }
   .news-pip-header {
     display: flex;
@@ -979,6 +989,9 @@
 
     </main>
 
+    <!-- BOTTOM AREA: Inspiration + News + PIP in one grid -->
+    <section class="bottom-area">
+
     <!-- DAILY INSPIRATION ROW -->
     <section class="inspiration">
       <div class="inspiration-card quote">
@@ -1021,6 +1034,23 @@
       </div>
     </section>
 
+      <!-- BLOOMBERG PIP — now part of the grid, no longer floating -->
+      <aside class="news-pip" aria-label="Live news picture-in-picture">
+        <div class="news-pip-header">
+          <span><span class="live-dot">●</span>Bloomberg · Live</span>
+          <span class="cc-badge">CC</span>
+        </div>
+        <iframe class="news-pip-frame"
+          src="https://www.youtube.com/embed/live_stream?channel=UCUMZ7gohGI9HcU9VNsr2FJQ&autoplay=1&mute=1&controls=0&modestbranding=1&playsinline=1&rel=0&cc_load_policy=1&cc_lang_pref=en"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+          referrerpolicy="strict-origin-when-cross-origin"
+          title="Bloomberg Live"></iframe>
+      </aside>
+
+    </section>
+    <!-- END .bottom-area -->
+
     <!-- TICKER -->
     <footer class="ticker">
       <div class="ticker-label"><span class="status-dot"></span>Live</div>
@@ -1029,20 +1059,6 @@
       </div>
     </footer>
   </div>
-
-  <!-- BOTTOM-RIGHT PIP: Bloomberg Quicktake 24/7 live with captions ON -->
-  <aside class="news-pip" aria-label="Live news picture-in-picture">
-    <div class="news-pip-header">
-      <span><span class="live-dot">●</span>Bloomberg · Live</span>
-      <span class="cc-badge">CC</span>
-    </div>
-    <iframe class="news-pip-frame"
-      src="https://www.youtube.com/embed/live_stream?channel=UCUMZ7gohGI9HcU9VNsr2FJQ&autoplay=1&mute=1&controls=0&modestbranding=1&playsinline=1&rel=0&cc_load_policy=1&cc_lang_pref=en"
-      allow="autoplay; encrypted-media"
-      allowfullscreen
-      referrerpolicy="strict-origin-when-cross-origin"
-      title="Bloomberg Live"></iframe>
-  </aside>
 
   <!-- HEARTBEAT: imperceptible motion pixel to defeat TV sleep timers -->
   <div class="heartbeat" id="heartbeat"></div>
