@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -278,7 +277,7 @@
   .bottom-area {
     display: grid;
     grid-template-columns: 1fr 380px;
-    grid-template-rows: 108px 88px;
+    grid-template-rows: 92px 104px;   /* shrunk inspiration, grew news row to fit 3-line headlines */
     gap: 10px;
     min-height: 0;
   }
@@ -348,21 +347,8 @@
     transition: transform 0.5s ease-in-out;
   }
 
-  /* ---------- Viewport Diagnostic ---------- */
-  .viewport-diag {
-    position: fixed;
-    top: 4px;
-    right: 4px;
-    background: rgba(0,0,0,0.78);
-    color: var(--km-gold);
-    padding: 4px 8px;
-    font-size: 11px;
-    font-family: 'Menlo', 'Consolas', monospace;
-    z-index: 9999;
-    border-radius: 4px;
-    pointer-events: none;
-    line-height: 1.4;
-  }
+  /* Viewport diagnostic was removed once layout was confirmed.
+     Re-enable by adding back showViewportDiag() to init(). */
 
   /* ---------- News ---------- */
   .news-list {
@@ -714,7 +700,7 @@
   .news-card {
     background: var(--km-surface);
     border-radius: 8px;
-    padding: 10px 16px 12px;
+    padding: 7px 14px 8px;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -732,19 +718,19 @@
     letter-spacing: 2.2px;
     color: var(--km-text-dim);
     font-weight: 700;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   .news-card-header .flag { font-size: 12px; opacity: 0.9; }
   .news-card-headline {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
-    line-height: 1.25;
-    margin-bottom: 4px;
+    line-height: 1.22;
+    margin-bottom: 3px;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;        /* was 2 — Iran headline was cutting at "stalle..." */
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
@@ -1947,33 +1933,9 @@ function startAntiSleep() {
 }
 
 /* ===========================================================
-   VIEWPORT DIAGNOSTIC — top-right corner overlay.
-   Helps diagnose Fire Stick / TV rendering issues by showing
-   what the browser actually reports as viewport dimensions.
-   Toggle off by deleting the showViewportDiag() call in init.
-   =========================================================== */
-function showViewportDiag() {
-  const el = document.createElement('div');
-  el.className = 'viewport-diag';
-  el.id = 'viewport-diag';
-  document.body.appendChild(el);
-  const update = () => {
-    const ua = (navigator.userAgent.match(/(Silk|AFT[^\s]*|Firefox|Chrome|Safari)[^\s]*/) || ['?'])[0];
-    el.innerHTML =
-      `${window.innerWidth} × ${window.innerHeight}px  @${window.devicePixelRatio}x` +
-      `<br>screen: ${screen.width} × ${screen.height}` +
-      `<br>${ua}`;
-  };
-  update();
-  window.addEventListener('resize', update);
-  setInterval(update, 5000);
-}
-
-/* ===========================================================
    INIT
    =========================================================== */
 async function init() {
-  showViewportDiag();
   startAntiSleep();
 
   updateClocks();
