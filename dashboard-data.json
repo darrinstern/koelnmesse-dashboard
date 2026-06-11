@@ -1,7 +1,7 @@
 {
-  "lastSynced": "2026-06-10",
+  "lastSynced": "2026-06-11",
   "outOfOffice": {
-    "lastSynced": "2026-06-10",
+    "lastSynced": "2026-06-11",
     "synced": [
       { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
@@ -9,23 +9,23 @@
       { "name": "Courtney", "status": "OOO", "until": "2026-06-12" },
       { "name": "George", "status": "Alimentec", "until": "2026-06-13" },
       { "name": "VW", "status": "Alimentec Anuga", "until": "2026-06-13" },
-      { "name": "Cathy", "status": "Out AM", "until": "2026-06-16" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-19" },
+      { "name": "Cathy", "status": "OOO (AM)", "until": "2026-06-16" },
       { "name": "George", "status": "OOO", "until": "2026-06-19" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-19" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-19" },
       { "name": "Courtney", "status": "OOO", "until": "2026-06-19" },
       { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
       { "name": "George", "status": "OOO", "until": "2026-06-22" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-24" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-25" },
       { "name": "George", "status": "OOO", "until": "2026-06-26" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-10",
-    "world": { "headline": "Israel bombs Lebanon as Trump signals Iran nuclear talks are in 'final throes'", "source": "Al Jazeera", "time": "Today" },
-    "germany": { "headline": "The Tire Cologne 2026 opens with 350 exhibitors from 32 countries across tire, wheel & digital tech", "source": "European Rubber Journal", "time": "Today" },
-    "chicago": { "headline": "Chicago gas prices top $5/gallon for first time in four years as national inflation surpasses 4%", "source": "ABC7 Chicago", "time": "Today" },
-    "sports": { "team": "White Sox", "headline": "White Sox prospect Braden Montgomery hits walk-off homer in big-league debut, 5th player ever to do so", "source": "Chicago Sun-Times", "time": "Today" }
+    "lastSynced": "2026-06-11",
+    "world":   { "headline": "US and Iran exchange fire again as Trump warns Tehran will 'pay the price' over stalled nuclear deal", "source": "Al Jazeera", "time": "Today" },
+    "germany": { "headline": "German-led 'Team Gen 6' alliance forms to build sixth-generation fighter jet after FCAS collapse", "source": "The Local", "time": "Today" },
+    "chicago": { "headline": "Severe storms sweep through Chicagoland; more storm threats possible Thursday", "source": "FOX 32 Chicago", "time": "Today" },
+    "sports":  { "team": "Cubs", "headline": "Cubs host the Rockies at Wrigley looking to turn around a disappointing season", "source": "ClutchPoints", "time": "Today" }
   }
 }
