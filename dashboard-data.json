@@ -3,29 +3,29 @@
   "outOfOffice": {
     "lastSynced": "2026-06-11",
     "synced": [
-      { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
-      { "name": "Mette", "status": "OOO", "until": "2026-06-12" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-06-12" },
-      { "name": "George", "status": "Alimentec", "until": "2026-06-13" },
-      { "name": "VW", "status": "Alimentec Anuga", "until": "2026-06-13" },
-      { "name": "Cathy", "status": "OOO (AM)", "until": "2026-06-16" },
-      { "name": "George", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Mette", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
-      { "name": "George", "status": "OOO", "until": "2026-06-22" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-25" },
-      { "name": "George", "status": "OOO", "until": "2026-06-26" }
+      { "name": "Kate",     "status": "Vacation",         "until": "2026-06-12" },
+      { "name": "Cathy",    "status": "OOO",              "until": "2026-06-12" },
+      { "name": "Mette",    "status": "OOO",              "until": "2026-06-12" },
+      { "name": "Courtney", "status": "OOO",              "until": "2026-06-12" },
+      { "name": "George",   "status": "Alimentec",        "until": "2026-06-13" },
+      { "name": "VW",       "status": "Alimentec Anuga",  "until": "2026-06-13" },
+      { "name": "Cathy",    "status": "OOO (AM)",         "until": "2026-06-16" },
+      { "name": "George",   "status": "OOO",              "until": "2026-06-19" },
+      { "name": "Cathy",    "status": "OOO",              "until": "2026-06-19" },
+      { "name": "Mette",    "status": "OOO",              "until": "2026-06-19" },
+      { "name": "Courtney", "status": "OOO",              "until": "2026-06-19" },
+      { "name": "Kasia",    "status": "Vacation",         "until": "2026-06-22" },
+      { "name": "George",   "status": "OOO",              "until": "2026-06-22" },
+      { "name": "Cathy",    "status": "OOO",              "until": "2026-06-25" },
+      { "name": "George",   "status": "OOO",              "until": "2026-06-26" }
     ],
     "manual": []
   },
   "news": {
     "lastSynced": "2026-06-11",
     "world":   { "headline": "US and Iran exchange fire again as Trump warns Tehran will 'pay the price' over stalled nuclear deal", "source": "Al Jazeera", "time": "Today" },
-    "germany": { "headline": "German-led 'Team Gen 6' alliance forms to build sixth-generation fighter jet after FCAS collapse", "source": "The Local", "time": "Today" },
-    "chicago": { "headline": "Severe storms sweep through Chicagoland; more storm threats possible Thursday", "source": "FOX 32 Chicago", "time": "Today" },
-    "sports":  { "team": "Cubs", "headline": "Cubs host the Rockies at Wrigley looking to turn around a disappointing season", "source": "ClutchPoints", "time": "Today" }
+    "germany": { "headline": "German-led 'Team Gen 6' alliance forms to build sixth-generation fighter jet after FCAS collapse",     "source": "The Local",  "time": "Today" },
+    "chicago": { "headline": "Severe storms sweep through Chicagoland; more storm threats possible Thursday",                       "source": "FOX 32 Chicago", "time": "Today" },
+    "sports":  { "team": "Cubs", "headline": "Cubs host the Rockies at Wrigley looking to turn around a disappointing season",      "source": "ClutchPoints", "time": "Today" }
   }
 }
