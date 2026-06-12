@@ -1,31 +1,31 @@
 {
-  "lastSynced": "2026-06-11",
+  "lastSynced": "2026-06-12",
   "outOfOffice": {
-    "lastSynced": "2026-06-11",
+    "lastSynced": "2026-06-12",
     "synced": [
       { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
-      { "name": "Cathy", "status": "Out of Office", "until": "2026-06-12" },
-      { "name": "Mette", "status": "Out of Office", "until": "2026-06-12" },
-      { "name": "Courtney", "status": "Out of Office", "until": "2026-06-12" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
+      { "name": "Mette", "status": "OOO", "until": "2026-06-12" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-06-12" },
       { "name": "George", "status": "Alimentec", "until": "2026-06-13" },
       { "name": "VW", "status": "Alimentec Anuga", "until": "2026-06-13" },
-      { "name": "Cathy", "status": "Out of Office (AM)", "until": "2026-06-16" },
-      { "name": "George", "status": "Out of Office", "until": "2026-06-19" },
-      { "name": "Cathy", "status": "Out of Office", "until": "2026-06-19" },
-      { "name": "Mette", "status": "Out of Office", "until": "2026-06-19" },
-      { "name": "Courtney", "status": "Out of Office", "until": "2026-06-19" },
+      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-16" },
+      { "name": "George", "status": "OOO", "until": "2026-06-19" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-19" },
+      { "name": "Mette", "status": "OOO", "until": "2026-06-19" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-06-19" },
       { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
-      { "name": "George", "status": "Out of Office", "until": "2026-06-22" },
-      { "name": "Cathy", "status": "Out of Office", "until": "2026-06-24" },
-      { "name": "George", "status": "Out of Office", "until": "2026-06-26" }
+      { "name": "George", "status": "OOO", "until": "2026-06-22" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-25" },
+      { "name": "George", "status": "OOO", "until": "2026-06-26" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-11",
-    "world":   { "headline": "SpaceX readies record $75B IPO, setting aside a large share block for ordinary investors", "source": "CBS News", "time": "Today" },
-    "germany": { "headline": "German-led 'Team Gen 6' alliance to build sixth-gen fighter jet after Franco-German FCAS collapse", "source": "The Local", "time": "Today" },
-    "chicago": { "headline": "Cleanup underway after 70-80 mph storms; second round with tornado risk expected through evening", "source": "CBS Chicago", "time": "Today" },
-    "sports":  { "team": "White Sox / Cubs", "headline": "White Sox (35-31) sit second in AL Central as Cubs (34-33) slip to fourth in NL Central", "source": "ClutchPoints", "time": "Today" }
+    "lastSynced": "2026-06-12",
+    "world": { "headline": "US launches new strikes on targets in Iran; Tehran says no final conclusion yet on deal to end the war", "source": "CNN", "time": "Today" },
+    "germany": { "headline": "Over 20,000 evacuated in Cologne's Deutz district to defuse three WWII bombs; rail traffic disrupted", "source": "The Local", "time": "Today" },
+    "chicago": { "headline": "Cleanup underway after two confirmed tornadoes sweep Chicago area; storms delayed Wrigley Field concert", "source": "NBC 5 Chicago", "time": "This morning" },
+    "sports": { "team": "Cubs / White Sox", "headline": "Suzuki grand slam helps Cubs avoid sweep; surging White Sox (35-31) sit 2nd in AL Central", "source": "ESPN", "time": "Yesterday" }
   }
 }
