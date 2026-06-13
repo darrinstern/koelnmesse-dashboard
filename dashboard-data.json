@@ -23,9 +23,26 @@
   },
   "news": {
     "lastSynced": "2026-06-12",
-    "world": { "headline": "US launches new strikes on targets in Iran; Tehran says no final conclusion yet on deal to end the war", "source": "CNN", "time": "Today" },
-    "germany": { "headline": "Over 20,000 evacuated in Cologne's Deutz district to defuse three WWII bombs; rail traffic disrupted", "source": "The Local", "time": "Today" },
-    "chicago": { "headline": "Cleanup underway after two confirmed tornadoes sweep Chicago area; storms delayed Wrigley Field concert", "source": "NBC 5 Chicago", "time": "This morning" },
-    "sports": { "team": "Cubs / White Sox", "headline": "Suzuki grand slam helps Cubs avoid sweep; surging White Sox (35-31) sit 2nd in AL Central", "source": "ESPN", "time": "Yesterday" }
+    "world": {
+      "headline": "US launches new strikes against Iran as Trump escalates military pressure; oil tanker disabled in Gulf of Oman",
+      "source": "CBS News / CENTCOM",
+      "time": "Today"
+    },
+    "germany": {
+      "headline": "20,000+ evacuated from Cologne's Deutz district as city prepares to defuse three WWII-era American bombs",
+      "source": "Ground News",
+      "time": "Today"
+    },
+    "chicago": {
+      "headline": "Cleanup underway after severe thunderstorms spawn tornadoes across the Chicago area; gas tops $5/gallon",
+      "source": "ABC7 Chicago",
+      "time": "Today"
+    },
+    "sports": {
+      "team": "Cubs",
+      "headline": "Cubs snap three-game skid with 9-3 win over Rockies; Seiya Suzuki hits third career grand slam",
+      "source": "ESPN",
+      "time": "Today"
+    }
   }
 }
