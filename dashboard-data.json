@@ -1,15 +1,10 @@
 {
-  "lastSynced": "2026-06-12",
+  "lastSynced": "2026-06-16",
   "outOfOffice": {
-    "lastSynced": "2026-06-12",
+    "lastSynced": "2026-06-16",
     "synced": [
-      { "name": "Kate", "status": "Vacation", "until": "2026-06-12" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-12" },
-      { "name": "Mette", "status": "OOO", "until": "2026-06-12" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-06-12" },
-      { "name": "George", "status": "Alimentec", "until": "2026-06-13" },
-      { "name": "VW", "status": "Alimentec Anuga", "until": "2026-06-13" },
-      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-16" },
+      { "name": "Cathy", "status": "OOO (AM)", "until": "2026-06-16" },
+      { "name": "VW", "status": "Comp Day", "until": "2026-06-19" },
       { "name": "George", "status": "OOO", "until": "2026-06-19" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-19" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-19" },
@@ -17,31 +12,36 @@
       { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
       { "name": "George", "status": "OOO", "until": "2026-06-22" },
       { "name": "Cathy", "status": "OOO", "until": "2026-06-25" },
-      { "name": "George", "status": "OOO", "until": "2026-06-26" }
+      { "name": "George", "status": "OOO", "until": "2026-06-26" },
+      { "name": "Kym", "status": "OOO", "until": "2026-06-26" },
+      { "name": "VW", "status": "Comp Day", "until": "2026-06-26" },
+      { "name": "Mette", "status": "OOO", "until": "2026-06-26" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-06-26" },
+      { "name": "George", "status": "OOO", "until": "2026-06-29" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-12",
+    "lastSynced": "2026-06-16",
     "world": {
-      "headline": "US launches new strikes against Iran as Trump escalates military pressure; oil tanker disabled in Gulf of Oman",
-      "source": "CBS News / CENTCOM",
+      "headline": "G7 leaders seek clarity on US-Iran deal as Washington and Tehran offer conflicting accounts",
+      "source": "10things.news",
       "time": "Today"
     },
     "germany": {
-      "headline": "20,000+ evacuated from Cologne's Deutz district as city prepares to defuse three WWII-era American bombs",
-      "source": "Ground News",
-      "time": "Today"
+      "headline": "Germany's federally subsidized fuel discount expires June 30, higher costs ahead for drivers",
+      "source": "The Local Germany",
+      "time": "This week"
     },
     "chicago": {
-      "headline": "Cleanup underway after severe thunderstorms spawn tornadoes across the Chicago area; gas tops $5/gallon",
-      "source": "ABC7 Chicago",
+      "headline": "Utility crews still restoring power days after 13-tornado outbreak hit Northern Illinois",
+      "source": "Chicago Sun-Times",
       "time": "Today"
     },
     "sports": {
-      "team": "Cubs",
-      "headline": "Cubs snap three-game skid with 9-3 win over Rockies; Seiya Suzuki hits third career grand slam",
-      "source": "ESPN",
+      "team": "White Sox",
+      "headline": "First-place White Sox inch toward legitimate contender status as Crochet deal prospect stars",
+      "source": "MLB.com",
       "time": "Today"
     }
   }
