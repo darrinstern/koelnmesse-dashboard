@@ -3,45 +3,37 @@
   "outOfOffice": {
     "lastSynced": "2026-06-16",
     "synced": [
-      { "name": "Cathy", "status": "OOO (AM)", "until": "2026-06-16" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-06-19" },
-      { "name": "George", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Mette", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-06-19" },
       { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
-      { "name": "George", "status": "OOO", "until": "2026-06-22" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-25" },
-      { "name": "George", "status": "OOO", "until": "2026-06-26" },
+      { "name": "VW", "status": "comp", "until": "2026-06-26" },
       { "name": "Kym", "status": "OOO", "until": "2026-06-26" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-06-26" },
-      { "name": "Mette", "status": "OOO", "until": "2026-06-26" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-06-26" },
-      { "name": "George", "status": "OOO", "until": "2026-06-29" }
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
+      { "name": "George", "status": "OOO", "until": "2026-07-06" }
     ],
     "manual": []
   },
   "news": {
     "lastSynced": "2026-06-16",
     "world": {
-      "headline": "G7 leaders seek clarity on US-Iran deal as Washington and Tehran offer conflicting accounts",
-      "source": "10things.news",
+      "headline": "G7 Summit opens in France as leaders divide on Ukraine, Middle East, and trade; Hormuz deal near",
+      "source": "AP News",
       "time": "Today"
     },
     "germany": {
-      "headline": "Germany's federally subsidized fuel discount expires June 30, higher costs ahead for drivers",
-      "source": "The Local Germany",
-      "time": "This week"
+      "headline": "Germany scores 7 in dominant World Cup opener; faces Ivory Coast on June 20",
+      "source": "The Local (thelocal.de)",
+      "time": "Today"
     },
     "chicago": {
-      "headline": "Utility crews still restoring power days after 13-tornado outbreak hit Northern Illinois",
-      "source": "Chicago Sun-Times",
+      "headline": "Chicago recovers from June 10 derecho as NWS confirms multiple tornadoes; 200K saw power outages",
+      "source": "Fox 32 Chicago",
       "time": "Today"
     },
     "sports": {
-      "team": "White Sox",
-      "headline": "First-place White Sox inch toward legitimate contender status as Crochet deal prospect stars",
-      "source": "MLB.com",
+      "team": "Cubs",
+      "headline": "Cubs host 7:05 PM game at Wrigley tonight as FIFA World Cup 2026 kicks off across North America",
+      "source": "Chicago Sun-Times",
       "time": "Today"
     }
   }
