@@ -232,43 +232,42 @@
     text-align: right;
   }
 
-  /* ---------- Live Feed (DW News) ---------- */
-  .live-feed {
+  /* ---------- Social Feed (Walls.io carousel) ---------- */
+  .social-feed {
     margin-top: 14px;
     flex: 1;
-    min-height: 140px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     border-radius: 6px;
     overflow: hidden;
     position: relative;
-    background: #000;
-    border-left: 3px solid var(--km-red);
+    background: var(--km-surface-2);
+    border-left: 3px solid #2FA83D;
   }
-  .live-feed-header {
+  .social-feed-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 6px 10px;
-    background: var(--km-surface-2);
+    background: var(--km-surface-3);
     font-size: 11px;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     flex-shrink: 0;
   }
-  .live-feed-header .pulse {
-    color: var(--km-red-glow);
+  .social-feed-header .pulse {
+    color: #2FA83D;
     margin-right: 6px;
     animation: pulse 2s ease-in-out infinite;
   }
-  .live-feed-frame {
+  .social-feed-body {
     flex: 1;
-    width: 100%;
-    border: none;
-    display: block;
-    background: #000;
+    overflow: hidden;
+    position: relative;
   }
+  .social-feed-body > * { width: 100% !important; }
 
   /* ---------- Bottom Area Grid (Inspiration + News + PIP) ---------- */
   /* Three-element grid: left column stacks Inspiration row over News row,
@@ -370,6 +369,10 @@
     font-size: 13px;
     font-weight: 600;
     margin-bottom: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;        /* prevents long titles from pushing last item off-panel */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .news-item .news-meta {
     font-size: 10px;
@@ -881,18 +884,21 @@
           <div class="market-meta" id="market-meta">Refreshes 8:00 AM CT daily</div>
         </div>
 
-        <!-- DW News English — 24/7 free live stream (German public broadcaster) -->
-        <div class="live-feed">
-          <div class="live-feed-header">
-            <span><span class="pulse">●</span>DW News · Live</span>
-            <span style="color: var(--km-text-dim); font-size: 9px; letter-spacing: 1.5px;">DEUTSCHE WELLE</span>
+        <!-- h+h connect social wall — Walls.io carousel -->
+        <div class="social-feed">
+          <div class="social-feed-header">
+            <span><span class="pulse">●</span>#hhconnect · Social</span>
+            <span style="color: var(--km-text-dim); font-size: 9px; letter-spacing: 1.5px;">WALLS.IO</span>
           </div>
-          <iframe class="live-feed-frame"
-            src="https://www.youtube.com/embed/live_stream?channel=UCknLrEdhRCp1aegoMqRaCZg&autoplay=1&mute=1&controls=0&modestbranding=1&playsinline=1&rel=0"
-            allow="autoplay; encrypted-media"
-            allowfullscreen
-            referrerpolicy="strict-origin-when-cross-origin"
-            title="DW News English Live"></iframe>
+          <div class="social-feed-body">
+            <script async src="https://cdn.walls.io/assets/js/wallsio-widget-1.2.js"
+              data-wallurl="https://my.walls.io/hhconnect?nobackground=1&layout=carousel&show_header=0&show_post_info=1&accessibility=0"
+              allow="camera"
+              data-title="A feed of social media posts by Walls.io"
+              data-width="100%"
+              data-height="308"
+              data-lazyload="1"></script>
+          </div>
         </div>
       </section>
 
@@ -1504,7 +1510,8 @@ async function fetchRss(url, max=5) {
 function renderNews(elId, items, src) {
   const ul = document.getElementById(elId);
   ul.innerHTML = '';
-  items.slice(0, 4).forEach(it => {
+  // 3 items (was 4) — guarantees the last one isn't clipped at the panel bottom
+  items.slice(0, 3).forEach(it => {
     const li = document.createElement('li');
     li.className = 'news-item';
     const title = (it.title||'').slice(0, 140);
@@ -1683,7 +1690,9 @@ function renderStaffSection(elId, items, kind) {
     return 0;
   }
   const milestoneYears = [1, 5, 10, 15, 20, 25, 30, 35, 40];
-  items.slice(0, 5).forEach(it => {
+  // 4 items per block (was 5) — each staff-block is ~140px tall after the header;
+  // 5 rows overflow and clip the bottom name. 4 fits cleanly.
+  items.slice(0, 4).forEach(it => {
     const li = document.createElement('li');
     li.className = 'staff-row';
     let label = it.name;
@@ -1761,7 +1770,8 @@ function renderOutOfOffice() {
     countEl.textContent = '0';
     return;
   }
-  items.slice(0, 5).forEach(it => {
+  // 4 items per block — matches renderStaffSection so OOO row visually aligns with others
+  items.slice(0, 4).forEach(it => {
     const li = document.createElement('li');
     li.className = 'staff-row';
     const back = it.diff === 0
