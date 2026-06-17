@@ -1,39 +1,39 @@
 {
-  "lastSynced": "2026-06-16",
+  "lastSynced": "2026-06-17",
   "outOfOffice": {
-    "lastSynced": "2026-06-16",
+    "lastSynced": "2026-06-17",
     "synced": [
       { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
-      { "name": "VW", "status": "comp", "until": "2026-06-26" },
       { "name": "Kym", "status": "OOO", "until": "2026-06-26" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
       { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
-      { "name": "George", "status": "OOO", "until": "2026-07-06" }
+      { "name": "George", "status": "OOO", "until": "2026-07-06" },
+      { "name": "VW", "status": "Comp", "until": "2026-07-06" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-16",
+    "lastSynced": "2026-06-17",
     "world": {
-      "headline": "G7 Summit opens in France as leaders divide on Ukraine, Middle East, and trade; Hormuz deal near",
-      "source": "AP News",
+      "headline": "Messi hat trick at World Cup 2026 equals Klose's all-time scoring record",
+      "source": "ESPN",
       "time": "Today"
     },
     "germany": {
-      "headline": "Germany scores 7 in dominant World Cup opener; faces Ivory Coast on June 20",
-      "source": "The Local (thelocal.de)",
+      "headline": "AfD records largest-ever polling lead over CDU/CSU, hitting 29% in new YouGov survey",
+      "source": "The Local Germany",
       "time": "Today"
     },
     "chicago": {
-      "headline": "Chicago recovers from June 10 derecho as NWS confirms multiple tornadoes; 200K saw power outages",
-      "source": "Fox 32 Chicago",
+      "headline": "Chicago police arrest person of interest in Grant Park cross-burning that alarmed city officials",
+      "source": "WTTW Chicago",
       "time": "Today"
     },
     "sports": {
       "team": "Cubs",
-      "headline": "Cubs host 7:05 PM game at Wrigley tonight as FIFA World Cup 2026 kicks off across North America",
-      "source": "Chicago Sun-Times",
+      "headline": "Cubs win 9-3 behind Seiya Suzuki grand slam, sweeping Rockies road series",
+      "source": "Bleacher Nation",
       "time": "Today"
     }
   }
