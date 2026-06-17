@@ -5,36 +5,19 @@
     "synced": [
       { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
       { "name": "Kym", "status": "OOO", "until": "2026-06-26" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
       { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
       { "name": "George", "status": "OOO", "until": "2026-07-06" },
-      { "name": "VW", "status": "Comp", "until": "2026-07-06" }
+      { "name": "VW", "status": "Comp", "until": "2026-07-17" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-17" }
     ],
     "manual": []
   },
   "news": {
     "lastSynced": "2026-06-17",
-    "world": {
-      "headline": "Messi hat trick at World Cup 2026 equals Klose's all-time scoring record",
-      "source": "ESPN",
-      "time": "Today"
-    },
-    "germany": {
-      "headline": "AfD records largest-ever polling lead over CDU/CSU, hitting 29% in new YouGov survey",
-      "source": "The Local Germany",
-      "time": "Today"
-    },
-    "chicago": {
-      "headline": "Chicago police arrest person of interest in Grant Park cross-burning that alarmed city officials",
-      "source": "WTTW Chicago",
-      "time": "Today"
-    },
-    "sports": {
-      "team": "Cubs",
-      "headline": "Cubs win 9-3 behind Seiya Suzuki grand slam, sweeping Rockies road series",
-      "source": "Bleacher Nation",
-      "time": "Today"
-    }
+    "world": { "headline": "G7 allies scramble to put Ukraine back atop Trump's agenda as war drags on", "source": "NBC News", "time": "Today" },
+    "germany": { "headline": "Hamburg-Berlin rail link fully reopens after major renovation, running six weeks behind schedule", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Official portraits of the Obamas unveiled ahead of their new Chicago presidential center opening", "source": "NBC Chicago", "time": "Today" },
+    "sports": { "team": "Bulls", "headline": "Chicago Bulls finalizing deal to hire Tiago Splitter as new head coach", "source": "NBC Chicago", "time": "Today" }
   }
 }
