@@ -1,23 +1,40 @@
 {
-  "lastSynced": "2026-06-17",
+  "lastSynced": "2026-06-18",
   "outOfOffice": {
-    "lastSynced": "2026-06-17",
+    "lastSynced": "2026-06-18",
     "synced": [
+      { "name": "VW", "status": "Comp Time", "until": "2026-06-19" },
+      { "name": "George", "status": "OOO", "until": "2026-06-19" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-19" },
+      { "name": "Mette", "status": "OOO", "until": "2026-06-19" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-06-19" },
       { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
-      { "name": "Kym", "status": "OOO", "until": "2026-06-26" },
-      { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
-      { "name": "George", "status": "OOO", "until": "2026-07-06" },
-      { "name": "VW", "status": "Comp", "until": "2026-07-17" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-17" }
+      { "name": "Kym", "status": "OOO", "until": "2026-06-26" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-17",
-    "world": { "headline": "G7 allies scramble to put Ukraine back atop Trump's agenda as war drags on", "source": "NBC News", "time": "Today" },
-    "germany": { "headline": "Hamburg-Berlin rail link fully reopens after major renovation, running six weeks behind schedule", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Official portraits of the Obamas unveiled ahead of their new Chicago presidential center opening", "source": "NBC Chicago", "time": "Today" },
-    "sports": { "team": "Bulls", "headline": "Chicago Bulls finalizing deal to hire Tiago Splitter as new head coach", "source": "NBC Chicago", "time": "Today" }
+    "lastSynced": "2026-06-18",
+    "world": {
+      "headline": "Trump signs US-Iran agreement as G7 partners assess implications for global energy and trade",
+      "source": "World Economic Forum",
+      "time": "Today"
+    },
+    "germany": {
+      "headline": "Germany's national team plays its opening World Cup 2026 match today",
+      "source": "The Local Germany",
+      "time": "Today"
+    },
+    "chicago": {
+      "headline": "Obama Presidential Center opens to the public Friday on Chicago's South Side",
+      "source": "CBS Chicago",
+      "time": "Today"
+    },
+    "sports": {
+      "team": "Cubs",
+      "headline": "Pete Crow-Armstrong hits for the cycle as Cubs rout Rockies 9-3",
+      "source": "Chicago Sun-Times",
+      "time": "Today"
+    }
   }
 }
