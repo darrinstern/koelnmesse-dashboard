@@ -3,38 +3,21 @@
   "outOfOffice": {
     "lastSynced": "2026-06-18",
     "synced": [
-      { "name": "VW", "status": "Comp Time", "until": "2026-06-19" },
-      { "name": "George", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Mette", "status": "OOO", "until": "2026-06-19" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-06-19" },
       { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
-      { "name": "Kym", "status": "OOO", "until": "2026-06-26" }
+      { "name": "VW", "status": "comp", "until": "2026-06-26" },
+      { "name": "Kym", "status": "OOO", "until": "2026-06-26" },
+      { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
+      { "name": "George", "status": "OOO", "until": "2026-07-06" }
     ],
     "manual": []
   },
   "news": {
     "lastSynced": "2026-06-18",
-    "world": {
-      "headline": "Trump signs US-Iran agreement as G7 partners assess implications for global energy and trade",
-      "source": "World Economic Forum",
-      "time": "Today"
-    },
-    "germany": {
-      "headline": "Germany's national team plays its opening World Cup 2026 match today",
-      "source": "The Local Germany",
-      "time": "Today"
-    },
-    "chicago": {
-      "headline": "Obama Presidential Center opens to the public Friday on Chicago's South Side",
-      "source": "CBS Chicago",
-      "time": "Today"
-    },
-    "sports": {
-      "team": "Cubs",
-      "headline": "Pete Crow-Armstrong hits for the cycle as Cubs rout Rockies 9-3",
-      "source": "Chicago Sun-Times",
-      "time": "Today"
-    }
+    "world": { "headline": "Trump signs preliminary deal with Iran ending war; ceasefire confirmed during Paris dinner with Macron", "source": "ABC News", "time": "Today" },
+    "germany": { "headline": "Germany and Poland sign scaled-down defence pact on 35th anniversary of Good Neighbourship Treaty", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Obama Presidential Center opens in Jackson Park; Springsteen, Wonder, and 3 former presidents attend ceremony", "source": "ABC7 Chicago", "time": "Today" },
+    "sports": { "team": "Cubs", "headline": "Pete Crow-Armstrong hits for the cycle, 13th in Cubs franchise history", "source": "Yahoo Sports", "time": "Today" }
   }
 }
