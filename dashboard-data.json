@@ -4,20 +4,37 @@
     "lastSynced": "2026-06-19",
     "synced": [
       { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-06-26" },
+      { "name": "VW", "status": "Comp", "until": "2026-06-26" },
       { "name": "Kym", "status": "OOO", "until": "2026-06-26" },
-      { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
-      { "name": "George", "status": "OOO", "until": "2026-07-06" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
-      { "name": "VW", "status": "comp", "until": "2026-07-17" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-17" }
+      { "name": "George", "status": "OOO", "until": "2026-07-02" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Mette", "status": "OOO", "until": "2026-07-03" }
     ],
     "manual": []
   },
   "news": {
     "lastSynced": "2026-06-19",
-    "world": { "headline": "England beat Croatia 4-0 in FIFA World Cup 2026 group stage, rising to top of Group L", "source": "ESPN", "time": "Today" },
-    "germany": { "headline": "Verdi union calls IKEA Germany workers to strike at over half of stores in nationwide pay dispute", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Obama Presidential Center opens to the public in Jackson Park with star-studded ceremony", "source": "WGN TV", "time": "Today" },
-    "sports": { "team": "Bears", "headline": "Illinois legislature fails to pass stadium bill, leaving Bears' future home location uncertain", "source": "NBC Chicago", "time": "Today" }
+    "world": {
+      "headline": "FIFA World Cup 2026 Day 9: USA vs Australia, Scotland vs Morocco among four matches today in US",
+      "source": "ESPN",
+      "time": "Today"
+    },
+    "germany": {
+      "headline": "Extreme heat warnings for NRW and western Germany; Essen chemicals firm announces 3,200 job cuts",
+      "source": "The Local Germany",
+      "time": "Today"
+    },
+    "chicago": {
+      "headline": "Obama Presidential Center officially opens to the public in Jackson Park today, June 19",
+      "source": "ABC7 Chicago",
+      "time": "Today"
+    },
+    "sports": {
+      "team": "Cubs",
+      "headline": "Cubs (39-36) win back-to-back series with 8-6 victory over Rockies, returning to NL Wild Card race",
+      "source": "Chicago Sun-Times",
+      "time": "Today"
+    }
   }
 }
