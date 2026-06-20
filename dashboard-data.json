@@ -1,40 +1,23 @@
 {
-  "lastSynced": "2026-06-19",
+  "lastSynced": "2026-06-20",
   "outOfOffice": {
-    "lastSynced": "2026-06-19",
+    "lastSynced": "2026-06-20",
     "synced": [
       { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-06-26" },
-      { "name": "VW", "status": "Comp", "until": "2026-06-26" },
       { "name": "Kym", "status": "OOO", "until": "2026-06-26" },
+      { "name": "VW", "status": "Comp", "until": "2026-06-26" },
+      { "name": "Mette", "status": "OOO", "until": "2026-06-26" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-06-26" },
       { "name": "George", "status": "OOO", "until": "2026-07-02" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
-      { "name": "Mette", "status": "OOO", "until": "2026-07-03" }
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-03" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-19",
-    "world": {
-      "headline": "FIFA World Cup 2026 Day 9: USA vs Australia, Scotland vs Morocco among four matches today in US",
-      "source": "ESPN",
-      "time": "Today"
-    },
-    "germany": {
-      "headline": "Extreme heat warnings for NRW and western Germany; Essen chemicals firm announces 3,200 job cuts",
-      "source": "The Local Germany",
-      "time": "Today"
-    },
-    "chicago": {
-      "headline": "Obama Presidential Center officially opens to the public in Jackson Park today, June 19",
-      "source": "ABC7 Chicago",
-      "time": "Today"
-    },
-    "sports": {
-      "team": "Cubs",
-      "headline": "Cubs (39-36) win back-to-back series with 8-6 victory over Rockies, returning to NL Wild Card race",
-      "source": "Chicago Sun-Times",
-      "time": "Today"
-    }
+    "lastSynced": "2026-06-20",
+    "world": { "headline": "FIFA World Cup 2026 group stage underway; USA advances to knockout round after opening victory", "source": "ESPN", "time": "Today" },
+    "germany": { "headline": "US launches Section 301 trade probe into Germany's pharma pricing; Evonik cuts 3,200 jobs as NRW chemicals sector faces pressure", "source": "The Local Germany", "time": "Yesterday" },
+    "chicago": { "headline": "Obama Presidential Center opens on Chicago's South Side, culminating decades-long development effort", "source": "WBEZ", "time": "Today" },
+    "sports": { "team": "Cubs", "headline": "Cubs rout Blue Jays 16-2; Carson Kelly grand slam and career-high 6 RBIs fuel seven-run first inning at Wrigley", "source": "Bleacher Nation", "time": "Yesterday" }
   }
 }
