@@ -4,10 +4,15 @@
     "lastSynced": "2026-06-20",
     "synced": [
       { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
+      { "name": "George", "status": "OOO", "until": "2026-06-22" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-06-25" },
+      { "name": "George", "status": "OOO", "until": "2026-06-26" },
       { "name": "Kym", "status": "OOO", "until": "2026-06-26" },
       { "name": "VW", "status": "Comp", "until": "2026-06-26" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-26" },
       { "name": "Courtney", "status": "OOO", "until": "2026-06-26" },
+      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-29" },
+      { "name": "George", "status": "OOO", "until": "2026-06-29" },
       { "name": "George", "status": "OOO", "until": "2026-07-02" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-03" }
     ],
@@ -15,9 +20,26 @@
   },
   "news": {
     "lastSynced": "2026-06-20",
-    "world": { "headline": "FIFA World Cup 2026 group stage underway; USA advances to knockout round after opening victory", "source": "ESPN", "time": "Today" },
-    "germany": { "headline": "US launches Section 301 trade probe into Germany's pharma pricing; Evonik cuts 3,200 jobs as NRW chemicals sector faces pressure", "source": "The Local Germany", "time": "Yesterday" },
-    "chicago": { "headline": "Obama Presidential Center opens on Chicago's South Side, culminating decades-long development effort", "source": "WBEZ", "time": "Today" },
-    "sports": { "team": "Cubs", "headline": "Cubs rout Blue Jays 16-2; Carson Kelly grand slam and career-high 6 RBIs fuel seven-run first inning at Wrigley", "source": "Bleacher Nation", "time": "Yesterday" }
+    "world": {
+      "headline": "ECB raises benchmark rate for first time since 2023 as Middle East conflict drives global inflation higher",
+      "source": "The Local Germany",
+      "time": "Today"
+    },
+    "germany": {
+      "headline": "AfD records largest polling lead over CDU/CSU at 29%, nine points ahead of conservatives in YouGov survey",
+      "source": "The Local Germany",
+      "time": "Today"
+    },
+    "chicago": {
+      "headline": "Chicago outdoor pools open for summer, staying open through Labor Day for extended season",
+      "source": "ABC7 Chicago",
+      "time": "Today"
+    },
+    "sports": {
+      "team": "White Sox",
+      "headline": "Colson Montgomery makes MLB history as White Sox defeat New York Yankees 5-1",
+      "source": "NBC Chicago",
+      "time": "Today"
+    }
   }
 }
