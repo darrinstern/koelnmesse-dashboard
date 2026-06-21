@@ -1,7 +1,7 @@
 {
-  "lastSynced": "2026-06-20",
+  "lastSynced": "2026-06-21",
   "outOfOffice": {
-    "lastSynced": "2026-06-20",
+    "lastSynced": "2026-06-21",
     "synced": [
       { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
       { "name": "George", "status": "OOO", "until": "2026-06-22" },
@@ -11,34 +11,37 @@
       { "name": "VW", "status": "Comp", "until": "2026-06-26" },
       { "name": "Mette", "status": "OOO", "until": "2026-06-26" },
       { "name": "Courtney", "status": "OOO", "until": "2026-06-26" },
-      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-29" },
       { "name": "George", "status": "OOO", "until": "2026-06-29" },
+      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-29" },
       { "name": "George", "status": "OOO", "until": "2026-07-02" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-03" }
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
+      { "name": "George", "status": "OOO", "until": "2026-07-06" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-20",
+    "lastSynced": "2026-06-21",
     "world": {
-      "headline": "ECB raises benchmark rate for first time since 2023 as Middle East conflict drives global inflation higher",
-      "source": "The Local Germany",
+      "headline": "Iran and US hold peace talks in Switzerland as Trump moves to resolve Strait of Hormuz standoff",
+      "source": "CNN",
       "time": "Today"
     },
     "germany": {
-      "headline": "AfD records largest polling lead over CDU/CSU at 29%, nine points ahead of conservatives in YouGov survey",
+      "headline": "Brandenburg city evacuated as authorities prepare to defuse 250-kilogram World War II bomb",
       "source": "The Local Germany",
       "time": "Today"
     },
     "chicago": {
-      "headline": "Chicago outdoor pools open for summer, staying open through Labor Day for extended season",
+      "headline": "Obama Presidential Center opens to public; Barack and Michelle surprise students at library reading",
       "source": "ABC7 Chicago",
       "time": "Today"
     },
     "sports": {
-      "team": "White Sox",
-      "headline": "Colson Montgomery makes MLB history as White Sox defeat New York Yankees 5-1",
-      "source": "NBC Chicago",
+      "team": "Cubs",
+      "headline": "Cubs host Toronto Blue Jays at Wrigley Field today (1:20 PM CT) with Father's Day shirt giveaway",
+      "source": "MLB.com",
       "time": "Today"
     }
   }
