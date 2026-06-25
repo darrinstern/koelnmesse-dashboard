@@ -5,37 +5,38 @@
     "synced": [
       { "name": "Kym", "status": "OOO", "until": "2026-06-26" },
       { "name": "Darrin", "status": "Spoga", "until": "2026-06-28" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
       { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
-      { "name": "George", "status": "OOO", "until": "2026-07-06" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-06" },
-      { "name": "VW", "status": "comp", "until": "2026-07-06" },
-      { "name": "Darrin", "status": "OOO", "until": "2026-07-09" }
+      { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
+      { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
+      { "name": "George", "status": "OOO", "until": "2026-07-24" },
+      { "name": "VW", "status": "comp", "until": "2026-07-24" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
+      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" }
     ],
     "manual": []
   },
   "news": {
     "lastSynced": "2026-06-25",
     "world": {
-      "headline": "UK PM Keir Starmer resigns; fellow Labour MP dubbed King of the North expected to replace him",
-      "source": "NPR",
+      "headline": "Magnitude 7.2 and 7.5 earthquakes hit Venezuela, collapsing buildings near Caracas",
+      "source": "AP / CBS News",
       "time": "Today"
     },
     "germany": {
-      "headline": "Germany takes on Ecuador in FIFA World Cup group stage tonight at MetLife Stadium in New Jersey",
+      "headline": "German rail network halted overnight after GSM-R radio system failure; services resume after emergency repairs",
       "source": "The Local Germany",
       "time": "Today"
     },
     "chicago": {
-      "headline": "Gov. Pritzker signs law expanding reproductive privacy protections, blocking out-of-state data sharing",
-      "source": "Chicago Sun-Times",
+      "headline": "Chicago Dept of Public Health warns of possible measles exposure at O'Hare International Airport",
+      "source": "NBC Chicago",
       "time": "Today"
     },
     "sports": {
-      "team": "Blackhawks",
-      "headline": "Blackhawks acquire defenseman Bowen Byram and forward Jordan Greenway from Buffalo Sabres",
-      "source": "NBC Chicago",
+      "team": "Cubs",
+      "headline": "Cubs sweep reeling Mets 10-5, pitching injuries pile up with 5 starters on IL",
+      "source": "Chicago Sun-Times",
       "time": "Today"
     }
   }
