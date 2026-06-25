@@ -1,23 +1,42 @@
 {
-  "lastSynced": "2026-06-22",
+  "lastSynced": "2026-06-25",
   "outOfOffice": {
-    "lastSynced": "2026-06-22",
+    "lastSynced": "2026-06-25",
     "synced": [
-      { "name": "Kasia", "status": "Vacation", "until": "2026-06-22" },
       { "name": "Kym", "status": "OOO", "until": "2026-06-26" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
-      { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Darrin", "status": "Spoga", "until": "2026-06-28" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
       { "name": "George", "status": "OOO", "until": "2026-07-06" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-07-06" }
+      { "name": "Saloni", "status": "OOO", "until": "2026-07-06" },
+      { "name": "VW", "status": "comp", "until": "2026-07-06" },
+      { "name": "Darrin", "status": "OOO", "until": "2026-07-09" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-22",
-    "world": { "headline": "U.S. and Iran advance nuclear talks with draft sanctions exemption as 60-day sprint begins", "source": "CNN", "time": "Today" },
-    "germany": { "headline": "Germany pension reform plans face union backlash ahead of Tuesday commission unveiling", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Illinois legislature fails to pass bill to keep Bears in-state as midnight deadline passes", "source": "NBC Chicago", "time": "Today" },
-    "sports": { "team": "Cubs", "headline": "Cubs rout Blue Jays 16-2; Carson Kelly hits grand slam with career-high 6 RBIs", "source": "ESPN", "time": "Today" }
+    "lastSynced": "2026-06-25",
+    "world": {
+      "headline": "UK PM Keir Starmer resigns; fellow Labour MP dubbed King of the North expected to replace him",
+      "source": "NPR",
+      "time": "Today"
+    },
+    "germany": {
+      "headline": "Germany takes on Ecuador in FIFA World Cup group stage tonight at MetLife Stadium in New Jersey",
+      "source": "The Local Germany",
+      "time": "Today"
+    },
+    "chicago": {
+      "headline": "Gov. Pritzker signs law expanding reproductive privacy protections, blocking out-of-state data sharing",
+      "source": "Chicago Sun-Times",
+      "time": "Today"
+    },
+    "sports": {
+      "team": "Blackhawks",
+      "headline": "Blackhawks acquire defenseman Bowen Byram and forward Jordan Greenway from Buffalo Sabres",
+      "source": "NBC Chicago",
+      "time": "Today"
+    }
   }
 }
