@@ -1,42 +1,47 @@
 {
-  "lastSynced": "2026-06-25",
+  "lastSynced": "2026-06-26",
   "outOfOffice": {
-    "lastSynced": "2026-06-25",
+    "lastSynced": "2026-06-26",
     "synced": [
+      { "name": "George", "status": "OOO", "until": "2026-06-26" },
       { "name": "Kym", "status": "OOO", "until": "2026-06-26" },
+      { "name": "Mette", "status": "OOO", "until": "2026-06-26" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-06-26" },
       { "name": "Darrin", "status": "Spoga", "until": "2026-06-28" },
+      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-29" },
+      { "name": "George", "status": "OOO", "until": "2026-06-29" },
+      { "name": "George", "status": "OOO", "until": "2026-07-02" },
+      { "name": "VW", "status": "comp", "until": "2026-07-02" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
       { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
-      { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
-      { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
-      { "name": "George", "status": "OOO", "until": "2026-07-24" },
-      { "name": "VW", "status": "comp", "until": "2026-07-24" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" }
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
+      { "name": "George", "status": "OOO", "until": "2026-07-06" },
+      { "name": "Saloni", "status": "OOO", "until": "2026-07-06" },
+      { "name": "VW", "status": "comp", "until": "2026-07-06" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-25",
+    "lastSynced": "2026-06-26",
     "world": {
-      "headline": "Magnitude 7.2 and 7.5 earthquakes hit Venezuela, collapsing buildings near Caracas",
-      "source": "AP / CBS News",
+      "headline": "Iran strikes cargo ship in Strait of Hormuz, escalating US-Iran tensions over transit fees",
+      "source": "CBS News",
       "time": "Today"
     },
     "germany": {
-      "headline": "German rail network halted overnight after GSM-R radio system failure; services resume after emergency repairs",
+      "headline": "Germany falls 2-1 to Ecuador in World Cup group stage despite already securing knockout round spot",
       "source": "The Local Germany",
       "time": "Today"
     },
     "chicago": {
-      "headline": "Chicago Dept of Public Health warns of possible measles exposure at O'Hare International Airport",
-      "source": "NBC Chicago",
+      "headline": "South Shore Line partially suspended after Indiana freight derailment; corridors expected to reopen Friday",
+      "source": "Chicago Sun-Times",
       "time": "Today"
     },
     "sports": {
       "team": "Cubs",
-      "headline": "Cubs sweep reeling Mets 10-5, pitching injuries pile up with 5 starters on IL",
-      "source": "Chicago Sun-Times",
+      "headline": "Cubs sweep Mets, now 7 games over .500 and riding a 10-3 run in their last 13 games",
+      "source": "Yardbarker",
       "time": "Today"
     }
   }
