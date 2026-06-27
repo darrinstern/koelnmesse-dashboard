@@ -1,47 +1,46 @@
 {
-  "lastSynced": "2026-06-26",
+  "lastSynced": "2026-06-27",
   "outOfOffice": {
-    "lastSynced": "2026-06-26",
+    "lastSynced": "2026-06-27",
     "synced": [
-      { "name": "George", "status": "OOO", "until": "2026-06-26" },
-      { "name": "Kym", "status": "OOO", "until": "2026-06-26" },
-      { "name": "Mette", "status": "OOO", "until": "2026-06-26" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-06-26" },
       { "name": "Darrin", "status": "Spoga", "until": "2026-06-28" },
-      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-29" },
       { "name": "George", "status": "OOO", "until": "2026-06-29" },
+      { "name": "Cathy", "status": "OOO (AM)", "until": "2026-06-29" },
       { "name": "George", "status": "OOO", "until": "2026-07-02" },
-      { "name": "VW", "status": "comp", "until": "2026-07-02" },
+      { "name": "VW", "status": "Comp Day", "until": "2026-07-02" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
       { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
       { "name": "George", "status": "OOO", "until": "2026-07-06" },
       { "name": "Saloni", "status": "OOO", "until": "2026-07-06" },
-      { "name": "VW", "status": "comp", "until": "2026-07-06" }
+      { "name": "VW", "status": "Comp Day", "until": "2026-07-06" },
+      { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-10" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-26",
+    "lastSynced": "2026-06-27",
     "world": {
-      "headline": "Iran strikes cargo ship in Strait of Hormuz, escalating US-Iran tensions over transit fees",
+      "headline": "US brokers framework deal between Israel and Lebanon, raising hopes for regional ceasefire",
       "source": "CBS News",
       "time": "Today"
     },
     "germany": {
-      "headline": "Germany falls 2-1 to Ecuador in World Cup group stage despite already securing knockout round spot",
+      "headline": "Over 20,000 evacuated from Cologne's Deutz district as crews defuse three WWII-era bombs",
       "source": "The Local Germany",
       "time": "Today"
     },
     "chicago": {
-      "headline": "South Shore Line partially suspended after Indiana freight derailment; corridors expected to reopen Friday",
+      "headline": "Chicago-area Syrians and Haitians with protected status face uncertain immigration future",
       "source": "Chicago Sun-Times",
       "time": "Today"
     },
     "sports": {
       "team": "Cubs",
-      "headline": "Cubs sweep Mets, now 7 games over .500 and riding a 10-3 run in their last 13 games",
-      "source": "Yardbarker",
+      "headline": "Cubs complete season sweep of Mets with 10th-inning walk-off; sit at 44-37 heading into Brewers series",
+      "source": "Sports Mockery",
       "time": "Today"
     }
   }
