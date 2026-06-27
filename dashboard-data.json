@@ -4,16 +4,16 @@
     "lastSynced": "2026-06-27",
     "synced": [
       { "name": "Darrin", "status": "Spoga", "until": "2026-06-28" },
+      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-29" },
       { "name": "George", "status": "OOO", "until": "2026-06-29" },
-      { "name": "Cathy", "status": "OOO (AM)", "until": "2026-06-29" },
       { "name": "George", "status": "OOO", "until": "2026-07-02" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-07-02" },
+      { "name": "VW", "status": "comp", "until": "2026-07-02" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
       { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
       { "name": "George", "status": "OOO", "until": "2026-07-06" },
       { "name": "Saloni", "status": "OOO", "until": "2026-07-06" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-07-06" },
+      { "name": "VW", "status": "comp", "until": "2026-07-06" },
       { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-10" }
@@ -23,24 +23,24 @@
   "news": {
     "lastSynced": "2026-06-27",
     "world": {
-      "headline": "US brokers framework deal between Israel and Lebanon, raising hopes for regional ceasefire",
-      "source": "CBS News",
+      "headline": "Venezuela declares state of emergency as earthquakes devastate nation; U.S. strikes Iran after Strait of Hormuz drone attack",
+      "source": "NPR",
       "time": "Today"
     },
     "germany": {
-      "headline": "Over 20,000 evacuated from Cologne's Deutz district as crews defuse three WWII-era bombs",
+      "headline": "Germany records hottest-ever temperature of 41.3°C; Cologne cancels family festival amid dangerous heat",
       "source": "The Local Germany",
       "time": "Today"
     },
     "chicago": {
-      "headline": "Chicago-area Syrians and Haitians with protected status face uncertain immigration future",
-      "source": "Chicago Sun-Times",
+      "headline": "Chicago Pride Parade steps off Sunday as dangerous heat wave approaches with temperatures nearing triple digits",
+      "source": "ABC7 Chicago",
       "time": "Today"
     },
     "sports": {
       "team": "Cubs",
-      "headline": "Cubs complete season sweep of Mets with 10th-inning walk-off; sit at 44-37 heading into Brewers series",
-      "source": "Sports Mockery",
+      "headline": "Cubs travel to Milwaukee for 7:10 PM showdown vs. Brewers as summer series heats up",
+      "source": "ESPN",
       "time": "Today"
     }
   }
