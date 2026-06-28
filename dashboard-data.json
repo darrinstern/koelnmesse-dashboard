@@ -16,33 +16,16 @@
       { "name": "VW", "status": "comp", "until": "2026-07-06" },
       { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-10" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-10" }
+      { "name": "Cathy", "status": "OOO AM", "until": "2026-07-16" },
+      { "name": "VW", "status": "comp", "until": "2026-07-17" }
     ],
     "manual": []
   },
   "news": {
     "lastSynced": "2026-06-28",
-    "world": {
-      "headline": "Venezuela earthquake death toll rises to 920 as US rescue teams race against survival window",
-      "source": "NPR",
-      "time": "Today"
-    },
-    "germany": {
-      "headline": "German Defence Minister Pistorius blames Trump for Strait of Hormuz closure, calls for waterway to reopen",
-      "source": "The Local Germany",
-      "time": "Today"
-    },
-    "chicago": {
-      "headline": "Illinois House adjourns without voting on Bears stadium bill, leaving team's future in state uncertain",
-      "source": "NBC Chicago",
-      "time": "Today"
-    },
-    "sports": {
-      "team": "White Sox",
-      "headline": "White Sox beat Royals to finish first half of season leading the division",
-      "source": "CBS Chicago",
-      "time": "Today"
-    }
+    "world": { "headline": "Venezuela earthquake death toll surpasses 920 as US rescue teams race against survivor window", "source": "Fox News", "time": "Today" },
+    "germany": { "headline": "Tesla to boost Gruenheide factory output to 6,200 vehicles per week starting July", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Illinois House adjourns without voting on Bears stadium bill, leaving team's state future uncertain", "source": "NBC Chicago", "time": "Today" },
+    "sports": { "team": "White Sox", "headline": "White Sox beat Royals to finish first half leading the AL Central division", "source": "Chicago Sun-Times", "time": "Today" }
   }
 }
