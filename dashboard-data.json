@@ -1,11 +1,11 @@
 {
-  "lastSynced": "2026-06-27",
+  "lastSynced": "2026-06-28",
   "outOfOffice": {
-    "lastSynced": "2026-06-27",
+    "lastSynced": "2026-06-28",
     "synced": [
       { "name": "Darrin", "status": "Spoga", "until": "2026-06-28" },
-      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-29" },
       { "name": "George", "status": "OOO", "until": "2026-06-29" },
+      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-29" },
       { "name": "George", "status": "OOO", "until": "2026-07-02" },
       { "name": "VW", "status": "comp", "until": "2026-07-02" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
@@ -16,31 +16,32 @@
       { "name": "VW", "status": "comp", "until": "2026-07-06" },
       { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-10" }
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-10" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-10" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-27",
+    "lastSynced": "2026-06-28",
     "world": {
-      "headline": "Venezuela declares state of emergency as earthquakes devastate nation; U.S. strikes Iran after Strait of Hormuz drone attack",
+      "headline": "Venezuela earthquake death toll rises to 920 as US rescue teams race against survival window",
       "source": "NPR",
       "time": "Today"
     },
     "germany": {
-      "headline": "Germany records hottest-ever temperature of 41.3°C; Cologne cancels family festival amid dangerous heat",
+      "headline": "German Defence Minister Pistorius blames Trump for Strait of Hormuz closure, calls for waterway to reopen",
       "source": "The Local Germany",
       "time": "Today"
     },
     "chicago": {
-      "headline": "Chicago Pride Parade steps off Sunday as dangerous heat wave approaches with temperatures nearing triple digits",
-      "source": "ABC7 Chicago",
+      "headline": "Illinois House adjourns without voting on Bears stadium bill, leaving team's future in state uncertain",
+      "source": "NBC Chicago",
       "time": "Today"
     },
     "sports": {
-      "team": "Cubs",
-      "headline": "Cubs travel to Milwaukee for 7:10 PM showdown vs. Brewers as summer series heats up",
-      "source": "ESPN",
+      "team": "White Sox",
+      "headline": "White Sox beat Royals to finish first half of season leading the division",
+      "source": "CBS Chicago",
       "time": "Today"
     }
   }
