@@ -1,31 +1,31 @@
 {
-  "lastSynced": "2026-06-28",
+  "lastSynced": "2026-06-29",
   "outOfOffice": {
-    "lastSynced": "2026-06-28",
+    "lastSynced": "2026-06-29",
     "synced": [
-      { "name": "Darrin", "status": "Spoga", "until": "2026-06-28" },
       { "name": "George", "status": "OOO", "until": "2026-06-29" },
       { "name": "Cathy", "status": "OOO AM", "until": "2026-06-29" },
       { "name": "George", "status": "OOO", "until": "2026-07-02" },
-      { "name": "VW", "status": "comp", "until": "2026-07-02" },
+      { "name": "VW", "status": "Comp", "until": "2026-07-02" },
+      { "name": "Jessica", "status": "OOO", "until": "2026-07-03" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
       { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
       { "name": "George", "status": "OOO", "until": "2026-07-06" },
       { "name": "Saloni", "status": "OOO", "until": "2026-07-06" },
-      { "name": "VW", "status": "comp", "until": "2026-07-06" },
+      { "name": "VW", "status": "Comp", "until": "2026-07-06" },
+      { "name": "Jessica", "status": "Comp Day", "until": "2026-07-06" },
       { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
-      { "name": "Cathy", "status": "OOO AM", "until": "2026-07-16" },
-      { "name": "VW", "status": "comp", "until": "2026-07-17" }
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-10" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-28",
-    "world": { "headline": "Venezuela earthquake death toll surpasses 920 as US rescue teams race against survivor window", "source": "Fox News", "time": "Today" },
-    "germany": { "headline": "Tesla to boost Gruenheide factory output to 6,200 vehicles per week starting July", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Illinois House adjourns without voting on Bears stadium bill, leaving team's state future uncertain", "source": "NBC Chicago", "time": "Today" },
-    "sports": { "team": "White Sox", "headline": "White Sox beat Royals to finish first half leading the AL Central division", "source": "Chicago Sun-Times", "time": "Today" }
+    "lastSynced": "2026-06-29",
+    "world": { "headline": "US and Iran exchange strikes, putting ceasefire in jeopardy as Tehran threatens to halt negotiations", "source": "CBS News", "time": "Today" },
+    "germany": { "headline": "Germany faces Paraguay in World Cup knockout match as Oktoberfest construction begins in Munich", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Chicago Bears assess Wolf Lake site in Hammond, Indiana for potential new stadium location", "source": "Chicago Sun-Times", "time": "Today" },
+    "sports": { "team": "Cubs", "headline": "Cubs (45-38) host game tonight at Wrigley Field, sitting 2nd in NL Central after Sunday win over Brewers", "source": "Chicago Sun-Times", "time": "Today" }
   }
 }
