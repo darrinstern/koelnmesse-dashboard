@@ -1,31 +1,48 @@
 {
-  "lastSynced": "2026-06-29",
+  "lastSynced": "2026-06-30",
   "outOfOffice": {
-    "lastSynced": "2026-06-29",
+    "lastSynced": "2026-06-30",
     "synced": [
-      { "name": "George", "status": "OOO", "until": "2026-06-29" },
-      { "name": "Cathy", "status": "OOO AM", "until": "2026-06-29" },
-      { "name": "George", "status": "OOO", "until": "2026-07-02" },
-      { "name": "VW", "status": "Comp", "until": "2026-07-02" },
-      { "name": "Jessica", "status": "OOO", "until": "2026-07-03" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
-      { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
-      { "name": "George", "status": "OOO", "until": "2026-07-06" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-06" },
-      { "name": "VW", "status": "Comp", "until": "2026-07-06" },
-      { "name": "Jessica", "status": "Comp Day", "until": "2026-07-06" },
-      { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-10" }
+      {"name": "George", "status": "OOO", "until": "2026-07-02"},
+      {"name": "VW", "status": "Comp", "until": "2026-07-02"},
+      {"name": "Jessica", "status": "OOO", "until": "2026-07-03"},
+      {"name": "Cathy", "status": "OOO", "until": "2026-07-03"},
+      {"name": "Mette", "status": "OOO", "until": "2026-07-03"},
+      {"name": "Courtney", "status": "OOO", "until": "2026-07-03"},
+      {"name": "George", "status": "OOO", "until": "2026-07-06"},
+      {"name": "Saloni", "status": "OOO", "until": "2026-07-06"},
+      {"name": "VW", "status": "Comp", "until": "2026-07-06"},
+      {"name": "Jessica", "status": "Comp Day", "until": "2026-07-06"},
+      {"name": "Darrin", "status": "OOO", "until": "2026-07-09"},
+      {"name": "Courtney", "status": "OOO", "until": "2026-07-09"},
+      {"name": "Cathy", "status": "OOO AM", "until": "2026-07-16"},
+      {"name": "VW", "status": "Comp", "until": "2026-07-17"},
+      {"name": "Cathy", "status": "OOO", "until": "2026-07-17"}
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-29",
-    "world": { "headline": "US and Iran exchange strikes, putting ceasefire in jeopardy as Tehran threatens to halt negotiations", "source": "CBS News", "time": "Today" },
-    "germany": { "headline": "Germany faces Paraguay in World Cup knockout match as Oktoberfest construction begins in Munich", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Chicago Bears assess Wolf Lake site in Hammond, Indiana for potential new stadium location", "source": "Chicago Sun-Times", "time": "Today" },
-    "sports": { "team": "Cubs", "headline": "Cubs (45-38) host game tonight at Wrigley Field, sitting 2nd in NL Central after Sunday win over Brewers", "source": "Chicago Sun-Times", "time": "Today" }
+    "lastSynced": "2026-06-30",
+    "world": {
+      "headline": "Venezuela earthquake death toll surpasses 1,700; U.S. Marines arrive to reopen La Guaira port for aid",
+      "source": "CNN",
+      "time": "Today"
+    },
+    "germany": {
+      "headline": "Germany eliminated from World Cup in first-ever penalty shootout loss, beaten by Paraguay in Boston",
+      "source": "The Local Germany",
+      "time": "Today"
+    },
+    "chicago": {
+      "headline": "Illinois House adjourns without vote on Bears stadium bill, leaving team's Chicago future uncertain",
+      "source": "NBC Chicago",
+      "time": "Today"
+    },
+    "sports": {
+      "team": "Cubs",
+      "headline": "Cubs beat Brewers 4-3 in 10 innings to take the series from Milwaukee",
+      "source": "ESPN",
+      "time": "Today"
+    }
   }
 }
