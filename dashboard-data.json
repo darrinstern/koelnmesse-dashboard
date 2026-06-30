@@ -3,45 +3,45 @@
   "outOfOffice": {
     "lastSynced": "2026-06-30",
     "synced": [
-      {"name": "George", "status": "OOO", "until": "2026-07-02"},
-      {"name": "VW", "status": "Comp", "until": "2026-07-02"},
-      {"name": "Jessica", "status": "OOO", "until": "2026-07-03"},
-      {"name": "Cathy", "status": "OOO", "until": "2026-07-03"},
-      {"name": "Mette", "status": "OOO", "until": "2026-07-03"},
-      {"name": "Courtney", "status": "OOO", "until": "2026-07-03"},
-      {"name": "George", "status": "OOO", "until": "2026-07-06"},
-      {"name": "Saloni", "status": "OOO", "until": "2026-07-06"},
-      {"name": "VW", "status": "Comp", "until": "2026-07-06"},
-      {"name": "Jessica", "status": "Comp Day", "until": "2026-07-06"},
-      {"name": "Darrin", "status": "OOO", "until": "2026-07-09"},
-      {"name": "Courtney", "status": "OOO", "until": "2026-07-09"},
-      {"name": "Cathy", "status": "OOO AM", "until": "2026-07-16"},
-      {"name": "VW", "status": "Comp", "until": "2026-07-17"},
-      {"name": "Cathy", "status": "OOO", "until": "2026-07-17"}
+      { "name": "VW", "status": "Comp", "until": "2026-07-02" },
+      { "name": "George", "status": "OOO", "until": "2026-07-02" },
+      { "name": "Jessica", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Kym", "status": "Comp Day", "until": "2026-07-06" },
+      { "name": "George", "status": "OOO", "until": "2026-07-06" },
+      { "name": "Saloni", "status": "OOO", "until": "2026-07-06" },
+      { "name": "VW", "status": "Comp", "until": "2026-07-06" },
+      { "name": "Jessica", "status": "Comp Day", "until": "2026-07-06" },
+      { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-10" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-10" }
     ],
     "manual": []
   },
   "news": {
     "lastSynced": "2026-06-30",
     "world": {
-      "headline": "Venezuela earthquake death toll surpasses 1,700; U.S. Marines arrive to reopen La Guaira port for aid",
-      "source": "CNN",
+      "headline": "US deploys Marines to Venezuela as earthquake death toll nears 1,500; Iran and US resume direct talks after Hormuz standoff",
+      "source": "WORLD",
       "time": "Today"
     },
     "germany": {
-      "headline": "Germany eliminated from World Cup in first-ever penalty shootout loss, beaten by Paraguay in Boston",
+      "headline": "Six staff killed at youth welfare facility in Stade in attack linked to custody dispute",
       "source": "The Local Germany",
       "time": "Today"
     },
     "chicago": {
-      "headline": "Illinois House adjourns without vote on Bears stadium bill, leaving team's Chicago future uncertain",
+      "headline": "Extreme heat warning through Wednesday as Chicago faces feels-like temps of 105-110°F",
       "source": "NBC Chicago",
       "time": "Today"
     },
     "sports": {
-      "team": "Cubs",
-      "headline": "Cubs beat Brewers 4-3 in 10 innings to take the series from Milwaukee",
-      "source": "ESPN",
+      "team": "Bears",
+      "headline": "Illinois legislature adjourns without vote on Bears stadium bill, deepening uncertainty over Chicago future",
+      "source": "Chicago Sun-Times",
       "time": "Today"
     }
   }
