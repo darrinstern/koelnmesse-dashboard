@@ -1,47 +1,41 @@
 {
-  "lastSynced": "2026-06-30",
+  "lastSynced": "2026-07-01",
   "outOfOffice": {
-    "lastSynced": "2026-06-30",
+    "lastSynced": "2026-07-01",
     "synced": [
-      { "name": "VW", "status": "Comp", "until": "2026-07-02" },
-      { "name": "George", "status": "OOO", "until": "2026-07-02" },
-      { "name": "Jessica", "status": "OOO", "until": "2026-07-03" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
       { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
-      { "name": "Kym", "status": "Comp Day", "until": "2026-07-06" },
       { "name": "George", "status": "OOO", "until": "2026-07-06" },
+      { "name": "Jessica", "status": "OOO", "until": "2026-07-06" },
+      { "name": "Kym", "status": "Comp Day", "until": "2026-07-06" },
       { "name": "Saloni", "status": "OOO", "until": "2026-07-06" },
-      { "name": "VW", "status": "Comp", "until": "2026-07-06" },
-      { "name": "Jessica", "status": "Comp Day", "until": "2026-07-06" },
       { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-10" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-10" }
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
+      { "name": "VW", "status": "Comp", "until": "2026-07-17" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-06-30",
+    "lastSynced": "2026-07-01",
     "world": {
-      "headline": "US deploys Marines to Venezuela as earthquake death toll nears 1,500; Iran and US resume direct talks after Hormuz standoff",
-      "source": "WORLD",
+      "headline": "Supreme Court rejects Trump's bid to end birthright citizenship, upholding the 14th Amendment",
+      "source": "NPR",
       "time": "Today"
     },
     "germany": {
-      "headline": "Six staff killed at youth welfare facility in Stade in attack linked to custody dispute",
+      "headline": "Fatal shooting at youth welfare facility in Stade kills six staff amid custody dispute",
       "source": "The Local Germany",
       "time": "Today"
     },
     "chicago": {
-      "headline": "Extreme heat warning through Wednesday as Chicago faces feels-like temps of 105-110°F",
-      "source": "NBC Chicago",
+      "headline": "Chicago minimum wage rises to $17.05 today as record July 4th travel weekend gets underway",
+      "source": "CBS Chicago",
       "time": "Today"
     },
     "sports": {
-      "team": "Bears",
-      "headline": "Illinois legislature adjourns without vote on Bears stadium bill, deepening uncertainty over Chicago future",
-      "source": "Chicago Sun-Times",
+      "team": "Cubs",
+      "headline": "Cubs edge Padres 3-2 at Wrigley despite sixth injury-related roster move in a week",
+      "source": "ESPN",
       "time": "Today"
     }
   }
