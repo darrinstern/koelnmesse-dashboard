@@ -1,41 +1,47 @@
 {
-  "lastSynced": "2026-07-01",
+  "lastSynced": "2026-07-02",
   "outOfOffice": {
-    "lastSynced": "2026-07-01",
+    "lastSynced": "2026-07-02",
     "synced": [
-      { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
-      { "name": "George", "status": "OOO", "until": "2026-07-06" },
-      { "name": "Jessica", "status": "OOO", "until": "2026-07-06" },
+      { "name": "Leslie", "status": "Vacation", "until": "2026-07-02" },
+      { "name": "George", "status": "Vacation", "until": "2026-07-02" },
+      { "name": "VW", "status": "Comp Day", "until": "2026-07-02" },
+      { "name": "Jessica", "status": "Vacation", "until": "2026-07-03" },
+      { "name": "Cathy", "status": "Vacation", "until": "2026-07-03" },
+      { "name": "Mette", "status": "Vacation", "until": "2026-07-03" },
+      { "name": "Courtney", "status": "Vacation", "until": "2026-07-03" },
       { "name": "Kym", "status": "Comp Day", "until": "2026-07-06" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-06" },
-      { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
-      { "name": "VW", "status": "Comp", "until": "2026-07-17" }
+      { "name": "George", "status": "Vacation", "until": "2026-07-06" },
+      { "name": "Saloni", "status": "Vacation", "until": "2026-07-06" },
+      { "name": "VW", "status": "Comp Day", "until": "2026-07-06" },
+      { "name": "Jessica", "status": "Comp Day", "until": "2026-07-06" },
+      { "name": "Darrin", "status": "Vacation", "until": "2026-07-09" },
+      { "name": "Courtney", "status": "Vacation", "until": "2026-07-09" },
+      { "name": "Cathy", "status": "Vacation", "until": "2026-07-10" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-07-01",
+    "lastSynced": "2026-07-02",
     "world": {
-      "headline": "Supreme Court rejects Trump's bid to end birthright citizenship, upholding the 14th Amendment",
-      "source": "NPR",
+      "headline": "US and Iran signal 'positive progress' in talks, paused for former leader's funeral",
+      "source": "Al Jazeera",
       "time": "Today"
     },
     "germany": {
-      "headline": "Fatal shooting at youth welfare facility in Stade kills six staff amid custody dispute",
+      "headline": "German coalition strikes deal on economic reform package to revive growth, shore up social security",
       "source": "The Local Germany",
       "time": "Today"
     },
     "chicago": {
-      "headline": "Chicago minimum wage rises to $17.05 today as record July 4th travel weekend gets underway",
-      "source": "CBS Chicago",
+      "headline": "Chicago Police Supt. Larry Snelling announces retirement, effective July 15",
+      "source": "NBC 5 Chicago",
       "time": "Today"
     },
     "sports": {
       "team": "Cubs",
-      "headline": "Cubs edge Padres 3-2 at Wrigley despite sixth injury-related roster move in a week",
-      "source": "ESPN",
+      "headline": "Cubs crush Padres 23-3, sweep series at Wrigley as Swanson hits three homers, grand slam",
+      "source": "MLB.com",
       "time": "Today"
     }
   }
