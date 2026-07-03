@@ -3,46 +3,29 @@
   "outOfOffice": {
     "lastSynced": "2026-07-03",
     "synced": [
-      { "name": "Leslie", "status": "Vacation", "until": "2026-07-02" },
-      { "name": "George", "status": "Vacation", "until": "2026-07-02" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-07-02" },
-      { "name": "Jessica", "status": "Vacation", "until": "2026-07-03" },
-      { "name": "Cathy", "status": "Vacation", "until": "2026-07-03" },
-      { "name": "Mette", "status": "Vacation", "until": "2026-07-03" },
-      { "name": "Courtney", "status": "Vacation", "until": "2026-07-03" },
+      { "name": "Jessica", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Mette", "status": "OOO", "until": "2026-07-03" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-03" },
       { "name": "Kym", "status": "Comp Day", "until": "2026-07-06" },
-      { "name": "George", "status": "Vacation", "until": "2026-07-06" },
-      { "name": "Saloni", "status": "Vacation", "until": "2026-07-06" },
+      { "name": "George", "status": "OOO", "until": "2026-07-06" },
+      { "name": "Saloni", "status": "OOO", "until": "2026-07-06" },
       { "name": "VW", "status": "Comp Day", "until": "2026-07-06" },
       { "name": "Jessica", "status": "Comp Day", "until": "2026-07-06" },
-      { "name": "Darrin", "status": "Vacation", "until": "2026-07-09" },
-      { "name": "Courtney", "status": "Vacation", "until": "2026-07-09" },
-      { "name": "Cathy", "status": "Vacation", "until": "2026-07-10" }
+      { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
+      { "name": "Cathy", "status": "OOO AM", "until": "2026-07-16" },
+      { "name": "VW", "status": "Comp Day", "until": "2026-07-17" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-17" }
     ],
     "manual": []
   },
   "news": {
     "lastSynced": "2026-07-03",
-    "world": {
-      "headline": "At least 22 killed as Russia launches massive strike on Kyiv; US-Iran talks paused for Khamenei funeral",
-      "source": "Al Jazeera",
-      "time": "Today"
-    },
-    "germany": {
-      "headline": "German coalition agrees reform package to revive economic growth, shore up social security",
-      "source": "The Local Germany",
-      "time": "Today"
-    },
-    "chicago": {
-      "headline": "Extreme heat warning continues as Chicago preps for record July 4th crowds at Navy Pier",
-      "source": "NBC 5 Chicago",
-      "time": "Today"
-    },
-    "sports": {
-      "team": "Cubs",
-      "headline": "Cubs rally with four-run ninth to beat A's 7-6, avoid three-game sweep",
-      "source": "Chicago Sun-Times",
-      "time": "Yesterday"
-    }
+    "world": { "headline": "Bomb blast kills 5 in Damascus cafe as Syrian security forces hunt for attackers", "source": "Al Jazeera", "time": "Today" },
+    "germany": { "headline": "Germany coach Julian Nagelsmann resigns after shock World Cup exit to Paraguay", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Chicago Police Supt. Larry Snelling announces retirement later this month", "source": "NBC 5 Chicago", "time": "Today" },
+    "sports": { "team": "Cubs", "headline": "Cubs win five straight after sweeping Padres, improve to 49-38", "source": "Chicago Sun-Times", "time": "Today" }
   }
 }
