@@ -1,7 +1,7 @@
 {
-  "lastSynced": "2026-07-02",
+  "lastSynced": "2026-07-03",
   "outOfOffice": {
-    "lastSynced": "2026-07-02",
+    "lastSynced": "2026-07-03",
     "synced": [
       { "name": "Leslie", "status": "Vacation", "until": "2026-07-02" },
       { "name": "George", "status": "Vacation", "until": "2026-07-02" },
@@ -22,27 +22,27 @@
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-07-02",
+    "lastSynced": "2026-07-03",
     "world": {
-      "headline": "US and Iran signal 'positive progress' in talks, paused for former leader's funeral",
+      "headline": "At least 22 killed as Russia launches massive strike on Kyiv; US-Iran talks paused for Khamenei funeral",
       "source": "Al Jazeera",
       "time": "Today"
     },
     "germany": {
-      "headline": "German coalition strikes deal on economic reform package to revive growth, shore up social security",
+      "headline": "German coalition agrees reform package to revive economic growth, shore up social security",
       "source": "The Local Germany",
       "time": "Today"
     },
     "chicago": {
-      "headline": "Chicago Police Supt. Larry Snelling announces retirement, effective July 15",
+      "headline": "Extreme heat warning continues as Chicago preps for record July 4th crowds at Navy Pier",
       "source": "NBC 5 Chicago",
       "time": "Today"
     },
     "sports": {
       "team": "Cubs",
-      "headline": "Cubs crush Padres 23-3, sweep series at Wrigley as Swanson hits three homers, grand slam",
-      "source": "MLB.com",
-      "time": "Today"
+      "headline": "Cubs rally with four-run ninth to beat A's 7-6, avoid three-game sweep",
+      "source": "Chicago Sun-Times",
+      "time": "Yesterday"
     }
   }
 }
