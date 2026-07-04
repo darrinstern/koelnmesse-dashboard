@@ -1,31 +1,48 @@
 {
-  "lastSynced": "2026-07-03",
+  "lastSynced": "2026-07-04",
   "outOfOffice": {
-    "lastSynced": "2026-07-03",
+    "lastSynced": "2026-07-04",
     "synced": [
-      { "name": "Jessica", "status": "Vacation", "until": "2026-07-03" },
-      { "name": "Cathy", "status": "Vacation", "until": "2026-07-03" },
-      { "name": "Mette", "status": "Vacation", "until": "2026-07-03" },
-      { "name": "Courtney", "status": "Vacation", "until": "2026-07-03" },
       { "name": "Kym", "status": "Comp Day", "until": "2026-07-06" },
-      { "name": "George", "status": "Vacation", "until": "2026-07-06" },
-      { "name": "Saloni", "status": "Vacation", "until": "2026-07-06" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-07-06" },
+      { "name": "George", "status": "OOO", "until": "2026-07-06" },
+      { "name": "Saloni", "status": "OOO", "until": "2026-07-06" },
+      { "name": "VW", "status": "Comp", "until": "2026-07-06" },
       { "name": "Jessica", "status": "Comp Day", "until": "2026-07-06" },
-      { "name": "Darrin", "status": "Vacation", "until": "2026-07-09" },
-      { "name": "Courtney", "status": "Vacation", "until": "2026-07-09" },
-      { "name": "Cathy", "status": "Vacation", "until": "2026-07-10" },
-      { "name": "Cathy", "status": "OOO AM", "until": "2026-07-16" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-07-17" },
-      { "name": "Cathy", "status": "Vacation", "until": "2026-07-17" }
+      { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-10" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-10" },
+      { "name": "Cathy", "status": "OOO (AM)", "until": "2026-07-16" },
+      { "name": "VW", "status": "Comp", "until": "2026-07-17" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
+      { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
+      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-07-03",
-    "world": { "headline": "Bomb blast kills 5 in Damascus cafe as Syrian security forces hunt for attackers", "source": "Al Jazeera", "time": "Today" },
-    "germany": { "headline": "Germany coach Julian Nagelsmann resigns after shock World Cup exit to Paraguay", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Chicago Police Supt. Larry Snelling announces retirement later this month", "source": "NBC 5 Chicago", "time": "Today" },
-    "sports": { "team": "Cubs", "headline": "Cubs win five straight after sweeping Padres, improve to 49-38", "source": "Chicago Sun-Times", "time": "Today" }
+    "lastSynced": "2026-07-04",
+    "world": {
+      "headline": "At least 22 killed in Russian missile and drone strikes on Kyiv",
+      "source": "Al Jazeera",
+      "time": "Today"
+    },
+    "germany": {
+      "headline": "German coalition reaches deal on economic reform package after marathon Berlin talks",
+      "source": "The Local Germany",
+      "time": "Today"
+    },
+    "chicago": {
+      "headline": "Severe storms force cancellation of several Chicago-area July 4th fireworks displays",
+      "source": "NBC Chicago",
+      "time": "Today"
+    },
+    "sports": {
+      "team": "Cubs",
+      "headline": "Cubs ride 15-4 hot streak into playoff contention behind Suzuki's walk-off heroics",
+      "source": "MLB.com",
+      "time": "Today"
+    }
   }
 }
