@@ -3,11 +3,11 @@
   "outOfOffice": {
     "lastSynced": "2026-07-07",
     "synced": [
-      { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
+      { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-10" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-10" },
-      { "name": "Cathy", "status": "OOO (AM)", "until": "2026-07-16" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-16" },
       { "name": "VW", "status": "Comp Day", "until": "2026-07-17" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
@@ -23,9 +23,9 @@
   },
   "news": {
     "lastSynced": "2026-07-07",
-    "world": { "headline": "Trump says US will \"win\" Iran standoff as NATO summit opens in Ankara", "source": "CBS News", "time": "Today" },
-    "germany": { "headline": "German cabinet approves 2027 budget ahead of fall Bundestag debate", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Two Chicago police officers shot in South Shore neighborhood", "source": "WGN News", "time": "Today" },
-    "sports": { "team": "White Sox", "headline": "White Sox host Red Sox tonight at Rate Field on the South Side", "source": "NBC Sports Chicago", "time": "Today" }
+    "world": { "headline": "Trump, Zelenskyy to meet at NATO summit in Turkey as Ukraine war grinds on", "source": "CNN", "time": "Today" },
+    "germany": { "headline": "German cabinet approves 2026 budget; Bundestag debate set for autumn", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Illinois enacts nation's toughest AI safety law", "source": "Chicago Sun-Times", "time": "Today" },
+    "sports": { "team": "White Sox", "headline": "White Sox host Red Sox at Rate Field tonight, 6:40 PM first pitch", "source": "NBC Sports Chicago", "time": "Today" }
   }
 }
