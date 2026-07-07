@@ -1,48 +1,31 @@
 {
-  "lastSynced": "2026-07-06",
+  "lastSynced": "2026-07-07",
   "outOfOffice": {
-    "lastSynced": "2026-07-06",
+    "lastSynced": "2026-07-07",
     "synced": [
-      { "name": "Kym", "status": "Comp Day", "until": "2026-07-06" },
-      { "name": "George", "status": "OOO", "until": "2026-07-06" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-06" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-07-06" },
-      { "name": "Jessica", "status": "Comp Day", "until": "2026-07-06" },
       { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-10" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-10" },
-      { "name": "Cathy", "status": "OOO - AM", "until": "2026-07-16" },
+      { "name": "Cathy", "status": "OOO (AM)", "until": "2026-07-16" },
       { "name": "VW", "status": "Comp Day", "until": "2026-07-17" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
       { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" }
+      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
+      { "name": "George", "status": "OOO", "until": "2026-07-24" },
+      { "name": "VW", "status": "Comp Day", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-31" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-07-06",
-    "world": {
-      "headline": "China launches rare submarine ballistic missile test ahead of NATO summit in Ankara",
-      "source": "Fox News",
-      "time": "Today"
-    },
-    "germany": {
-      "headline": "Cologne Pride draws record crowds amid concerns over rising anti-queer hostility",
-      "source": "The Local Germany",
-      "time": "Today"
-    },
-    "chicago": {
-      "headline": "Two Chicago police officers and a suspect shot, wounded in South Shore",
-      "source": "Chicago Sun-Times",
-      "time": "Today"
-    },
-    "sports": {
-      "team": "Cubs",
-      "headline": "Cubs roundup: latest on Swanson, Conforto, Suzuki and trade buzz",
-      "source": "Yahoo Sports",
-      "time": "Today"
-    }
+    "lastSynced": "2026-07-07",
+    "world": { "headline": "Trump says US will \"win\" Iran standoff as NATO summit opens in Ankara", "source": "CBS News", "time": "Today" },
+    "germany": { "headline": "German cabinet approves 2027 budget ahead of fall Bundestag debate", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Two Chicago police officers shot in South Shore neighborhood", "source": "WGN News", "time": "Today" },
+    "sports": { "team": "White Sox", "headline": "White Sox host Red Sox tonight at Rate Field on the South Side", "source": "NBC Sports Chicago", "time": "Today" }
   }
 }
