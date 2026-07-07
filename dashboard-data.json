@@ -1,48 +1,31 @@
 {
-  "lastSynced": "2026-07-04",
+  "lastSynced": "2026-07-06",
   "outOfOffice": {
-    "lastSynced": "2026-07-04",
+    "lastSynced": "2026-07-06",
     "synced": [
       { "name": "Kym", "status": "Comp Day", "until": "2026-07-06" },
-      { "name": "George", "status": "OOO", "until": "2026-07-06" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-06" },
+      { "name": "George", "status": "Out of Office", "until": "2026-07-06" },
+      { "name": "Saloni", "status": "Out of Office", "until": "2026-07-06" },
       { "name": "VW", "status": "Comp Day", "until": "2026-07-06" },
       { "name": "Jessica", "status": "Comp Day", "until": "2026-07-06" },
-      { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-10" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-10" },
-      { "name": "Cathy", "status": "OOO - AM", "until": "2026-07-16" },
+      { "name": "Darrin", "status": "Out of Office", "until": "2026-07-09" },
+      { "name": "Courtney", "status": "Out of Office", "until": "2026-07-09" },
+      { "name": "Cathy", "status": "Out of Office", "until": "2026-07-10" },
+      { "name": "Courtney", "status": "Out of Office", "until": "2026-07-10" },
+      { "name": "Cathy", "status": "Out of Office (AM)", "until": "2026-07-16" },
       { "name": "VW", "status": "Comp Day", "until": "2026-07-17" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
-      { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" }
+      { "name": "Cathy", "status": "Out of Office", "until": "2026-07-17" },
+      { "name": "Courtney", "status": "Out of Office", "until": "2026-07-17" },
+      { "name": "Robin", "status": "Out of Office", "until": "2026-07-22" },
+      { "name": "Saloni", "status": "Out of Office", "until": "2026-07-24" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-07-04",
-    "world": {
-      "headline": "Iran begins dayslong funeral for Ayatollah Khamenei as mourners chant for revenge",
-      "source": "CBS News",
-      "time": "Today"
-    },
-    "germany": {
-      "headline": "German coalition strikes economic reform deal after marathon Berlin talks",
-      "source": "The Local Germany",
-      "time": "Today"
-    },
-    "chicago": {
-      "headline": "Two Chicago police officers shot in South Shore neighborhood",
-      "source": "WGN-TV",
-      "time": "This morning"
-    },
-    "sports": {
-      "team": "Cubs",
-      "headline": "Seiya Suzuki lifts Cubs to 10th walk-off win of the season at Wrigley",
-      "source": "NBC Chicago",
-      "time": "Today"
-    }
+    "lastSynced": "2026-07-06",
+    "world":   { "headline": "Hamas announces dissolution of Gaza governing body", "source": "Al Jazeera", "time": "Today" },
+    "germany": { "headline": "Tens of thousands protest AfD congress as Weidel, Chrupalla re-elected as co-leaders", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Illinois home insurance premiums climbing faster than national average", "source": "NBC Chicago", "time": "Today" },
+    "sports":  { "team": "Cubs", "headline": "Seiya Suzuki delivers Cubs' 10th walk-off win of the season at Wrigley Field", "source": "Yahoo Sports", "time": "Today" }
   }
 }
