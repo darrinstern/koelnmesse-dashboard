@@ -1,31 +1,31 @@
 {
-  "lastSynced": "2026-07-07",
+  "lastSynced": "2026-07-08",
   "outOfOffice": {
-    "lastSynced": "2026-07-07",
+    "lastSynced": "2026-07-08",
     "synced": [
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
       { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-10" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-10" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-16" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-07-17" },
+      { "name": "VW", "status": "Comp", "until": "2026-07-17" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
       { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
       { "name": "George", "status": "OOO", "until": "2026-07-24" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-07-24" },
+      { "name": "VW", "status": "Comp", "until": "2026-07-24" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-31" }
+      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-31" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-07-07",
-    "world": { "headline": "Trump, Zelenskyy to meet at NATO summit in Turkey as Ukraine war grinds on", "source": "CNN", "time": "Today" },
-    "germany": { "headline": "German cabinet approves 2026 budget; Bundestag debate set for autumn", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Illinois enacts nation's toughest AI safety law", "source": "Chicago Sun-Times", "time": "Today" },
-    "sports": { "team": "White Sox", "headline": "White Sox host Red Sox at Rate Field tonight, 6:40 PM first pitch", "source": "NBC Sports Chicago", "time": "Today" }
+    "lastSynced": "2026-07-08",
+    "world": { "headline": "US launches new strikes on Iran after merchant ships hit in Strait of Hormuz", "source": "AP", "time": "Today" },
+    "germany": { "headline": "Germany heads into NATO summit touting record 2026 defence spending of €124.7 billion", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Deep Tunnel reservoir near capacity as Chicago region reels from holiday weekend rainfall", "source": "WTTW Chicago", "time": "Yesterday" },
+    "sports": { "team": "Cubs", "headline": "Cubs' Pete Crow-Armstrong earns second straight All-Star selection", "source": "ESPN", "time": "Today" }
   }
 }
