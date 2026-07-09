@@ -1,31 +1,31 @@
 {
-  "lastSynced": "2026-07-08",
+  "lastSynced": "2026-07-09",
   "outOfOffice": {
-    "lastSynced": "2026-07-08",
+    "lastSynced": "2026-07-09",
     "synced": [
-      { "name": "Darrin", "status": "OOO", "until": "2026-07-09" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-09" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-10" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-10" },
-      { "name": "VW", "status": "Comp", "until": "2026-07-17" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
-      { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
-      { "name": "George", "status": "OOO", "until": "2026-07-24" },
-      { "name": "VW", "status": "Comp", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-31" }
+      {"name": "Darrin", "status": "OOO", "until": "2026-07-09"},
+      {"name": "Courtney", "status": "OOO", "until": "2026-07-09"},
+      {"name": "Cathy", "status": "OOO", "until": "2026-07-10"},
+      {"name": "Courtney", "status": "OOO", "until": "2026-07-10"},
+      {"name": "Cathy", "status": "OOO AM", "until": "2026-07-16"},
+      {"name": "VW", "status": "Comp", "until": "2026-07-17"},
+      {"name": "Cathy", "status": "OOO", "until": "2026-07-17"},
+      {"name": "Courtney", "status": "OOO", "until": "2026-07-17"},
+      {"name": "Robin", "status": "OOO", "until": "2026-07-22"},
+      {"name": "Saloni", "status": "OOO", "until": "2026-07-24"},
+      {"name": "George", "status": "OOO", "until": "2026-07-24"},
+      {"name": "VW", "status": "Comp", "until": "2026-07-24"},
+      {"name": "Cathy", "status": "OOO", "until": "2026-07-24"},
+      {"name": "Courtney", "status": "OOO", "until": "2026-07-24"},
+      {"name": "Cathy", "status": "OOO", "until": "2026-07-31"}
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-07-08",
-    "world": { "headline": "US launches new strikes on Iran after merchant ships hit in Strait of Hormuz", "source": "AP", "time": "Today" },
-    "germany": { "headline": "Germany heads into NATO summit touting record 2026 defence spending of €124.7 billion", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Deep Tunnel reservoir near capacity as Chicago region reels from holiday weekend rainfall", "source": "WTTW Chicago", "time": "Yesterday" },
-    "sports": { "team": "Cubs", "headline": "Cubs' Pete Crow-Armstrong earns second straight All-Star selection", "source": "ESPN", "time": "Today" }
+    "lastSynced": "2026-07-09",
+    "world": {"headline": "Trump declares Iran ceasefire 'over' after Iranian attacks draw major US response", "source": "Fox News", "time": "Today"},
+    "germany": {"headline": "Volkswagen faces showdown as up to 100,000 jobs, German plant closures at risk", "source": "The Local Germany", "time": "Today"},
+    "chicago": {"headline": "Chicago falling short of 2026 revenue projections, Mayor Johnson warns", "source": "Chicago Sun-Times", "time": "Today"},
+    "sports": {"team": "Cubs", "headline": "Cubs visit Orioles today, look to stay hot after 21 HRs in last 10 games", "source": "Bleacher Nation", "time": "Today"}
   }
 }
