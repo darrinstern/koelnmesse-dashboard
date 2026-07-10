@@ -5,27 +5,27 @@
     "synced": [
       { "name": "Cathy", "status": "OOO", "until": "2026-07-10" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-10" },
+      { "name": "Kate", "status": "IFT Chicago", "until": "2026-07-14" },
       { "name": "Cathy", "status": "OOO AM", "until": "2026-07-16" },
       { "name": "VW", "status": "Comp", "until": "2026-07-17" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
       { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
       { "name": "George", "status": "OOO", "until": "2026-07-24" },
+      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
       { "name": "VW", "status": "Comp", "until": "2026-07-24" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-31" },
-      { "name": "VW", "status": "Comp", "until": "2026-08-04" }
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-31" }
     ],
     "manual": []
   },
   "news": {
     "lastSynced": "2026-07-10",
-    "world": { "headline": "US strikes about 90 more Iranian military targets in second day of retaliation for Strait of Hormuz attacks", "source": "WORLD News Group", "time": "Today" },
-    "germany": { "headline": "Germany to buy US Tomahawk cruise missiles, Merz confirms, closing key gap in long-range defence", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Taste of Chicago 2026 returns with free admission, five days of international food and music", "source": "Chicago Sun-Times", "time": "Today" },
-    "sports": { "team": "White Sox", "headline": "White Sox top prospect Caleb Bonemer selected for MLB All-Star Futures Game Sunday in Philadelphia", "source": "MLB.com", "time": "Today" }
+    "world": { "headline": "Strait of Hormuz shipping traffic plunges as US and Iran resume fighting", "source": "Al Jazeera", "time": "Today" },
+    "germany": { "headline": "Bundestag backs automatic child benefit payments, sparing new parents paperwork from 2027", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Taste of Chicago 2026 returns with free admission, five days of food and music", "source": "Chicago Sun-Times", "time": "Today" },
+    "sports": { "team": "Cubs", "headline": "Pete Crow-Armstrong becomes first player this season to reach 20 homers, 20 steals", "source": "MLB.com", "time": "Today" }
   }
 }
