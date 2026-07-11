@@ -1,31 +1,31 @@
 {
-  "lastSynced": "2026-07-10",
+  "lastSynced": "2026-07-11",
   "outOfOffice": {
-    "lastSynced": "2026-07-10",
+    "lastSynced": "2026-07-11",
     "synced": [
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-10" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-10" },
       { "name": "Kate", "status": "IFT Chicago", "until": "2026-07-14" },
-      { "name": "Cathy", "status": "OOO AM", "until": "2026-07-16" },
+      { "name": "Cathy", "status": "Out - AM", "until": "2026-07-16" },
       { "name": "VW", "status": "Comp", "until": "2026-07-17" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
-      { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
-      { "name": "George", "status": "OOO", "until": "2026-07-24" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "Out", "until": "2026-07-17" },
+      { "name": "Courtney", "status": "Out", "until": "2026-07-17" },
+      { "name": "Robin", "status": "Out", "until": "2026-07-22" },
+      { "name": "Saloni", "status": "Out", "until": "2026-07-24" },
+      { "name": "George", "status": "Travel", "until": "2026-07-24" },
       { "name": "VW", "status": "Comp", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-31" }
+      { "name": "Cathy", "status": "Out", "until": "2026-07-24" },
+      { "name": "Courtney", "status": "Out", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "Out", "until": "2026-07-31" },
+      { "name": "Courtney", "status": "Out", "until": "2026-07-31" },
+      { "name": "VW", "status": "Comp", "until": "2026-08-04" },
+      { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-07-10",
-    "world": { "headline": "Strait of Hormuz shipping traffic plunges as US and Iran resume fighting", "source": "Al Jazeera", "time": "Today" },
-    "germany": { "headline": "Bundestag backs automatic child benefit payments, sparing new parents paperwork from 2027", "source": "The Local Germany", "time": "Today" },
+    "lastSynced": "2026-07-11",
+    "world": { "headline": "Shaky ceasefire holds between US and Iran after two days of strikes", "source": "NPR", "time": "Today" },
+    "germany": { "headline": "Germany to purchase US Tomahawk cruise missiles in major NATO deterrence boost", "source": "The Local Germany", "time": "Yesterday" },
     "chicago": { "headline": "Taste of Chicago 2026 returns with free admission, five days of food and music", "source": "Chicago Sun-Times", "time": "Today" },
-    "sports": { "team": "Cubs", "headline": "Pete Crow-Armstrong becomes first player this season to reach 20 homers, 20 steals", "source": "MLB.com", "time": "Today" }
+    "sports": { "team": "White Sox", "headline": "Colson Montgomery's go-ahead homer lifts White Sox past Guardians 3-1", "source": "CBS Chicago", "time": "Today" }
   }
 }
