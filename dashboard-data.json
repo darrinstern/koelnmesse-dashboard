@@ -4,28 +4,28 @@
     "lastSynced": "2026-07-14",
     "synced": [
       { "name": "Kate", "status": "IFT Chicago", "until": "2026-07-14" },
-      { "name": "Cathy", "status": "Out (AM)", "until": "2026-07-16" },
-      { "name": "Cathy", "status": "Out", "until": "2026-07-17" },
-      { "name": "Courtney", "status": "Out", "until": "2026-07-17" },
-      { "name": "Robin", "status": "Out", "until": "2026-07-22" },
-      { "name": "Saloni", "status": "Out", "until": "2026-07-24" },
-      { "name": "George", "status": "Out", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "OOO (AM)", "until": "2026-07-16" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
+      { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
+      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
+      { "name": "George", "status": "Travel", "until": "2026-07-24" },
       { "name": "VW", "status": "Comp Day", "until": "2026-07-24" },
-      { "name": "Kate", "status": "Out", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "Out", "until": "2026-07-24" },
-      { "name": "Courtney", "status": "Out", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "Out", "until": "2026-07-31" },
-      { "name": "Courtney", "status": "Out", "until": "2026-07-31" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-08-05" },
+      { "name": "Kate", "status": "OOO", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-31" },
+      { "name": "VW", "status": "Comp Days", "until": "2026-08-05" },
       { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" }
     ],
     "manual": []
   },
   "news": {
     "lastSynced": "2026-07-14",
-    "world": { "headline": "World leaders gather in Doha to honor former Qatar ruler Sheikh Hamad, who died at 74", "source": "Al Jazeera", "time": "Today" },
-    "germany": { "headline": "Germany marks five years since Ahr Valley floods; Merz and Steinmeier attend commemorations", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Chicago braces for hottest day in nearly two years: 97-degree high, triple-digit heat index", "source": "WGN-TV", "time": "This morning" },
-    "sports": { "team": "White Sox", "headline": "White Sox sign No. 1 pick Roch Cholowsky to record deal, sit tied atop AL Central at the break", "source": "MLB.com", "time": "Today" }
+    "world": { "headline": "US restarts military action against Iran; Trump plans 20% levy on cargo through Strait of Hormuz", "source": "CBS News", "time": "Today" },
+    "germany": { "headline": "Germany marks five years since the Ahr Valley floods; Chancellor Merz attends commemorations", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Chicago braces for 97-degree heat, its hottest day in nearly two years, with heat index over 100", "source": "WGN-TV", "time": "Today" },
+    "sports": { "team": "White Sox", "headline": "White Sox hit the All-Star break tied for first in AL Central; rookie Murakami shines in Derby", "source": "FOX Sports", "time": "Today" }
   }
 }
