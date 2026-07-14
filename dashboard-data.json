@@ -1,31 +1,31 @@
 {
-  "lastSynced": "2026-07-13",
+  "lastSynced": "2026-07-14",
   "outOfOffice": {
-    "lastSynced": "2026-07-13",
+    "lastSynced": "2026-07-14",
     "synced": [
       { "name": "Kate", "status": "IFT Chicago", "until": "2026-07-14" },
-      { "name": "Cathy", "status": "OOO (AM)", "until": "2026-07-16" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-07-17" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
-      { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
-      { "name": "George", "status": "OOO", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "Out (AM)", "until": "2026-07-16" },
+      { "name": "Cathy", "status": "Out", "until": "2026-07-17" },
+      { "name": "Courtney", "status": "Out", "until": "2026-07-17" },
+      { "name": "Robin", "status": "Out", "until": "2026-07-22" },
+      { "name": "Saloni", "status": "Out", "until": "2026-07-24" },
+      { "name": "George", "status": "Out", "until": "2026-07-24" },
       { "name": "VW", "status": "Comp Day", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-31" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-08-04" },
+      { "name": "Kate", "status": "Out", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "Out", "until": "2026-07-24" },
+      { "name": "Courtney", "status": "Out", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "Out", "until": "2026-07-31" },
+      { "name": "Courtney", "status": "Out", "until": "2026-07-31" },
+      { "name": "VW", "status": "Comp Day", "until": "2026-08-05" },
       { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-07-13",
-    "world":   { "headline": "U.S. military says it struck 140 targets in Iran overnight; Iran responds with fire toward Jordan and Gulf states", "source": "Democracy Now", "time": "Today" },
-    "germany": { "headline": "Police investigate suspected rail sabotage in North Rhine-Westphalia", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Rev. Michael Pfleger removed from ministry as Archdiocese investigates decades-old abuse claim", "source": "Chicago Sun-Times", "time": "Today" },
-    "sports":  { "team": "Cubs / White Sox", "headline": "Cubs beat Reds 8-4 behind Bregman's 4 RBIs; White Sox rout A's 9-1 heading into All-Star break", "source": "WHTC Sports", "time": "This morning" }
+    "lastSynced": "2026-07-14",
+    "world": { "headline": "World leaders gather in Doha to honor former Qatar ruler Sheikh Hamad, who died at 74", "source": "Al Jazeera", "time": "Today" },
+    "germany": { "headline": "Germany marks five years since Ahr Valley floods; Merz and Steinmeier attend commemorations", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Chicago braces for hottest day in nearly two years: 97-degree high, triple-digit heat index", "source": "WGN-TV", "time": "This morning" },
+    "sports": { "team": "White Sox", "headline": "White Sox sign No. 1 pick Roch Cholowsky to record deal, sit tied atop AL Central at the break", "source": "MLB.com", "time": "Today" }
   }
 }
