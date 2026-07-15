@@ -1,31 +1,31 @@
 {
-  "lastSynced": "2026-07-14",
+  "lastSynced": "2026-07-15",
   "outOfOffice": {
-    "lastSynced": "2026-07-14",
+    "lastSynced": "2026-07-15",
     "synced": [
-      { "name": "Kate", "status": "IFT Chicago", "until": "2026-07-14" },
       { "name": "Cathy", "status": "OOO (AM)", "until": "2026-07-16" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
       { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
       { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
-      { "name": "George", "status": "Travel", "until": "2026-07-24" },
+      { "name": "George", "status": "OOO", "until": "2026-07-24" },
       { "name": "VW", "status": "Comp Day", "until": "2026-07-24" },
       { "name": "Kate", "status": "OOO", "until": "2026-07-24" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-31" },
-      { "name": "VW", "status": "Comp Days", "until": "2026-08-05" },
-      { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" }
+      { "name": "VW", "status": "Comp Day", "until": "2026-08-05" },
+      { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-08-07" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-07-14",
-    "world": { "headline": "US restarts military action against Iran; Trump plans 20% levy on cargo through Strait of Hormuz", "source": "CBS News", "time": "Today" },
-    "germany": { "headline": "Germany marks five years since the Ahr Valley floods; Chancellor Merz attends commemorations", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Chicago braces for 97-degree heat, its hottest day in nearly two years, with heat index over 100", "source": "WGN-TV", "time": "Today" },
-    "sports": { "team": "White Sox", "headline": "White Sox hit the All-Star break tied for first in AL Central; rookie Murakami shines in Derby", "source": "FOX Sports", "time": "Today" }
+    "lastSynced": "2026-07-15",
+    "world": { "headline": "US warns of strikes on Iran's bridges and power plants unless Tehran returns to talks; forces clash for fourth day", "source": "10 Things Global News", "time": "Today" },
+    "germany": { "headline": "Chancellor Friedrich Merz faces 90-minute summer interview on foreign policy and coalition reform record", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "NAACP National Convention opens at McCormick Place West, drawing thousands through July 19", "source": "Chicago Defender", "time": "This morning" },
+    "sports": { "team": "White Sox / Cubs", "headline": "White Sox open second half atop AL Central as Cubs hold comfortable NL Wild Card lead", "source": "Axios Chicago", "time": "Today" }
   }
 }
