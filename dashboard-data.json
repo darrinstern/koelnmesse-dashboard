@@ -1,7 +1,7 @@
 {
-  "lastSynced": "2026-07-15",
+  "lastSynced": "2026-07-16",
   "outOfOffice": {
-    "lastSynced": "2026-07-15",
+    "lastSynced": "2026-07-16",
     "synced": [
       { "name": "Cathy", "status": "OOO (AM)", "until": "2026-07-16" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
@@ -9,23 +9,23 @@
       { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
       { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
       { "name": "George", "status": "OOO", "until": "2026-07-24" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-07-24" },
+      { "name": "VW", "status": "Comp", "until": "2026-07-24" },
       { "name": "Kate", "status": "OOO", "until": "2026-07-24" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-31" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-08-05" },
+      { "name": "VW", "status": "Comp", "until": "2026-08-05" },
       { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" },
       { "name": "Cathy", "status": "OOO", "until": "2026-08-07" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-07-15",
-    "world": { "headline": "US warns of strikes on Iran's bridges and power plants unless Tehran returns to talks; forces clash for fourth day", "source": "10 Things Global News", "time": "Today" },
-    "germany": { "headline": "Chancellor Friedrich Merz faces 90-minute summer interview on foreign policy and coalition reform record", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "NAACP National Convention opens at McCormick Place West, drawing thousands through July 19", "source": "Chicago Defender", "time": "This morning" },
-    "sports": { "team": "White Sox / Cubs", "headline": "White Sox open second half atop AL Central as Cubs hold comfortable NL Wild Card lead", "source": "Axios Chicago", "time": "Today" }
+    "lastSynced": "2026-07-16",
+    "world": { "headline": "Tensions escalate as Iran shuts Strait of Hormuz and US reimposes naval blockade; Tehran rules out talks", "source": "GoLocalProv", "time": "Today" },
+    "germany": { "headline": "Merz open to Chinese takeovers of struggling German auto plants as VW warns of up to 50,000 more job cuts", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Chicago declares Red Air Pollution Action Day as Canadian wildfire smoke pushes air quality to unhealthy levels", "source": "City of Chicago", "time": "Today" },
+    "sports": { "team": "Cubs / White Sox", "headline": "Cubs hold Wild Card lead and White Sox top AL Central as both Chicago clubs open the second half in playoff races", "source": "Chicago Sun-Times", "time": "Today" }
   }
 }
