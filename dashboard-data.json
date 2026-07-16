@@ -6,26 +6,26 @@
       { "name": "Cathy", "status": "OOO (AM)", "until": "2026-07-16" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
+      { "name": "VW", "status": "Vacation (PM)", "until": "2026-07-20" },
       { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
       { "name": "George", "status": "OOO", "until": "2026-07-24" },
-      { "name": "VW", "status": "Comp", "until": "2026-07-24" },
+      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
+      { "name": "VW", "status": "Comp Day", "until": "2026-07-24" },
       { "name": "Kate", "status": "OOO", "until": "2026-07-24" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-31" },
-      { "name": "VW", "status": "Comp", "until": "2026-08-05" },
-      { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-08-07" }
+      { "name": "VW", "status": "Comp Day", "until": "2026-08-05" },
+      { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" }
     ],
     "manual": []
   },
   "news": {
     "lastSynced": "2026-07-16",
-    "world": { "headline": "Tensions escalate as Iran shuts Strait of Hormuz and US reimposes naval blockade; Tehran rules out talks", "source": "GoLocalProv", "time": "Today" },
-    "germany": { "headline": "Merz open to Chinese takeovers of struggling German auto plants as VW warns of up to 50,000 more job cuts", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Chicago declares Red Air Pollution Action Day as Canadian wildfire smoke pushes air quality to unhealthy levels", "source": "City of Chicago", "time": "Today" },
-    "sports": { "team": "Cubs / White Sox", "headline": "Cubs hold Wild Card lead and White Sox top AL Central as both Chicago clubs open the second half in playoff races", "source": "Chicago Sun-Times", "time": "Today" }
+    "world": { "headline": "Iran threatens to close more export corridors after Hormuz shutdown as US reimposes naval blockade", "source": "CNN", "time": "Today" },
+    "germany": { "headline": "Merz open to Chinese takeovers of struggling German auto plants as VW weighs up to 50,000 more job cuts", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Red Air Pollution Action Day declared for Chicago and Cook County as Canadian wildfire smoke lingers", "source": "City of Chicago", "time": "Today" },
+    "sports": { "team": "White Sox / Cubs", "headline": "White Sox open second half atop AL Central; Cubs hold comfortable Wild Card lead in playoff push", "source": "Axios Chicago", "time": "Today" }
   }
 }
