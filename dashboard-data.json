@@ -1,31 +1,31 @@
 {
-  "lastSynced": "2026-07-16",
+  "lastSynced": "2026-07-17",
   "outOfOffice": {
-    "lastSynced": "2026-07-16",
+    "lastSynced": "2026-07-17",
     "synced": [
-      { "name": "Cathy", "status": "OOO (AM)", "until": "2026-07-16" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-17" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-17" },
-      { "name": "VW", "status": "Vacation (PM)", "until": "2026-07-20" },
+      { "name": "VW", "status": "Vacation (3 hrs PM)", "until": "2026-07-20" },
       { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
-      { "name": "George", "status": "OOO", "until": "2026-07-24" },
       { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-07-24" },
+      { "name": "George", "status": "OOO", "until": "2026-07-24" },
+      { "name": "VW", "status": "Comp", "until": "2026-07-24" },
       { "name": "Kate", "status": "OOO", "until": "2026-07-24" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
       { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
       { "name": "Courtney", "status": "OOO", "until": "2026-07-31" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-08-05" },
-      { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" }
+      { "name": "VW", "status": "Comp", "until": "2026-08-05" },
+      { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-08-07" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-07-16",
-    "world": { "headline": "Iran threatens to close more export corridors after Hormuz shutdown as US reimposes naval blockade", "source": "CNN", "time": "Today" },
-    "germany": { "headline": "Merz open to Chinese takeovers of struggling German auto plants as VW weighs up to 50,000 more job cuts", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Red Air Pollution Action Day declared for Chicago and Cook County as Canadian wildfire smoke lingers", "source": "City of Chicago", "time": "Today" },
-    "sports": { "team": "White Sox / Cubs", "headline": "White Sox open second half atop AL Central; Cubs hold comfortable Wild Card lead in playoff push", "source": "Axios Chicago", "time": "Today" }
+    "lastSynced": "2026-07-17",
+    "world":   { "headline": "Iran strikes Bahrain, Qatar, Oman, Jordan and Syria in retaliation for US strikes; Qatar and Kuwait fend off fresh attacks", "source": "Al Jazeera", "time": "Today" },
+    "germany": { "headline": "Severe storms batter Baden-Wuerttemberg with hail and hurricane gusts; cyclist killed by falling tree in Karlsruhe", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Canadian wildfire smoke gives Chicago the world's worst big-city air quality; alert runs through midnight Friday", "source": "NBC 5 Chicago", "time": "Today" },
+    "sports":  { "team": "Cubs & White Sox", "headline": "Cubs hold comfortable NL Wild Card lead and Sox top the AL Central as second half opens; Cubs host Twins tonight at 7:05", "source": "Axios Chicago", "time": "Today" }
   }
 }
