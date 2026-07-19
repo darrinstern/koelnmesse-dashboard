@@ -1,31 +1,31 @@
 {
-  "lastSynced": "2026-07-18",
+  "lastSynced": "2026-07-19",
   "outOfOffice": {
-    "lastSynced": "2026-07-18",
+    "lastSynced": "2026-07-19",
     "synced": [
-      { "name": "VW", "status": "Vacation (3 hrs PM)", "until": "2026-07-20" },
-      { "name": "Robin", "status": "Out of Office", "until": "2026-07-22" },
-      { "name": "Saloni", "status": "Out of Office", "until": "2026-07-24" },
-      { "name": "George", "status": "Travel", "until": "2026-07-24" },
+      { "name": "VW", "status": "Vacation (PM)", "until": "2026-07-20" },
+      { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
+      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
+      { "name": "George", "status": "OOO", "until": "2026-07-24" },
       { "name": "VW", "status": "Comp Day", "until": "2026-07-24" },
-      { "name": "Kate", "status": "Out of Office", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "Out of Office", "until": "2026-07-24" },
-      { "name": "Courtney", "status": "Out of Office", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "Out of Office", "until": "2026-07-31" },
-      { "name": "Courtney", "status": "Out of Office", "until": "2026-07-31" },
-      { "name": "VW", "status": "Comp Days", "until": "2026-08-05" },
+      { "name": "Kate", "status": "OOO", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
+      { "name": "Courtney", "status": "OOO", "until": "2026-07-31" },
+      { "name": "VW", "status": "Comp Day", "until": "2026-08-05" },
       { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" },
-      { "name": "Cathy", "status": "Out of Office", "until": "2026-08-07" },
-      { "name": "Darrin", "status": "Out of Office", "until": "2026-08-08" },
+      { "name": "Cathy", "status": "OOO", "until": "2026-08-07" },
+      { "name": "Darrin", "status": "OOO", "until": "2026-08-08" },
       { "name": "VW", "status": "Vacation", "until": "2026-08-14" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-07-18",
-    "world":   { "headline": "US carries out seventh consecutive night of strikes on Iran as tensions escalate", "source": "CNN", "time": "Today" },
-    "germany": { "headline": "CDU in turmoil after senior politician admits his child was carried by a surrogate mother in the US", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "McCormick Place named one of world's top 25 convention centers in EXHIBITOR Centers of Excellence Awards", "source": "Choose Chicago", "time": "Today" },
-    "sports":  { "team": "White Sox / Cubs", "headline": "White Sox rout Blue Jays 12-4 behind Montgomery brothers' 7 RBIs; Cubs fall 5-2 to Twins at Wrigley", "source": "WHTC Sports", "time": "Yesterday" }
+    "lastSynced": "2026-07-19",
+    "world": { "headline": "American service member killed in Iraq as U.S. strikes against Iran enter second week", "source": "CBS News", "time": "Today" },
+    "germany": { "headline": "Merz open to Chinese takeovers of struggling German auto plants as VW weighs 50,000 more job cuts", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Air quality 'unhealthy' across Chicago as wildfire smoke returns, impacting outdoor events", "source": "NBC 5 Chicago", "time": "This morning" },
+    "sports": { "team": "White Sox", "headline": "White Sox rout Blue Jays 12-4 for fourth straight win, sit atop AL Central at the break", "source": "CBS Chicago", "time": "Today" }
   }
 }
