@@ -1,31 +1,31 @@
 {
-  "lastSynced": "2026-07-19",
+  "lastSynced": "2026-07-20",
   "outOfOffice": {
-    "lastSynced": "2026-07-19",
+    "lastSynced": "2026-07-20",
     "synced": [
-      { "name": "VW", "status": "Vacation (PM)", "until": "2026-07-20" },
-      { "name": "Robin", "status": "OOO", "until": "2026-07-22" },
-      { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
-      { "name": "George", "status": "OOO", "until": "2026-07-24" },
+      { "name": "VW", "status": "Vacation (3 hrs PM)", "until": "2026-07-20" },
+      { "name": "Robin", "status": "Out of Office", "until": "2026-07-22" },
+      { "name": "Saloni", "status": "Out of Office", "until": "2026-07-24" },
+      { "name": "George", "status": "Out of Office", "until": "2026-07-24" },
       { "name": "VW", "status": "Comp Day", "until": "2026-07-24" },
-      { "name": "Kate", "status": "OOO", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
-      { "name": "Courtney", "status": "OOO", "until": "2026-07-31" },
+      { "name": "Kate", "status": "Out of Office", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "Out of Office", "until": "2026-07-24" },
+      { "name": "Courtney", "status": "Out of Office", "until": "2026-07-24" },
+      { "name": "Cathy", "status": "Out of Office", "until": "2026-07-31" },
+      { "name": "Courtney", "status": "Out of Office", "until": "2026-07-31" },
       { "name": "VW", "status": "Comp Day", "until": "2026-08-05" },
       { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" },
-      { "name": "Cathy", "status": "OOO", "until": "2026-08-07" },
-      { "name": "Darrin", "status": "OOO", "until": "2026-08-08" },
-      { "name": "VW", "status": "Vacation", "until": "2026-08-14" }
+      { "name": "Cathy", "status": "Out of Office", "until": "2026-08-07" },
+      { "name": "Darrin", "status": "Out of Office", "until": "2026-08-08" },
+      { "name": "Cathy", "status": "Out of Office", "until": "2026-08-14" }
     ],
     "manual": []
   },
   "news": {
-    "lastSynced": "2026-07-19",
-    "world": { "headline": "American service member killed in Iraq as U.S. strikes against Iran enter second week", "source": "CBS News", "time": "Today" },
-    "germany": { "headline": "Merz open to Chinese takeovers of struggling German auto plants as VW weighs 50,000 more job cuts", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Air quality 'unhealthy' across Chicago as wildfire smoke returns, impacting outdoor events", "source": "NBC 5 Chicago", "time": "This morning" },
-    "sports": { "team": "White Sox", "headline": "White Sox rout Blue Jays 12-4 for fourth straight win, sit atop AL Central at the break", "source": "CBS Chicago", "time": "Today" }
+    "lastSynced": "2026-07-20",
+    "world":   { "headline": "American service member killed in Iraq as U.S. strikes against Iran enter second week", "source": "CBS News", "time": "Today" },
+    "germany": { "headline": "Chancellor Merz weighs cabinet reshuffle after Jens Spahn resigns as Union parliamentary group leader", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Air quality alert extended through Monday as Canadian wildfire smoke lingers; severe storms possible tonight", "source": "ABC7 Chicago", "time": "Today" },
+    "sports":  { "team": "Cubs / White Sox", "headline": "White Sox ride 4-game win streak atop AL Central; Imanaga dominant as Cubs rout Twins", "source": "MLB.com", "time": "Today" }
   }
 }
