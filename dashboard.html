@@ -232,8 +232,10 @@
     text-align: right;
   }
 
-  /* ---------- Social Feed (Walls.io carousel) ---------- */
-  .social-feed {
+  /* ---------- Featured Show Spotlight ---------- */
+  /* Cycles every 45s through upcoming shows. Big logo, brand color
+     background, key stats, countdown. Higher signal than a social feed. */
+  .spotlight {
     margin-top: 14px;
     flex: 1;
     min-height: 200px;
@@ -243,9 +245,10 @@
     overflow: hidden;
     position: relative;
     background: var(--km-surface-2);
-    border-left: 3px solid #2FA83D;
+    border-left: 3px solid var(--km-red);
+    transition: border-left-color 0.6s ease-in-out;
   }
-  .social-feed-header {
+  .spotlight-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -257,17 +260,83 @@
     letter-spacing: 1.5px;
     flex-shrink: 0;
   }
-  .social-feed-header .pulse {
-    color: #2FA83D;
+  .spotlight-header .pulse {
+    color: var(--km-red-glow);
     margin-right: 6px;
     animation: pulse 2s ease-in-out infinite;
   }
-  .social-feed-body {
+  .spotlight-body {
     flex: 1;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 14px 12px;
     position: relative;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    transition: background 0.8s ease-in-out;
   }
-  .social-feed-body > * { width: 100% !important; }
+  .spotlight-body::before {
+    /* Dark overlay so text stays readable on any brand color */
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.55) 100%);
+    z-index: 1;
+  }
+  .spotlight-body > * { position: relative; z-index: 2; }
+  .spotlight-logo {
+    max-width: 78%;
+    max-height: 68px;
+    object-fit: contain;
+    margin-bottom: 6px;
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.5));
+    animation: spotlightIn 0.6s ease-out;
+  }
+  .spotlight-name {
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #fff;
+    margin-bottom: 2px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+  }
+  .spotlight-sub {
+    font-size: 10px;
+    color: rgba(255,255,255,0.8);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+  }
+  .spotlight-date {
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 0.5px;
+  }
+  .spotlight-countdown {
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.7);
+    margin-top: 6px;
+    line-height: 1;
+  }
+  .spotlight-countdown .unit {
+    font-size: 10px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.85);
+    letter-spacing: 1.5px;
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+  @keyframes spotlightIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
 
   /* ---------- Bottom Area Grid (Inspiration + News + PIP) ---------- */
   /* Three-element grid: left column stacks Inspiration row over News row,
@@ -316,11 +385,14 @@
     animation: pulse 2s ease-in-out infinite;
   }
   .news-pip-header .cc-badge {
-    background: rgba(0,0,0,0.35);
+    background: #FFFFFF;
+    color: #000;
     border-radius: 3px;
     padding: 1px 6px;
-    font-size: 9px;
-    letter-spacing: 1.2px;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.35);
   }
   .news-pip-frame {
     flex: 1;
@@ -606,7 +678,7 @@
   .inspiration-card {
     background: var(--km-surface);
     border-radius: 8px;
-    padding: 14px 22px;
+    padding: 8px 18px 10px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -635,12 +707,15 @@
   }
   .inspiration-header .accent { color: var(--km-red-glow); font-weight: 700; }
   .quote-text {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 1.35;
+    line-height: 1.28;
     font-style: italic;
     flex: 1;
-    display: flex;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     align-items: center;
     color: var(--km-text);
   }
@@ -652,30 +727,36 @@
     margin-top: 4px;
     font-weight: 800;
   }
-  .word-row { display: flex; align-items: baseline; gap: 12px; margin-bottom: 4px; }
+  .word-row { display: flex; align-items: baseline; gap: 10px; margin-bottom: 3px; }
   .word-german {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 900;
     color: #fff;
     letter-spacing: 0.3px;
+    line-height: 1.05;
   }
   .word-pron {
-    font-size: 12px;
+    font-size: 11px;
     color: var(--km-text-dim);
     font-style: italic;
   }
   .word-meaning {
-    font-size: 13px;
+    font-size: 12.5px;
     color: var(--km-text);
-    line-height: 1.3;
+    line-height: 1.28;
+    /* Cap at 3 lines so the meaning always fully renders in the 92px slot */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .word-note {
-    font-size: 10px;
+    font-size: 9px;
     color: var(--km-text-dim);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: auto;
-    padding-top: 4px;
+    padding-top: 2px;
   }
 
   /* Tiny refresh stamp shown in panel headers */
@@ -884,20 +965,20 @@
           <div class="market-meta" id="market-meta">Refreshes 8:00 AM CT daily</div>
         </div>
 
-        <!-- h+h connect social wall — Walls.io carousel -->
-        <div class="social-feed">
-          <div class="social-feed-header">
-            <span><span class="pulse">●</span>#hhconnect · Social</span>
-            <span style="color: var(--km-text-dim); font-size: 9px; letter-spacing: 1.5px;">WALLS.IO</span>
+        <!-- Featured Show Spotlight — rotates through upcoming Koelnmesse shows -->
+        <div class="spotlight" id="spotlight">
+          <div class="spotlight-header">
+            <span><span class="pulse">●</span>Featured Show</span>
+            <span style="color: var(--km-text-dim); font-size: 9px; letter-spacing: 1.5px;" id="spotlight-cycle">1 OF 5</span>
           </div>
-          <div class="social-feed-body">
-            <script async src="https://cdn.walls.io/assets/js/wallsio-widget-1.2.js"
-              data-wallurl="https://my.walls.io/hhconnect?nobackground=1&layout=carousel&show_header=0&show_post_info=1&accessibility=0"
-              allow="camera"
-              data-title="A feed of social media posts by Walls.io"
-              data-width="100%"
-              data-height="308"
-              data-lazyload="1"></script>
+          <div class="spotlight-body" id="spotlight-body">
+            <img class="spotlight-logo" id="spotlight-logo" alt="" />
+            <div class="spotlight-name" id="spotlight-name">Loading…</div>
+            <div class="spotlight-sub" id="spotlight-sub">—</div>
+            <div class="spotlight-date" id="spotlight-date">—</div>
+            <div class="spotlight-countdown" id="spotlight-countdown">
+              <span id="spotlight-days">—</span><span class="unit">DAYS OUT</span>
+            </div>
           </div>
         </div>
       </section>
@@ -1032,8 +1113,8 @@
           <span><span class="live-dot">●</span>Bloomberg · Live</span>
           <span class="cc-badge">CC</span>
         </div>
-        <iframe class="news-pip-frame"
-          src="https://www.youtube.com/embed/live_stream?channel=UCUMZ7gohGI9HcU9VNsr2FJQ&autoplay=1&mute=1&controls=0&modestbranding=1&playsinline=1&rel=0&cc_load_policy=1&cc_lang_pref=en"
+        <iframe class="news-pip-frame" id="bloomberg-pip"
+          src="https://www.youtube.com/embed/live_stream?channel=UCUMZ7gohGI9HcU9VNsr2FJQ&autoplay=1&mute=1&controls=0&modestbranding=1&playsinline=1&rel=0&cc_load_policy=1&cc_lang_pref=en&hl=en&iv_load_policy=3&fs=0&enablejsapi=1"
           allow="autoplay; encrypted-media"
           allowfullscreen
           referrerpolicy="strict-origin-when-cross-origin"
@@ -1346,8 +1427,10 @@ async function loadDynamicData() {
     const res = await fetch(CONFIG.dataUrl, { cache: 'no-store' });
     if (!res.ok) throw new Error('fetch ' + res.status);
     const data = await res.json();
-    if (data.outOfOffice) CONFIG.outOfOffice = data.outOfOffice;
-    if (data.news)        CONFIG.news        = data.news;
+    if (data.outOfOffice)  CONFIG.outOfOffice  = data.outOfOffice;
+    if (data.news)         CONFIG.news         = data.news;
+    if (data.industryNews) CONFIG.industryNews = data.industryNews;
+    if (data.kmNews)       CONFIG.kmNews       = data.kmNews;
     return true;
   } catch (e) {
     console.warn('Dynamic data fetch failed — using fallback defaults', e);
@@ -1525,40 +1608,58 @@ function renderNews(elId, items, src) {
 }
 
 async function updateNews() {
-  // Industry feed
-  try {
-    const items = await fetchRss('https://www.tsnn.com/rss.xml', 5);
-    renderNews('industry-news', items, 'TSNN');
-  } catch {
-    renderNews('industry-news', [
-      { title: 'Global B2B events market on track to surpass $40B by 2027', pubDate: new Date(), source: 'IBISWorld' },
-      { title: 'Face-to-face events continue to outperform digital channels for lead quality in B2B', pubDate: new Date(), source: 'UFI Global' },
-      { title: 'McCormick Place remains #1 convention center in North America by total exhibit space', pubDate: new Date(), source: 'Crain\'s Chicago' },
-      { title: 'Sustainability requirements now standard in >60% of major trade show RFPs', pubDate: new Date(), source: 'IAEE' }
-    ], 'Industry');
+  // PRIMARY SOURCE: dashboard-data.json (populated by the 6am/noon sync
+  // pulling fresh headlines from TSNN + Trade Show Executive + Koelnmesse
+  // press office). This bypasses client-side RSS quotas and CORS entirely.
+  const industryFromJson = (CONFIG.industryNews || []);
+  const kmFromJson       = (CONFIG.kmNews || []);
+
+  if (industryFromJson.length) {
+    renderNews('industry-news', industryFromJson.map(n => ({
+      title: n.title,
+      pubDate: n.date || null,
+      source: n.source || 'Industry'
+    })), 'Industry');
+  } else {
+    // FALLBACK: try live RSS (may fail on Fire Stick due to CORS)
+    try {
+      const items = await fetchRss('https://www.tsnn.com/rss.xml', 5);
+      renderNews('industry-news', items, 'TSNN');
+    } catch {
+      renderNews('industry-news', [
+        { title: 'Global B2B events market on track to surpass $40B by 2027', pubDate: new Date(), source: 'IBISWorld' },
+        { title: 'Face-to-face events continue to outperform digital channels for lead quality in B2B', pubDate: new Date(), source: 'UFI Global' },
+        { title: 'Sustainability requirements now standard in >60% of major trade show RFPs', pubDate: new Date(), source: 'IAEE' }
+      ], 'Industry');
+    }
   }
 
-  // Koelnmesse — live Google News query for any mention of "Koelnmesse"
-  // Catches both Koelnmesse press releases AND third-party coverage.
-  try {
-    const googleNewsRss = 'https://news.google.com/rss/search?q=Koelnmesse&hl=en-US&gl=US&ceid=US:en';
-    const items = await fetchRss(googleNewsRss, 6);
-    if (!items || items.length === 0) throw new Error();
-    // Strip the trailing " - SourceName" Google News appends to titles
-    // and surface the source separately
-    const cleaned = items.map(it => {
-      const m = (it.title || '').match(/^(.+?)\s+-\s+([^-]+)$/);
-      return m
-        ? { title: m[1].trim(), pubDate: it.pubDate, source: m[2].trim() }
-        : { title: it.title,    pubDate: it.pubDate, source: 'Google News' };
-    });
-    renderNews('km-news', cleaned, 'Google News');
-  } catch {
-    renderNews('km-news', CONFIG.kmNewsBaseline.map(n => ({
+  if (kmFromJson.length) {
+    renderNews('km-news', kmFromJson.map(n => ({
       title: n.title,
-      pubDate: null,
-      source: n.source
+      pubDate: n.date || null,
+      source: n.source || 'Koelnmesse'
     })), 'Koelnmesse');
+  } else {
+    // FALLBACK: try live Google News RSS
+    try {
+      const googleNewsRss = 'https://news.google.com/rss/search?q=Koelnmesse&hl=en-US&gl=US&ceid=US:en';
+      const items = await fetchRss(googleNewsRss, 6);
+      if (!items || items.length === 0) throw new Error();
+      const cleaned = items.map(it => {
+        const m = (it.title || '').match(/^(.+?)\s+-\s+([^-]+)$/);
+        return m
+          ? { title: m[1].trim(), pubDate: it.pubDate, source: m[2].trim() }
+          : { title: it.title,    pubDate: it.pubDate, source: 'Google News' };
+      });
+      renderNews('km-news', cleaned, 'Google News');
+    } catch {
+      renderNews('km-news', CONFIG.kmNewsBaseline.map(n => ({
+        title: n.title,
+        pubDate: null,
+        source: n.source
+      })), 'Koelnmesse');
+    }
   }
 }
 
@@ -1823,6 +1924,89 @@ function updateNewsRow() {
 }
 
 /* ===========================================================
+   BLOOMBERG CAPTIONS FORCER
+   YouTube's cc_load_policy=1 doesn't always stick on Fire Stick.
+   Post a command to the iframe (which has enablejsapi=1) to force
+   captions on after the player has had time to load.
+   =========================================================== */
+function forceBloombergCaptions() {
+  const iframe = document.getElementById('bloomberg-pip');
+  if (!iframe || !iframe.contentWindow) return;
+  try {
+    iframe.contentWindow.postMessage(
+      JSON.stringify({ event: 'command', func: 'loadModule', args: ['captions'] }),
+      '*'
+    );
+    iframe.contentWindow.postMessage(
+      JSON.stringify({ event: 'command', func: 'setOption', args: ['captions', 'track', { languageCode: 'en' }] }),
+      '*'
+    );
+    iframe.contentWindow.postMessage(
+      JSON.stringify({ event: 'command', func: 'setOption', args: ['captions', 'reload', true] }),
+      '*'
+    );
+  } catch (e) { /* silently ignore — Fire Stick may block postMessage */ }
+}
+
+/* ===========================================================
+   FEATURED SHOW SPOTLIGHT
+   Rotates through upcoming Koelnmesse shows every 45s.
+   Big logo, brand color background, days-out countdown.
+   =========================================================== */
+let spotlightIndex = 0;
+function renderSpotlight() {
+  const now = new Date();
+  const upcoming = CONFIG.upcomingShows
+    .filter(s => new Date(s.end) >= now)
+    .sort((a, b) => new Date(a.start) - new Date(b.start))
+    .slice(0, 5);
+
+  if (!upcoming.length) return;
+
+  const s = upcoming[spotlightIndex % upcoming.length];
+  const days = Math.max(0, Math.ceil((new Date(s.start) - now) / 86400000));
+  const inProgress = new Date(s.start) <= now && new Date(s.end) >= now;
+
+  // Update brand color accents
+  const body = document.getElementById('spotlight-body');
+  const spotlight = document.getElementById('spotlight');
+  if (body && s.color) {
+    body.style.background = `linear-gradient(135deg, ${s.color} 0%, ${s.color}CC 100%)`;
+  }
+  if (spotlight) spotlight.style.borderLeftColor = s.color || 'var(--km-red)';
+
+  // Logo — prefer real logoUrl, fall back to favicon@256, then hide
+  const logo = document.getElementById('spotlight-logo');
+  const primaryLogo = s.logoUrl
+    || (s.domain ? `https://www.google.com/s2/favicons?domain=${s.domain}&sz=256` : '');
+  if (logo && primaryLogo) {
+    logo.src = primaryLogo;
+    logo.style.display = '';
+    logo.onerror = () => { logo.style.display = 'none'; };
+  } else if (logo) {
+    logo.style.display = 'none';
+  }
+
+  // Text fields
+  const set = (id, val) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = val;
+  };
+  set('spotlight-name', s.name);
+  set('spotlight-sub', `${s.sub} · ${s.loc}`);
+  set('spotlight-date', fmtRange(s.start, s.end) + ' · ' + new Date(s.start).getFullYear());
+  set('spotlight-days', inProgress ? 'LIVE' : days);
+  const cycle = document.getElementById('spotlight-cycle');
+  if (cycle) cycle.textContent = `${(spotlightIndex % upcoming.length) + 1} OF ${upcoming.length}`;
+
+  // If show is in progress, swap the "DAYS OUT" unit text
+  const unit = document.querySelector('#spotlight-countdown .unit');
+  if (unit) unit.textContent = inProgress ? 'IN PROGRESS' : 'DAYS OUT';
+
+  spotlightIndex++;
+}
+
+/* ===========================================================
    QUOTE OF THE DAY + WORT DES TAGES
    Deterministic by day-of-year so quote/word stays stable
    for the full day, rotates at midnight.
@@ -1877,22 +2061,38 @@ function updateDayNightMode() {
 }
 
 /* ===========================================================
-   TICKER
+   TICKER — top news headlines + KM baseline stats.
+   News items come from CONFIG.news (updated 2x/day by the sync);
+   baseline items are evergreen. Rebuilt whenever news refreshes.
    =========================================================== */
 function renderTicker() {
-  const items = [
-    { tag: 'KM',       text: 'Koelnmesse hosts 80+ trade shows globally each year' },
-    { tag: 'EVENT',    text: 'THE TIRE COLOGNE Jun 9–11, 2026 — 400+ exhibitors expected' },
-    { tag: 'INDUSTRY', text: 'Global B2B events market projected to reach $40B by 2027' },
-    { tag: 'KM',       text: 'h+h americas Fall Edition debuts in Houston, TX — 2026' },
-    { tag: 'EXPANSION',text: '€193M new building near Messe/Deutz to break ground post-Anuga 2027' },
-    { tag: 'EVENT',    text: 'gamescom 2026 returns Aug 26–30 — 350,000+ expected' },
-    { tag: 'NEW',      text: 'CAIHE — Central Asia Hardware Expo launches Nov 2026 (Tashkent)' },
-    { tag: 'NAFTA',    text: 'Koelnmesse Inc. — your North American gateway to Cologne' }
+  const items = [];
+  const n = CONFIG.news || {};
+
+  // News headlines first (top of mind for a walking-past viewer)
+  if (n.world?.headline)   items.push({ tag: 'WORLD',   text: n.world.headline });
+  if (n.germany?.headline) items.push({ tag: 'GERMANY', text: n.germany.headline });
+  if (n.chicago?.headline) items.push({ tag: 'CHICAGO', text: n.chicago.headline });
+  if (n.sports?.headline)  items.push({ tag: (n.sports.team || 'SPORTS').toUpperCase(), text: n.sports.headline });
+
+  // Evergreen KM stats interleaved
+  const baseline = [
+    { tag: 'KM',        text: 'Koelnmesse hosts 80+ trade shows globally each year' },
+    { tag: 'EXPANSION', text: '€193M new building near Messe/Deutz to break ground post-Anuga 2027' },
+    { tag: 'NAFTA',     text: 'Koelnmesse Inc. — your North American gateway to Cologne' }
   ];
+  items.push(...baseline);
+
+  // Fallback if news never loaded
+  if (items.length === 0) {
+    items.push({ tag: 'LIVE', text: 'Loading top news headlines…' });
+  }
+
   const track = document.getElementById('ticker-track');
-  track.innerHTML = [...items, ...items].map(i =>
-    `<span class="ticker-item"><strong>${i.tag}</strong>${i.text}</span>`).join('');
+  if (track) {
+    track.innerHTML = [...items, ...items].map(i =>
+      `<span class="ticker-item"><strong>${i.tag}</strong>${i.text}</span>`).join('');
+  }
 }
 
 /* ===========================================================
@@ -1953,16 +2153,18 @@ async function init() {
   updateFx();
   updateNews();
   renderShows();
-  renderTicker();
+  renderSpotlight();
   scheduleDailyFx();
   updateQuote();
   updateGermanWord();
   updateDayNightMode();
 
-  // Pull dynamic OOO + news from SharePoint JSON, THEN render those panels
+  // Pull dynamic OOO + news + industry/km news from JSON, THEN render panels
   await loadDynamicData();
   updateStaffCalendar();
   updateNewsRow();
+  updateNews();     // re-render Trade Show + KM news panels with JSON-supplied items
+  renderTicker();   // ticker now uses news headlines — render AFTER JSON loads
 
   // Re-fetch dynamic data every 30 minutes so manual updates to the JSON
   // appear without waiting for the next Fire Stick auto-reload at 24h
@@ -1970,7 +2172,16 @@ async function init() {
     await loadDynamicData();
     updateStaffCalendar();
     updateNewsRow();
+    updateNews();
+    renderTicker();
   }, 30 * 60 * 1000);
+
+  // Featured Show rotates every 45 seconds
+  setInterval(renderSpotlight, 45 * 1000);
+
+  // Force Bloomberg captions on after the iframe has time to boot (Fire Stick)
+  setTimeout(forceBloombergCaptions, 8000);
+  setInterval(forceBloombergCaptions, 60 * 1000);   // re-assert every minute
 
   setInterval(updateClocks,        CONFIG.refreshIntervals.clock);
   setInterval(updateWeather,       CONFIG.refreshIntervals.weather);
