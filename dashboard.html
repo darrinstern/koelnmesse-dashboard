@@ -340,7 +340,7 @@
 
   /* ---------- Bottom Area Grid (Inspiration + News + PIP) ---------- */
   /* Three-element grid: left column stacks Inspiration row over News row,
-     right column holds the Bloomberg PIP spanning both rows.
+     right column holds the live-news PIP spanning both rows.
      This stops the PIP from overlapping the four news cards. */
   .bottom-area {
     display: grid;
@@ -354,7 +354,7 @@
   .bottom-area .news-pip    { grid-column: 2; grid-row: 1 / span 2; }
 
   /* ---------- Picture-in-Picture News (bottom-right grid cell) ---------- */
-  /* Cable-news style PIP — Bloomberg TV+ 24/7 live with captions. */
+  /* Cable-news style PIP — Yahoo Finance 24/7 live with captions. */
   .news-pip {
     background: #000;
     border-radius: 8px;
@@ -1107,18 +1107,18 @@
       </div>
     </section>
 
-      <!-- BLOOMBERG PIP — now part of the grid, no longer floating -->
+      <!-- YAHOO FINANCE PIP — live business news with reliable captions -->
       <aside class="news-pip" aria-label="Live news picture-in-picture">
         <div class="news-pip-header">
-          <span><span class="live-dot">●</span>Bloomberg · Live</span>
+          <span><span class="live-dot">●</span>Yahoo Finance · Live</span>
           <span class="cc-badge">CC</span>
         </div>
         <iframe class="news-pip-frame" id="bloomberg-pip"
-          src="https://www.youtube.com/embed/live_stream?channel=UCUMZ7gohGI9HcU9VNsr2FJQ&autoplay=1&mute=1&controls=0&modestbranding=1&playsinline=1&rel=0&cc_load_policy=1&cc_lang_pref=en&hl=en&iv_load_policy=3&fs=0&enablejsapi=1"
+          src="https://www.youtube.com/embed/live_stream?channel=UCEAZeUIeJs0IjQiqTCdVSIg&autoplay=1&mute=1&controls=0&modestbranding=1&playsinline=1&rel=0&cc_load_policy=1&cc_lang_pref=en&hl=en&iv_load_policy=3&fs=0&enablejsapi=1"
           allow="autoplay; encrypted-media"
           allowfullscreen
           referrerpolicy="strict-origin-when-cross-origin"
-          title="Bloomberg Live"></iframe>
+          title="Yahoo Finance Live"></iframe>
       </aside>
 
     </section>
@@ -1924,10 +1924,12 @@ function updateNewsRow() {
 }
 
 /* ===========================================================
-   BLOOMBERG CAPTIONS FORCER
+   LIVE PIP CAPTIONS FORCER (currently Yahoo Finance Live)
    YouTube's cc_load_policy=1 doesn't always stick on Fire Stick.
-   Post a command to the iframe (which has enablejsapi=1) to force
-   captions on after the player has had time to load.
+   Post a command to the iframe (enablejsapi=1) to force captions
+   on after the player has had time to load.
+   Function name kept as forceBloombergCaptions for backward compat
+   with existing call sites; safe to rename in a future pass.
    =========================================================== */
 function forceBloombergCaptions() {
   const iframe = document.getElementById('bloomberg-pip');
