@@ -1,31 +1,76 @@
 {
-  "lastSynced": "2026-07-20",
-  "outOfOffice": {
-    "lastSynced": "2026-07-20",
-    "synced": [
-      { "name": "VW", "status": "Vacation (3 hrs PM)", "until": "2026-07-20" },
-      { "name": "Robin", "status": "Out of Office", "until": "2026-07-22" },
-      { "name": "Saloni", "status": "Out of Office", "until": "2026-07-24" },
-      { "name": "George", "status": "Out of Office", "until": "2026-07-24" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-07-24" },
-      { "name": "Kate", "status": "Out of Office", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "Out of Office", "until": "2026-07-24" },
-      { "name": "Courtney", "status": "Out of Office", "until": "2026-07-24" },
-      { "name": "Cathy", "status": "Out of Office", "until": "2026-07-31" },
-      { "name": "Courtney", "status": "Out of Office", "until": "2026-07-31" },
-      { "name": "VW", "status": "Comp Day", "until": "2026-08-05" },
-      { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" },
-      { "name": "Cathy", "status": "Out of Office", "until": "2026-08-07" },
-      { "name": "Darrin", "status": "Out of Office", "until": "2026-08-08" },
-      { "name": "Cathy", "status": "Out of Office", "until": "2026-08-14" }
-    ],
-    "manual": []
-  },
+  "lastUpdated": "2026-07-21T06:00:00-05:00",
+  "ooo": [
+    { "name": "VW", "status": "Vacation", "until": "2026-07-20" },
+    { "name": "Robin", "status": "Out of Office", "until": "2026-07-22" },
+    { "name": "Saloni", "status": "Out of Office", "until": "2026-07-24" },
+    { "name": "George", "status": "Out of Office", "until": "2026-07-24" },
+    { "name": "VW", "status": "Comp", "until": "2026-07-24" },
+    { "name": "Kate", "status": "Out of Office", "until": "2026-07-24" },
+    { "name": "Cathy", "status": "Out of Office", "until": "2026-07-24" },
+    { "name": "Courtney", "status": "Out of Office", "until": "2026-07-24" },
+    { "name": "Cathy", "status": "Out of Office", "until": "2026-07-31" },
+    { "name": "Courtney", "status": "Out of Office", "until": "2026-07-31" },
+    { "name": "VW", "status": "Comp", "until": "2026-08-05" },
+    { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" },
+    { "name": "Cathy", "status": "Out of Office", "until": "2026-08-07" },
+    { "name": "Darrin", "status": "Out of Office", "until": "2026-08-08" },
+    { "name": "VW", "status": "Vacation", "until": "2026-08-14" }
+  ],
   "news": {
-    "lastSynced": "2026-07-20",
-    "world":   { "headline": "American service member killed in Iraq as U.S. strikes against Iran enter second week", "source": "CBS News", "time": "Today" },
-    "germany": { "headline": "Chancellor Merz weighs cabinet reshuffle after Jens Spahn resigns as Union parliamentary group leader", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Air quality alert extended through Monday as Canadian wildfire smoke lingers; severe storms possible tonight", "source": "ABC7 Chicago", "time": "Today" },
-    "sports":  { "team": "Cubs / White Sox", "headline": "White Sox ride 4-game win streak atop AL Central; Imanaga dominant as Cubs rout Twins", "source": "MLB.com", "time": "Today" }
-  }
+    "world": {
+      "headline": "Iran conflict intensifies as US-Israel strikes continue; UAE weighs new port to bypass Hormuz",
+      "source": "Geopolitical Monitor",
+      "time": "Today"
+    },
+    "germany": {
+      "headline": "Scuffle breaks out at Nazi resistance commemoration after AfD wreath sparks confrontation",
+      "source": "The Local Germany",
+      "time": "Today"
+    },
+    "chicago": {
+      "headline": "McCormick Place earns EIC Gold sustainability certification, named top-25 world convention center",
+      "source": "McCormick Place Newsroom",
+      "time": "This morning"
+    },
+    "sports": {
+      "headline": "Cubs activate Jameson Taillon, add Aaron Civale ahead of MLB trade deadline push",
+      "source": "MLB.com",
+      "time": "Today"
+    }
+  },
+  "industryNews": [
+    {
+      "title": "Apollo completes acquisitions of Emerald and Questex; Emerald delists from NYSE",
+      "source": "TSNN",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "TSNN launches The EXHIEs, an industry-wide exhibitor excellence awards program",
+      "source": "TSNN",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "ReedPop taps industry veteran Marie Browne to lead U.S. business",
+      "source": "TSNN",
+      "date": "2026-07-21"
+    }
+  ],
+  "kmNews": [
+    {
+      "title": "Koelnmesse launches ART COLOGNE PALMA MALLORCA, spring edition premiering April 2026",
+      "source": "Koelnmesse Press Office",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "Koelnmesse and AMARA Expo launch joint venture to drive trade fair growth in Indonesia",
+      "source": "Koelnmesse Press Office",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "New CAIHE hardware expo to launch Nov. 2026 as Koelnmesse's first Central Asia event",
+      "source": "Koelnmesse Press Office",
+      "date": "2026-07-21"
+    }
+  ]
 }
