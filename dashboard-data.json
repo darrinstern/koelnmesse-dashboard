@@ -1,7 +1,6 @@
 {
-  "lastUpdated": "2026-07-21T06:00:00-05:00",
+  "lastUpdated": "2026-07-22T12:00:00-05:00",
   "ooo": [
-    { "name": "VW", "status": "Vacation", "until": "2026-07-20" },
     { "name": "Robin", "status": "Out of Office", "until": "2026-07-22" },
     { "name": "Saloni", "status": "Out of Office", "until": "2026-07-24" },
     { "name": "George", "status": "Out of Office", "until": "2026-07-24" },
@@ -15,62 +14,63 @@
     { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" },
     { "name": "Cathy", "status": "Out of Office", "until": "2026-08-07" },
     { "name": "Darrin", "status": "Out of Office", "until": "2026-08-08" },
-    { "name": "VW", "status": "Vacation", "until": "2026-08-14" }
+    { "name": "VW", "status": "Vacation", "until": "2026-08-14" },
+    { "name": "Cathy", "status": "Out of Office", "until": "2026-08-14" }
   ],
   "news": {
     "world": {
-      "headline": "Iran conflict intensifies as US-Israel strikes continue; UAE weighs new port to bypass Hormuz",
-      "source": "Geopolitical Monitor",
+      "headline": "NATO allies weigh strategic realignment as EU-China trade tensions escalate over industrial policy",
+      "source": "Euronews",
       "time": "Today"
     },
     "germany": {
-      "headline": "Scuffle breaks out at Nazi resistance commemoration after AfD wreath sparks confrontation",
+      "headline": "Merz weighs cabinet reshuffle after Jens Spahn resigns as Union parliamentary group leader",
       "source": "The Local Germany",
-      "time": "Today"
+      "time": "Yesterday"
     },
     "chicago": {
-      "headline": "McCormick Place earns EIC Gold sustainability certification, named top-25 world convention center",
+      "headline": "McCormick Place earns EIC Gold sustainability certification as Chicago hotels post record summer revenue",
       "source": "McCormick Place Newsroom",
-      "time": "This morning"
+      "time": "Today"
     },
     "sports": {
-      "headline": "Cubs activate Jameson Taillon, add Aaron Civale ahead of MLB trade deadline push",
+      "headline": "Cubs blank Twins 10-1 as Imanaga tosses seven scoreless, Hoerner drives in four",
       "source": "MLB.com",
       "time": "Today"
     }
   },
   "industryNews": [
     {
-      "title": "Apollo completes acquisitions of Emerald and Questex; Emerald delists from NYSE",
-      "source": "TSNN",
-      "date": "2026-07-21"
+      "title": "CEIR's 2026 Marketing Spend Decision Report shows exhibitors reassessing channel mix amid rising costs",
+      "source": "Trade Show Executive",
+      "date": "2026-07-22"
     },
     {
-      "title": "TSNN launches The EXHIEs, an industry-wide exhibitor excellence awards program",
-      "source": "TSNN",
-      "date": "2026-07-21"
+      "title": "InfoComm 2026 draws 807 exhibitors, 395,500 net sq ft in Las Vegas; 2027 show already announced",
+      "source": "Trade Show Executive",
+      "date": "2026-07-22"
     },
     {
-      "title": "ReedPop taps industry veteran Marie Browne to lead U.S. business",
-      "source": "TSNN",
-      "date": "2026-07-21"
+      "title": "CEIR Q1 2026 data show net square footage, exhibitor count and attendance all ticked down",
+      "source": "Trade Show Executive",
+      "date": "2026-07-22"
     }
   ],
   "kmNews": [
     {
-      "title": "Koelnmesse launches ART COLOGNE PALMA MALLORCA, spring edition premiering April 2026",
+      "title": "Koelnmesse to launch new trade fair for dog supplies in 2027, held alongside spoga horse",
       "source": "Koelnmesse Press Office",
-      "date": "2026-07-21"
+      "date": "2026-07-22"
     },
     {
-      "title": "Koelnmesse and AMARA Expo launch joint venture to drive trade fair growth in Indonesia",
+      "title": "Koelnmesse and AMARA Expo launch joint venture PT. Nine Koeln Indonesia to grow SE Asia trade fairs",
       "source": "Koelnmesse Press Office",
-      "date": "2026-07-21"
+      "date": "2026-05-01"
     },
     {
-      "title": "New CAIHE hardware expo to launch Nov. 2026 as Koelnmesse's first Central Asia event",
+      "title": "Koelnmesse to launch Central Asia International Hardware Expo (CAIHE) in Tashkent, Nov. 24-26",
       "source": "Koelnmesse Press Office",
-      "date": "2026-07-21"
+      "date": "2026-07-22"
     }
   ]
 }
