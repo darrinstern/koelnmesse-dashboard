@@ -1,76 +1,76 @@
 {
-  "lastUpdated": "2026-07-22T12:00:00-05:00",
+  "lastUpdated": "2026-07-23T06:00:00-05:00",
   "ooo": [
-    { "name": "Robin", "status": "Out of Office", "until": "2026-07-22" },
-    { "name": "Saloni", "status": "Out of Office", "until": "2026-07-24" },
-    { "name": "George", "status": "Out of Office", "until": "2026-07-24" },
+    { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
+    { "name": "George", "status": "OOO", "until": "2026-07-24" },
     { "name": "VW", "status": "Comp", "until": "2026-07-24" },
-    { "name": "Kate", "status": "Out of Office", "until": "2026-07-24" },
-    { "name": "Cathy", "status": "Out of Office", "until": "2026-07-24" },
-    { "name": "Courtney", "status": "Out of Office", "until": "2026-07-24" },
-    { "name": "Cathy", "status": "Out of Office", "until": "2026-07-31" },
-    { "name": "Courtney", "status": "Out of Office", "until": "2026-07-31" },
+    { "name": "Kate", "status": "OOO", "until": "2026-07-24" },
+    { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
+    { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
+    { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
+    { "name": "Courtney", "status": "OOO", "until": "2026-07-31" },
     { "name": "VW", "status": "Comp", "until": "2026-08-05" },
     { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" },
-    { "name": "Cathy", "status": "Out of Office", "until": "2026-08-07" },
-    { "name": "Darrin", "status": "Out of Office", "until": "2026-08-08" },
+    { "name": "Cathy", "status": "OOO", "until": "2026-08-07" },
+    { "name": "Darrin", "status": "OOO", "until": "2026-08-08" },
     { "name": "VW", "status": "Vacation", "until": "2026-08-14" },
-    { "name": "Cathy", "status": "Out of Office", "until": "2026-08-14" }
+    { "name": "Cathy", "status": "OOO", "until": "2026-08-14" },
+    { "name": "Cathy", "status": "OOO", "until": "2026-08-21" }
   ],
   "news": {
     "world": {
-      "headline": "NATO allies weigh strategic realignment as EU-China trade tensions escalate over industrial policy",
+      "headline": "AMD secures $5B AI chip deal with Anthropic as Lavrov, Rubio meet on Ukraine at ASEAN summit",
       "source": "Euronews",
       "time": "Today"
     },
     "germany": {
-      "headline": "Merz weighs cabinet reshuffle after Jens Spahn resigns as Union parliamentary group leader",
+      "headline": "German court to rule on Bundestag 'speed limit' for fast-tracked legislation",
       "source": "The Local Germany",
-      "time": "Yesterday"
+      "time": "Today"
     },
     "chicago": {
-      "headline": "McCormick Place earns EIC Gold sustainability certification as Chicago hotels post record summer revenue",
+      "headline": "Mayor Johnson opens NAACP National Convention plenary at McCormick Place West",
       "source": "McCormick Place Newsroom",
       "time": "Today"
     },
     "sports": {
-      "headline": "Cubs blank Twins 10-1 as Imanaga tosses seven scoreless, Hoerner drives in four",
-      "source": "MLB.com",
+      "headline": "Bears finalize rookie contracts as training camp opens this month",
+      "source": "Windy City Gridiron",
       "time": "Today"
     }
   },
   "industryNews": [
     {
-      "title": "CEIR's 2026 Marketing Spend Decision Report shows exhibitors reassessing channel mix amid rising costs",
-      "source": "Trade Show Executive",
-      "date": "2026-07-22"
+      "title": "Trade show job market stays hot this summer with wave of new hires and promotions",
+      "source": "TSNN",
+      "date": "2026-07-20"
     },
     {
-      "title": "InfoComm 2026 draws 807 exhibitors, 395,500 net sq ft in Las Vegas; 2027 show already announced",
-      "source": "Trade Show Executive",
-      "date": "2026-07-22"
+      "title": "Panama Convention Center appoints Pablo de la Guardia as General Manager via Legends Global",
+      "source": "TSNN",
+      "date": "2026-07-15"
     },
     {
-      "title": "CEIR Q1 2026 data show net square footage, exhibitor count and attendance all ticked down",
-      "source": "Trade Show Executive",
-      "date": "2026-07-22"
+      "title": "McCormick Place earns Gold Level Certification to Events Industry Council sustainability standard",
+      "source": "Exhibitor Magazine",
+      "date": "2026-07-10"
     }
   ],
   "kmNews": [
     {
-      "title": "Koelnmesse to launch new trade fair for dog supplies in 2027, held alongside spoga horse",
+      "title": "Koelnmesse posts strong 2025 results: EUR455.5M revenue, EUR62M consolidated result, 2.5M visitors",
       "source": "Koelnmesse Press Office",
-      "date": "2026-07-22"
+      "date": "2026-07-02"
     },
     {
-      "title": "Koelnmesse and AMARA Expo launch joint venture PT. Nine Koeln Indonesia to grow SE Asia trade fairs",
-      "source": "Koelnmesse Press Office",
-      "date": "2026-05-01"
+      "title": "Koelnmesse closes Dutch agency, shifts market management to Germany head office",
+      "source": "InteriorDaily",
+      "date": "2026-07-08"
     },
     {
-      "title": "Koelnmesse to launch Central Asia International Hardware Expo (CAIHE) in Tashkent, Nov. 24-26",
-      "source": "Koelnmesse Press Office",
-      "date": "2026-07-22"
+      "title": "Koelnmesse hails ISM 2026 as a key success for the confectionery sector",
+      "source": "Confectionery Production",
+      "date": "2026-07-05"
     }
   ]
 }
