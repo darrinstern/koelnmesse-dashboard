@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T06:00:00-05:00",
+  "lastUpdated": "2026-07-24T11:00:00-05:00",
   "ooo": [
     { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
     { "name": "George", "status": "OOO", "until": "2026-07-24" },
@@ -19,58 +19,58 @@
   ],
   "news": {
     "world": {
-      "headline": "AMD secures $5B AI chip deal with Anthropic as Lavrov, Rubio meet on Ukraine at ASEAN summit",
-      "source": "Euronews",
+      "headline": "Trump conditions US-Saudi nuclear deal on Israel normalization amid Mideast tensions",
+      "source": "Reuters",
       "time": "Today"
     },
     "germany": {
-      "headline": "German court to rule on Bundestag 'speed limit' for fast-tracked legislation",
+      "headline": "AfD tops Berlin election poll for first time as Chancellor Merz preps cabinet reshuffle",
       "source": "The Local Germany",
       "time": "Today"
     },
     "chicago": {
       "headline": "Mayor Johnson opens NAACP National Convention plenary at McCormick Place West",
-      "source": "McCormick Place Newsroom",
+      "source": "Crain's Chicago Business",
       "time": "Today"
     },
     "sports": {
-      "headline": "Bears finalize rookie contracts as training camp opens this month",
-      "source": "Windy City Gridiron",
+      "headline": "Bears TE Colston Loveland fires up for another shot at rival Packers in 2026",
+      "source": "Chicago Sports Wire",
       "time": "Today"
     }
   },
   "industryNews": [
     {
-      "title": "Trade show job market stays hot this summer with wave of new hires and promotions",
+      "title": "RELX reports exhibitions underlying revenue up 6% in H1 2026, signaling strong sector growth",
+      "source": "Businesswire / RELX",
+      "date": "2026-07-24"
+    },
+    {
+      "title": "TSNN launches The EXHIEs, an industry-wide awards program recognizing exhibitor excellence",
+      "source": "TSNN",
+      "date": "2026-07-24"
+    },
+    {
+      "title": "Freeman promotes Chris Schimek to President of Freeman Events & Exhibits",
       "source": "TSNN",
       "date": "2026-07-20"
-    },
-    {
-      "title": "Panama Convention Center appoints Pablo de la Guardia as General Manager via Legends Global",
-      "source": "TSNN",
-      "date": "2026-07-15"
-    },
-    {
-      "title": "McCormick Place earns Gold Level Certification to Events Industry Council sustainability standard",
-      "source": "Exhibitor Magazine",
-      "date": "2026-07-10"
     }
   ],
   "kmNews": [
     {
-      "title": "Koelnmesse posts strong 2025 results: EUR455.5M revenue, EUR62M consolidated result, 2.5M visitors",
-      "source": "Koelnmesse Press Office",
-      "date": "2026-07-02"
+      "title": "Koelnmesse posts strong 2025 results: turnover ~€450M, up from €365.8M in 2024",
+      "source": "Koelnmesse Press Release",
+      "date": "2026-01-13"
     },
     {
-      "title": "Koelnmesse closes Dutch agency, shifts market management to Germany head office",
-      "source": "InteriorDaily",
-      "date": "2026-07-08"
+      "title": "gamescom 2026 books up all exhibitor space, adds Konami, Tencent Games and more",
+      "source": "Gematsu",
+      "date": "2026-07-22"
     },
     {
-      "title": "Koelnmesse hails ISM 2026 as a key success for the confectionery sector",
-      "source": "Confectionery Production",
-      "date": "2026-07-05"
+      "title": "Koelnmesse launches h+h americas Fall Edition, debuting in Houston, Texas",
+      "source": "Koelnmesse / Fabric Shop Network",
+      "date": "2025-12-17"
     }
   ]
 }
