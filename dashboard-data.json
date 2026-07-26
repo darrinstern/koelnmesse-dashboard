@@ -1,12 +1,6 @@
 {
-  "lastUpdated": "2026-07-24T11:00:00-05:00",
+  "lastUpdated": "2026-07-26T06:00:00-05:00",
   "ooo": [
-    { "name": "Saloni", "status": "OOO", "until": "2026-07-24" },
-    { "name": "George", "status": "OOO", "until": "2026-07-24" },
-    { "name": "VW", "status": "Comp", "until": "2026-07-24" },
-    { "name": "Kate", "status": "OOO", "until": "2026-07-24" },
-    { "name": "Cathy", "status": "OOO", "until": "2026-07-24" },
-    { "name": "Courtney", "status": "OOO", "until": "2026-07-24" },
     { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
     { "name": "Courtney", "status": "OOO", "until": "2026-07-31" },
     { "name": "VW", "status": "Comp", "until": "2026-08-05" },
@@ -15,62 +9,63 @@
     { "name": "Darrin", "status": "OOO", "until": "2026-08-08" },
     { "name": "VW", "status": "Vacation", "until": "2026-08-14" },
     { "name": "Cathy", "status": "OOO", "until": "2026-08-14" },
-    { "name": "Cathy", "status": "OOO", "until": "2026-08-21" }
+    { "name": "Cathy", "status": "OOO", "until": "2026-08-21" },
+    { "name": "Kate", "status": "Gamescom", "until": "2026-08-28" }
   ],
   "news": {
     "world": {
-      "headline": "Trump conditions US-Saudi nuclear deal on Israel normalization amid Mideast tensions",
-      "source": "Reuters",
+      "headline": "Iran's FM Araghchi rejects EU 'moral standing' on rights amid US-Israeli strikes",
+      "source": "Euronews",
       "time": "Today"
     },
     "germany": {
-      "headline": "AfD tops Berlin election poll for first time as Chancellor Merz preps cabinet reshuffle",
+      "headline": "Merz reportedly preparing major cabinet reshuffle after Health Minister Spahn's resignation",
       "source": "The Local Germany",
-      "time": "Today"
+      "time": "Yesterday"
     },
     "chicago": {
-      "headline": "Mayor Johnson opens NAACP National Convention plenary at McCormick Place West",
-      "source": "Crain's Chicago Business",
-      "time": "Today"
+      "headline": "McCormick Place earns EIC Gold sustainability certification as convention business booms",
+      "source": "McCormick Place Newsroom",
+      "time": "This morning"
     },
     "sports": {
-      "headline": "Bears TE Colston Loveland fires up for another shot at rival Packers in 2026",
-      "source": "Chicago Sports Wire",
+      "headline": "Bears place five players on PUP list as rookies, QBs open training camp",
+      "source": "Chicago Sun-Times",
       "time": "Today"
     }
   },
   "industryNews": [
     {
-      "title": "RELX reports exhibitions underlying revenue up 6% in H1 2026, signaling strong sector growth",
-      "source": "Businesswire / RELX",
-      "date": "2026-07-24"
+      "title": "Tarsus Connect Acquires BizBash",
+      "source": "TSNN",
+      "date": "2026-07-21"
     },
     {
-      "title": "TSNN launches The EXHIEs, an industry-wide awards program recognizing exhibitor excellence",
+      "title": "Messe Düsseldorf Appoints Claire Steinbrück to Lead Global Corporate Development",
       "source": "TSNN",
-      "date": "2026-07-24"
+      "date": "2026-07-18"
     },
     {
-      "title": "Freeman promotes Chris Schimek to President of Freeman Events & Exhibits",
+      "title": "July Destination News: New Airlift, FIFA Fever, and Billion-Dollar Convention Center Payoffs",
       "source": "TSNN",
-      "date": "2026-07-20"
+      "date": "2026-07-14"
     }
   ],
   "kmNews": [
     {
-      "title": "Koelnmesse posts strong 2025 results: turnover ~€450M, up from €365.8M in 2024",
-      "source": "Koelnmesse Press Release",
-      "date": "2026-01-13"
+      "title": "Koelnmesse Launches Central Asia International Hardware Expo (CAIHE) in Tashkent",
+      "source": "Koelnmesse Press Office",
+      "date": "2026-07-15"
     },
     {
-      "title": "gamescom 2026 books up all exhibitor space, adds Konami, Tencent Games and more",
-      "source": "Gematsu",
-      "date": "2026-07-22"
+      "title": "Koelnmesse and AMARA Expo Form Joint Venture PT. Nine Koeln Indonesia",
+      "source": "Koelnmesse Press Office",
+      "date": "2025-11-20"
     },
     {
-      "title": "Koelnmesse launches h+h americas Fall Edition, debuting in Houston, Texas",
-      "source": "Koelnmesse / Fabric Shop Network",
-      "date": "2025-12-17"
+      "title": "Koelnmesse Appoints Mathias Küpper as First Regional President Asia-Pacific",
+      "source": "Koelnmesse Press Office",
+      "date": "2025-11-10"
     }
   ]
 }
