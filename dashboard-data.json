@@ -1,71 +1,71 @@
 {
-  "lastUpdated": "2026-07-26T06:00:00-05:00",
+  "lastUpdated": "2026-07-27T06:00:00-05:00",
   "ooo": [
     { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
     { "name": "Courtney", "status": "OOO", "until": "2026-07-31" },
-    { "name": "VW", "status": "Comp", "until": "2026-08-05" },
+    { "name": "VW", "status": "Comp Time", "until": "2026-08-05" },
     { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" },
     { "name": "Cathy", "status": "OOO", "until": "2026-08-07" },
     { "name": "Darrin", "status": "OOO", "until": "2026-08-08" },
     { "name": "VW", "status": "Vacation", "until": "2026-08-14" },
     { "name": "Cathy", "status": "OOO", "until": "2026-08-14" },
     { "name": "Cathy", "status": "OOO", "until": "2026-08-21" },
-    { "name": "Kate", "status": "Gamescom", "until": "2026-08-28" }
+    { "name": "Kate", "status": "gamescom", "until": "2026-08-28" }
   ],
-  "news": {
+  "topNews": {
     "world": {
-      "headline": "Iran's FM Araghchi rejects EU 'moral standing' on rights amid US-Israeli strikes",
-      "source": "Euronews",
+      "headline": "US-China rivalry and tariff fallout reshape global trade after Supreme Court ruling",
+      "source": "Global Business Wire",
       "time": "Today"
     },
     "germany": {
-      "headline": "Merz reportedly preparing major cabinet reshuffle after Health Minister Spahn's resignation",
+      "headline": "Officials face scrutiny after suspected Islamist attack near Berlin's CSD celebrations",
       "source": "The Local Germany",
-      "time": "Yesterday"
+      "time": "Today"
     },
     "chicago": {
-      "headline": "McCormick Place earns EIC Gold sustainability certification as convention business booms",
+      "headline": "McCormick Place earns Gold Level sustainability certification from Events Industry Council",
       "source": "McCormick Place Newsroom",
       "time": "This morning"
     },
     "sports": {
-      "headline": "Bears place five players on PUP list as rookies, QBs open training camp",
-      "source": "Chicago Sun-Times",
+      "headline": "Bears open training camp with roster moves, sign TE Sam Roush",
+      "source": "ChicagoBears.com",
       "time": "Today"
     }
   },
   "industryNews": [
     {
-      "title": "Tarsus Connect Acquires BizBash",
+      "title": "RELX H1 2026 Trading Update: Exhibitions underlying revenue up 6%, outlook reaffirmed",
       "source": "TSNN",
-      "date": "2026-07-21"
+      "date": "2026-07-24"
     },
     {
-      "title": "Messe Düsseldorf Appoints Claire Steinbrück to Lead Global Corporate Development",
+      "title": "Trade Show M&A: Life Science Connect acquires Precision Medicine World Conference",
       "source": "TSNN",
       "date": "2026-07-18"
     },
     {
-      "title": "July Destination News: New Airlift, FIFA Fever, and Billion-Dollar Convention Center Payoffs",
+      "title": "Easyfairs to launch Digital Accountancy Show USA spinoff in Austin, May 2027",
       "source": "TSNN",
       "date": "2026-07-14"
     }
   ],
   "kmNews": [
     {
-      "title": "Koelnmesse Launches Central Asia International Hardware Expo (CAIHE) in Tashkent",
+      "title": "gamescom 2026 booked up across all available areas; 2027 expansion in planning",
       "source": "Koelnmesse Press Office",
-      "date": "2026-07-15"
+      "date": "2026-07-06"
     },
     {
-      "title": "Koelnmesse and AMARA Expo Form Joint Venture PT. Nine Koeln Indonesia",
+      "title": "Koelnmesse appoints Mathias Küpper as first Regional President Asia-Pacific",
       "source": "Koelnmesse Press Office",
-      "date": "2025-11-20"
+      "date": "2025-11-19"
     },
     {
-      "title": "Koelnmesse Appoints Mathias Küpper as First Regional President Asia-Pacific",
-      "source": "Koelnmesse Press Office",
-      "date": "2025-11-10"
+      "title": "Koelnmesse launches Fiber+Fabric Craft Festival, debuting May 1-3, 2026 in Rosemont, IL",
+      "source": "Koelnmesse / Fiber+Fabric Craft Festival",
+      "date": "2025-01-15"
     }
   ]
 }
