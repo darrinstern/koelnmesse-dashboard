@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T06:00:00-05:00",
+  "lastUpdated": "2026-07-29T06:00:00-05:00",
   "ooo": [
     { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
     { "name": "Courtney", "status": "OOO", "until": "2026-07-31" },
@@ -10,62 +10,64 @@
     { "name": "VW", "status": "Vacation", "until": "2026-08-14" },
     { "name": "Cathy", "status": "OOO", "until": "2026-08-14" },
     { "name": "Cathy", "status": "OOO", "until": "2026-08-21" },
-    { "name": "Kate", "status": "Gamescom", "until": "2026-08-28" }
+    { "name": "Kate", "status": "Gamescom", "until": "2026-08-28" },
+    { "name": "VW", "status": "Vacation", "until": "2026-08-28" },
+    { "name": "Cathy", "status": "OOO", "until": "2026-09-02" }
   ],
-  "news": {
+  "topNews": {
     "world": {
-      "headline": "US-China rivalry and tariff fallout reshape global trade after Supreme Court ruling",
-      "source": "Global Business Wire",
+      "headline": "US-Israeli strikes on Iran escalate as Yemen and Ukraine drawn into widening conflict",
+      "source": "Foreign Affairs",
       "time": "Today"
     },
     "germany": {
-      "headline": "Officials face scrutiny after suspected Islamist attack near Berlin's CSD celebrations",
+      "headline": "Berlin Pride parade attack suspect pledged allegiance to Islamic State, video shows",
       "source": "The Local Germany",
-      "time": "Today"
-    },
-    "chicago": {
-      "headline": "McCormick Place earns Gold Level sustainability certification from Events Industry Council",
-      "source": "McCormick Place Newsroom",
       "time": "This morning"
     },
+    "chicago": {
+      "headline": "Chicago hotels post record summer as union cooperation lures new shows to McCormick Place",
+      "source": "CBS News Chicago",
+      "time": "Yesterday"
+    },
     "sports": {
-      "headline": "Bears open training camp with roster moves, sign TE Sam Roush",
-      "source": "ChicagoBears.com",
-      "time": "Today"
+      "headline": "Cubs designate Jameson Taillon for assignment, eye trade for Angels ace Jose Soriano",
+      "source": "MLB.com",
+      "time": "Yesterday"
     }
   },
   "industryNews": [
     {
-      "title": "RELX H1 2026 Trading Update: Exhibitions underlying revenue up 6%, outlook reaffirmed",
-      "source": "TSNN",
-      "date": "2026-07-24"
+      "title": "BizBash publishes US Event Industry News roundup covering venue and staffing moves",
+      "source": "BizBash",
+      "date": "2026-07-21"
     },
     {
-      "title": "Trade Show M&A: Life Science Connect acquires Precision Medicine World Conference",
-      "source": "TSNN",
-      "date": "2026-07-18"
+      "title": "BizBash Fresh Faces 2026 spotlights 15 rising event industry professionals",
+      "source": "BizBash",
+      "date": "2026-07-27"
     },
     {
-      "title": "Easyfairs to launch Digital Accountancy Show USA spinoff in Austin, May 2027",
+      "title": "TSNN rounds up trade show industry new hires and promotions for July",
       "source": "TSNN",
-      "date": "2026-07-14"
+      "date": "2026-07-15"
     }
   ],
   "kmNews": [
     {
-      "title": "gamescom 2026 booked up across all available areas; 2027 expansion in planning",
+      "title": "Koelnmesse and AMARA Expo launch joint venture to drive trade fair growth in Indonesia",
       "source": "Koelnmesse Press Office",
-      "date": "2026-07-06"
+      "date": "2026-05-12"
     },
     {
-      "title": "Koelnmesse appoints Mathias Küpper as first Regional President Asia-Pacific",
+      "title": "Koelnmesse secures top sustainability ranking among German trade fair companies again",
       "source": "Koelnmesse Press Office",
-      "date": "2025-11-19"
+      "date": "2026-07-29"
     },
     {
-      "title": "Koelnmesse launches Central Asia International Hardware Expo (CAIHE) in Tashkent",
+      "title": "CAIHE to launch in Tashkent, November 2026, as Koelnmesse's first Central Asia event",
       "source": "Koelnmesse Press Office",
-      "date": "2025-11-01"
+      "date": "2026-07-29"
     }
   ]
 }
