@@ -14,7 +14,7 @@
     { "name": "VW", "status": "Vacation", "until": "2026-08-28" },
     { "name": "Cathy", "status": "OOO", "until": "2026-09-02" }
   ],
-  "news": {
+  "topNews": {
     "world": { "headline": "US-China trade tensions escalate over tariffs, export controls on rare earths", "source": "Reuters", "time": "Today" },
     "germany": { "headline": "Munich court upholds water-saving order; Deutsche Bank posts record Q2 profit amid heatwave", "source": "The Local Germany", "time": "Today" },
     "chicago": { "headline": "McCormick Place earns Gold sustainability certification as Chicago hotels post record summer revenue", "source": "Crain's Chicago Business", "time": "This morning" },
