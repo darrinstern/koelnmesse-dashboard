@@ -12,7 +12,7 @@
     { "name": "VW", "status": "Vacation", "until": "2026-08-28" },
     { "name": "Cathy", "status": "OOO", "until": "2026-09-02" }
   ],
-  "news": {
+  "topNews": {
     "world": {
       "headline": "US Supreme Court tariff ruling forces recalibration of US-China trade strategy",
       "source": "Reuters",
