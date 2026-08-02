@@ -1,33 +1,71 @@
 {
-  "lastUpdated": "2026-07-30T06:00:00-05:00",
+  "lastUpdated": "2026-08-02T06:00:00-05:00",
   "ooo": [
-    { "name": "Cathy", "status": "OOO", "until": "2026-07-31" },
-    { "name": "Courtney", "status": "OOO", "until": "2026-07-31" },
     { "name": "VW", "status": "Comp", "until": "2026-08-05" },
     { "name": "Courtney", "status": "Vacation", "until": "2026-08-05" },
     { "name": "Cathy", "status": "OOO", "until": "2026-08-07" },
     { "name": "Darrin", "status": "OOO", "until": "2026-08-08" },
     { "name": "VW", "status": "Vacation", "until": "2026-08-14" },
     { "name": "Cathy", "status": "OOO", "until": "2026-08-14" },
+    { "name": "George", "status": "OOO", "until": "2026-08-18" },
     { "name": "Cathy", "status": "OOO", "until": "2026-08-21" },
-    { "name": "Kate", "status": "Gamescom", "until": "2026-08-28" },
     { "name": "VW", "status": "Vacation", "until": "2026-08-28" },
     { "name": "Cathy", "status": "OOO", "until": "2026-09-02" }
   ],
-  "topNews": {
-    "world": { "headline": "US-China trade tensions escalate over tariffs, export controls on rare earths", "source": "Reuters", "time": "Today" },
-    "germany": { "headline": "Munich court upholds water-saving order; Deutsche Bank posts record Q2 profit amid heatwave", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "McCormick Place earns Gold sustainability certification as Chicago hotels post record summer revenue", "source": "Crain's Chicago Business", "time": "This morning" },
-    "sports": { "headline": "Bears open training camp as Poles, Johnson build on last year's momentum", "source": "ChicagoBears.com", "time": "Today" }
+  "news": {
+    "world": {
+      "headline": "US Supreme Court tariff ruling forces recalibration of US-China trade strategy",
+      "source": "Reuters",
+      "time": "Yesterday"
+    },
+    "germany": {
+      "headline": "Deutsche Bank posts record EUR1.9bn Q2 profit, beating analyst expectations",
+      "source": "The Local Germany",
+      "time": "Yesterday"
+    },
+    "chicago": {
+      "headline": "McCormick Place earns Gold Level Certification for Sustainable Event Standards",
+      "source": "McCormick Place Newsroom",
+      "time": "Today"
+    },
+    "sports": {
+      "headline": "Cubs eye Braxton Garrett as pitching target ahead of Aug 3 trade deadline",
+      "source": "MLB.com",
+      "time": "Today"
+    }
   },
   "industryNews": [
-    { "title": "Trade Show Moves: TSNN's July Roundup of New Hires & Promotions Shows Hot Job Market", "source": "TSNN", "date": "2026-07-28" },
-    { "title": "Trade Show Executive Debuts Lenay Gore Award of Excellence at 2026 Fastest 50 Awards & Summit", "source": "Trade Show Executive", "date": "2026-07-24" },
-    { "title": "EIC Report: Business Events Industry Now Worth $1.3 Trillion, Supports 24.2M Jobs Globally", "source": "BizBash", "date": "2026-07-18" }
+    {
+      "title": "Freeman Promotes Chris Schimek to President of Freeman Events & Exhibits",
+      "source": "TSNN",
+      "date": "2026-07-28"
+    },
+    {
+      "title": "RIMS 2026 Posts 3% Attendance Growth, 5% Rise in Exhibitors",
+      "source": "TSNN",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "CEIR: Large Trade Shows Posting 55% Profit Margins as Scale Drives Returns",
+      "source": "TSNN",
+      "date": "2026-07-22"
+    }
   ],
   "kmNews": [
-    { "title": "Koelnmesse Strengthens Sales in the Middle East, Adds New Partners in Dubai", "source": "PR Newswire / Koelnmesse", "date": "2026-07-15" },
-    { "title": "Koelnmesse and AMARA Expo Launch Joint Venture PT. Nine Koeln Indonesia", "source": "Koelnmesse Press Office", "date": "2026-06-20" },
-    { "title": "Koelnmesse Launches Central Asia International Hardware Expo (CAIHE) in Tashkent for Nov 2026", "source": "Koelnmesse Press Office", "date": "2026-07-10" }
+    {
+      "title": "Koelnmesse to Launch CAIHE, First International Hardware Trade Fair in Central Asia",
+      "source": "Koelnmesse Press Office",
+      "date": "2026-08-02"
+    },
+    {
+      "title": "Koelnmesse Adds New Dog Supplies Trade Fair Alongside spoga horse, Launching 2027",
+      "source": "Koelnmesse Press Office",
+      "date": "2026-08-02"
+    },
+    {
+      "title": "h+h americas Continues as Fastest-Growing Handicraft Trade Show in North America",
+      "source": "h+h americas",
+      "date": "2026-08-02"
+    }
   ]
 }
