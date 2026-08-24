@@ -17,7 +17,7 @@
     { "name": "VW", "status": "Vacation", "until": "2026-09-18" },
     { "name": "George", "status": "1/2 Day PM", "until": "2026-09-18" }
   ],
-  "news": {
+  "topNews": {
     "world": {
       "headline": "Canada vows to match new 50% US tariffs 'dollar for dollar' starting Sept. 8",
       "source": "Reuters",
