@@ -1,36 +1,36 @@
 {
-  "lastUpdated": "2026-08-25T11:00:00-05:00",
+  "lastUpdated": "2026-08-26T06:00:00-05:00",
   "ooo": [
-    { "name": "Cathy", "status": "Cologne", "until": "2026-08-27" },
-    { "name": "Kate", "status": "gamescom", "until": "2026-08-28" },
-    { "name": "VW", "status": "Vacation", "until": "2026-08-28" },
-    { "name": "Kate", "status": "Comp Day", "until": "2026-08-31" },
-    { "name": "Cathy", "status": "Vacation", "until": "2026-09-02" },
-    { "name": "Kylie", "status": "OOO", "until": "2026-09-03" },
-    { "name": "George", "status": "Half Day", "until": "2026-09-03" },
-    { "name": "George", "status": "OOO", "until": "2026-09-04" },
-    { "name": "Kym", "status": "Half Day", "until": "2026-09-04" },
-    { "name": "Kym", "status": "OOO", "until": "2026-09-08" },
-    { "name": "VW", "status": "Vacation", "until": "2026-09-09" },
-    { "name": "Leslie", "status": "OOO", "until": "2026-09-10" },
-    { "name": "Cathy", "status": "OOO", "until": "2026-09-11" },
-    { "name": "VW", "status": "Vacation", "until": "2026-09-18" },
-    { "name": "George", "status": "Half Day", "until": "2026-09-18" }
+    {"name": "Cathy", "status": "Cologne", "until": "2026-08-27"},
+    {"name": "Kate", "status": "Gamescom", "until": "2026-08-28"},
+    {"name": "VW", "status": "Vacation", "until": "2026-08-28"},
+    {"name": "Kate", "status": "Comp Day", "until": "2026-08-31"},
+    {"name": "Cathy", "status": "Vacation", "until": "2026-09-02"},
+    {"name": "Kylie", "status": "OOO", "until": "2026-09-03"},
+    {"name": "George", "status": "1/2 Day PM", "until": "2026-09-03"},
+    {"name": "Kym", "status": "1/2 Day", "until": "2026-09-03"},
+    {"name": "George", "status": "OOO", "until": "2026-09-04"},
+    {"name": "Kym", "status": "OOO", "until": "2026-09-08"},
+    {"name": "VW", "status": "Vacation", "until": "2026-09-09"},
+    {"name": "Leslie", "status": "OOO", "until": "2026-09-10"},
+    {"name": "Cathy", "status": "OOO", "until": "2026-09-11"},
+    {"name": "VW", "status": "Vacation", "until": "2026-09-18"},
+    {"name": "George", "status": "1/2 Day PM", "until": "2026-09-18"}
   ],
-  "topNews": {
-    "world": { "headline": "JPMorganChase launches Center for Geopolitics as US-China trade rivalry reshapes global supply chains", "source": "Seeking Alpha", "time": "Today" },
-    "germany": { "headline": "VW workers slam 'disastrous communication' as further 50,000 job cuts loom", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Chris Konecki named McCormick Place general manager, 4th GM in 4 years", "source": "Crain's Chicago Business", "time": "Today" },
-    "sports": { "headline": "Bears RB Kyle Monangai leaves practice with knee injury; MRI pending", "source": "NBC Chicago", "time": "Today" }
+  "news": {
+    "world": {"headline": "Tariffs surge and Iran-conflict risk keep markets on edge, EU preps trade defenses", "source": "Deutsche Bank Research", "time": "This morning"},
+    "germany": {"headline": "Deutsche Bahn long-distance cancellations hit second-highest level since 2019", "source": "The Local Germany", "time": "Yesterday"},
+    "chicago": {"headline": "McCormick Place sustains $24M+ annual MWBE supplier-diversity investment", "source": "McCormick Place Newsroom", "time": "This week"},
+    "sports": {"headline": "Bears RT Darnell Wright exits practice with elbow injury amid camp battles", "source": "Chicago Bears Official Website", "time": "Today"}
   },
   "industryNews": [
-    { "title": "Emerald and Questex Unveil Forge as New Parent Company", "source": "TSNN", "date": "2026-08-25" },
-    { "title": "Houston First Restructures Leadership to Support Convention Center Expansion", "source": "TSNN", "date": "2026-08-25" },
-    { "title": "EIC report: trade shows drive $1.3T total spend, support 24.2M jobs globally", "source": "Events Industry Council / TSNN", "date": "2026-08-25" }
+    {"title": "Farm Progress by Informa opens as 2025's largest US trade show at 2.9M net sq ft", "source": "TSNN", "date": "2026-08-26"},
+    {"title": "EIC report: trade show industry drives $1.3T in spend, 24.2M jobs worldwide", "source": "TSNN", "date": "2026-08-20"},
+    {"title": "RISKWORLD attendance grows 3% to 10,800+ pros as exhibitor count rises 5%", "source": "Trade Show Executive", "date": "2026-08-18"}
   ],
   "kmNews": [
-    { "title": "Koelnmesse achieves strong results, further expands international market position in 2025", "source": "Koelnmesse.com Press Office", "date": "2026-08-25" },
-    { "title": "Central Asia International Hardware Expo (CAIHE) to launch Nov 2026, Koelnmesse's first Central Asia event", "source": "Koelnmesse.com", "date": "2026-08-25" },
-    { "title": "ART COLOGNE PALMA MALLORCA debuts April 9-12, 2026 at Palau de Congressos", "source": "Koelnmesse.com", "date": "2026-08-25" }
+    {"title": "Koelnmesse to launch Central Asia International Hardware Expo (CAIHE) in November 2026", "source": "Koelnmesse Press Office", "date": "2026-08-15"},
+    {"title": "Koelnmesse brings ART COLOGNE to Palma de Mallorca with April 2026 premiere", "source": "koelnmesse.com", "date": "2026-01-20"},
+    {"title": "Koelnmesse names Mathias Küpper first Regional President Asia-Pacific", "source": "koelnmesse.com", "date": "2025-11-19"}
   ]
 }
