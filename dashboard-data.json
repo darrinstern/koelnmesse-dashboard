@@ -1,36 +1,36 @@
 {
-  "lastUpdated": "2026-08-26T06:00:00-05:00",
+  "lastUpdated": "2026-08-27",
   "ooo": [
-    {"name": "Cathy", "status": "Cologne", "until": "2026-08-27"},
-    {"name": "Kate", "status": "Gamescom", "until": "2026-08-28"},
-    {"name": "VW", "status": "Vacation", "until": "2026-08-28"},
-    {"name": "Kate", "status": "Comp Day", "until": "2026-08-31"},
-    {"name": "Cathy", "status": "Vacation", "until": "2026-09-02"},
-    {"name": "Kylie", "status": "OOO", "until": "2026-09-03"},
-    {"name": "George", "status": "1/2 Day PM", "until": "2026-09-03"},
-    {"name": "Kym", "status": "1/2 Day", "until": "2026-09-03"},
-    {"name": "George", "status": "OOO", "until": "2026-09-04"},
-    {"name": "Kym", "status": "OOO", "until": "2026-09-08"},
-    {"name": "VW", "status": "Vacation", "until": "2026-09-09"},
-    {"name": "Leslie", "status": "OOO", "until": "2026-09-10"},
-    {"name": "Cathy", "status": "OOO", "until": "2026-09-11"},
-    {"name": "VW", "status": "Vacation", "until": "2026-09-18"},
-    {"name": "George", "status": "1/2 Day PM", "until": "2026-09-18"}
+    { "name": "Cathy", "status": "Cologne", "until": "2026-08-27" },
+    { "name": "Kate", "status": "Gamescom", "until": "2026-08-28" },
+    { "name": "VW", "status": "Vacation", "until": "2026-08-28" },
+    { "name": "Kate", "status": "Comp Day", "until": "2026-08-31" },
+    { "name": "Cathy", "status": "Vacation", "until": "2026-09-02" },
+    { "name": "Kylie", "status": "OOO", "until": "2026-09-03" },
+    { "name": "George", "status": "Half Day", "until": "2026-09-03" },
+    { "name": "Kym", "status": "Half Day", "until": "2026-09-03" },
+    { "name": "George", "status": "OOO", "until": "2026-09-04" },
+    { "name": "Kym", "status": "OOO", "until": "2026-09-08" },
+    { "name": "VW", "status": "Vacation", "until": "2026-09-09" },
+    { "name": "Leslie", "status": "OOO", "until": "2026-09-10" },
+    { "name": "Cathy", "status": "OOO", "until": "2026-09-11" },
+    { "name": "Leslie", "status": "Miami F&B", "until": "2026-09-16" },
+    { "name": "VW", "status": "Vacation", "until": "2026-09-18" }
   ],
-  "news": {
-    "world": {"headline": "Tariffs surge and Iran-conflict risk keep markets on edge, EU preps trade defenses", "source": "Deutsche Bank Research", "time": "This morning"},
-    "germany": {"headline": "Deutsche Bahn long-distance cancellations hit second-highest level since 2019", "source": "The Local Germany", "time": "Yesterday"},
-    "chicago": {"headline": "McCormick Place sustains $24M+ annual MWBE supplier-diversity investment", "source": "McCormick Place Newsroom", "time": "This week"},
-    "sports": {"headline": "Bears RT Darnell Wright exits practice with elbow injury amid camp battles", "source": "Chicago Bears Official Website", "time": "Today"}
+  "headlines": {
+    "world": { "headline": "Brent crude slips to $87.24/barrel as global oil markets weigh demand outlook", "source": "Business Standard", "time": "Today" },
+    "germany": { "headline": "VW boss warns of more job losses as carmaker battles Chinese rivals, US tariffs", "source": "The Local Germany", "time": "Today" },
+    "chicago": { "headline": "Mayor Johnson says Chicago closed $85M budget gap without layoffs", "source": "NBC Chicago", "time": "Today" },
+    "sports": { "headline": "Bears' Darnell Wright exits practice with elbow injury ahead of cuts", "source": "Chicago Bears Official", "time": "Today" }
   },
   "industryNews": [
-    {"title": "Farm Progress by Informa opens as 2025's largest US trade show at 2.9M net sq ft", "source": "TSNN", "date": "2026-08-26"},
-    {"title": "EIC report: trade show industry drives $1.3T in spend, 24.2M jobs worldwide", "source": "TSNN", "date": "2026-08-20"},
-    {"title": "RISKWORLD attendance grows 3% to 10,800+ pros as exhibitor count rises 5%", "source": "Trade Show Executive", "date": "2026-08-18"}
+    { "title": "Houston First restructures leadership to support convention center expansion", "source": "TSNN", "date": "2026-08-27" },
+    { "title": "Trade show pioneer Richard 'Dick' Swandby, founder of Exhibit Surveys Inc., dies", "source": "TSNN", "date": "2026-08-13" },
+    { "title": "IAAPA Expo returns to Orlando in November with expanded show floor into West Hall", "source": "Trade Show Executive", "date": "2026-08-27" }
   ],
   "kmNews": [
-    {"title": "Koelnmesse to launch Central Asia International Hardware Expo (CAIHE) in November 2026", "source": "Koelnmesse Press Office", "date": "2026-08-15"},
-    {"title": "Koelnmesse brings ART COLOGNE to Palma de Mallorca with April 2026 premiere", "source": "koelnmesse.com", "date": "2026-01-20"},
-    {"title": "Koelnmesse names Mathias Küpper first Regional President Asia-Pacific", "source": "koelnmesse.com", "date": "2025-11-19"}
+    { "title": "CAIHE: Koelnmesse's first Central Asia hardware expo launches in Tashkent this November", "source": "Koelnmesse Press Office", "date": "2026-08-27" },
+    { "title": "Koelnmesse ranked Germany's top trade fair company for sustainability, second year running", "source": "Koelnmesse Press Office", "date": "2026-08-27" },
+    { "title": "Koelnmesse 2025 turnover reaches €455.5M, driving €2.64B in national economic impact", "source": "Koelnmesse Press Office", "date": "2026-08-27" }
   ]
 }
