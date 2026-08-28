@@ -1,36 +1,76 @@
 {
-  "lastUpdated": "2026-08-27",
+  "lastUpdated": "2026-08-28T06:00:00-05:00",
   "ooo": [
-    { "name": "Cathy", "status": "Cologne", "until": "2026-08-27" },
-    { "name": "Kate", "status": "Gamescom", "until": "2026-08-28" },
+    { "name": "Kate", "status": "gamescom", "until": "2026-08-28" },
     { "name": "VW", "status": "Vacation", "until": "2026-08-28" },
     { "name": "Kate", "status": "Comp Day", "until": "2026-08-31" },
     { "name": "Cathy", "status": "Vacation", "until": "2026-09-02" },
     { "name": "Kylie", "status": "OOO", "until": "2026-09-03" },
-    { "name": "George", "status": "Half Day", "until": "2026-09-03" },
-    { "name": "Kym", "status": "Half Day", "until": "2026-09-03" },
+    { "name": "George", "status": "OOO 1/2 Day", "until": "2026-09-03" },
     { "name": "George", "status": "OOO", "until": "2026-09-04" },
     { "name": "Kym", "status": "OOO", "until": "2026-09-08" },
     { "name": "VW", "status": "Vacation", "until": "2026-09-09" },
     { "name": "Leslie", "status": "OOO", "until": "2026-09-10" },
     { "name": "Cathy", "status": "OOO", "until": "2026-09-11" },
-    { "name": "Leslie", "status": "Miami F&B", "until": "2026-09-16" },
-    { "name": "VW", "status": "Vacation", "until": "2026-09-18" }
+    { "name": "VW", "status": "Vacation", "until": "2026-09-18" },
+    { "name": "George", "status": "OOO 1/2 Day", "until": "2026-09-18" },
+    { "name": "Cathy", "status": "OOO", "until": "2026-09-18" },
+    { "name": "VW", "status": "Comp Day", "until": "2026-09-25" }
   ],
-  "headlines": {
-    "world": { "headline": "Brent crude slips to $87.24/barrel as global oil markets weigh demand outlook", "source": "Business Standard", "time": "Today" },
-    "germany": { "headline": "VW boss warns of more job losses as carmaker battles Chinese rivals, US tariffs", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Mayor Johnson says Chicago closed $85M budget gap without layoffs", "source": "NBC Chicago", "time": "Today" },
-    "sports": { "headline": "Bears' Darnell Wright exits practice with elbow injury ahead of cuts", "source": "Chicago Bears Official", "time": "Today" }
+  "news": {
+    "world": {
+      "headline": "Trump presses world leaders to join economic pressure campaign against Iran",
+      "source": "Reuters",
+      "time": "Today"
+    },
+    "germany": {
+      "headline": "VW boss warns workers of more job cuts as cost-cutting drive deepens",
+      "source": "The Local Germany",
+      "time": "Yesterday"
+    },
+    "chicago": {
+      "headline": "McCormick Place operator MPEA invests $24M+ yearly with minority- and women-owned firms",
+      "source": "McCormick Place Newsroom",
+      "time": "This morning"
+    },
+    "sports": {
+      "headline": "Bears wrap camp, set for preseason finale vs. Titans Saturday in Nashville",
+      "source": "ChicagoBears.com",
+      "time": "Today"
+    }
   },
   "industryNews": [
-    { "title": "Houston First restructures leadership to support convention center expansion", "source": "TSNN", "date": "2026-08-27" },
-    { "title": "Trade show pioneer Richard 'Dick' Swandby, founder of Exhibit Surveys Inc., dies", "source": "TSNN", "date": "2026-08-13" },
-    { "title": "IAAPA Expo returns to Orlando in November with expanded show floor into West Hall", "source": "Trade Show Executive", "date": "2026-08-27" }
+    {
+      "title": "Diversified rolls out green strategy at Accountex London",
+      "source": "Trade Show Executive",
+      "date": "2026-08-25"
+    },
+    {
+      "title": "TSNN publishes Part Six of the 2026 Event Industry 50 Over 50 feature",
+      "source": "TSNN",
+      "date": "2026-08-24"
+    },
+    {
+      "title": "Houston First restructures leadership to support convention center expansion",
+      "source": "TSNN",
+      "date": "2026-08-21"
+    }
   ],
   "kmNews": [
-    { "title": "CAIHE: Koelnmesse's first Central Asia hardware expo launches in Tashkent this November", "source": "Koelnmesse Press Office", "date": "2026-08-27" },
-    { "title": "Koelnmesse ranked Germany's top trade fair company for sustainability, second year running", "source": "Koelnmesse Press Office", "date": "2026-08-27" },
-    { "title": "Koelnmesse 2025 turnover reaches €455.5M, driving €2.64B in national economic impact", "source": "Koelnmesse Press Office", "date": "2026-08-27" }
+    {
+      "title": "Koelnmesse closes 2025 with ~€450M revenue and ~€60M group result; Anuga its largest event ever",
+      "source": "Koelnmesse Press Office",
+      "date": "2026-08-28"
+    },
+    {
+      "title": "Koelnmesse launches Indonesia joint venture PT. Nine Koeln Indonesia with AMARA Expo",
+      "source": "Koelnmesse Press Office",
+      "date": "2026-08-28"
+    },
+    {
+      "title": "Africa Food Show Cape Town rebrands as Anuga Select South Africa, Koelnmesse's first African platform",
+      "source": "Koelnmesse Press Office",
+      "date": "2026-08-28"
+    }
   ]
 }
