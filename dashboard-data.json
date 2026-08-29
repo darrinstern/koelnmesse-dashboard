@@ -1,76 +1,76 @@
 {
-  "lastUpdated": "2026-08-28T06:00:00-05:00",
+  "generatedAt": "2026-08-29T06:00:00-05:00",
   "ooo": [
-    { "name": "Kate", "status": "gamescom", "until": "2026-08-28" },
+    { "name": "Kate", "status": "Gamescom", "until": "2026-08-28" },
     { "name": "VW", "status": "Vacation", "until": "2026-08-28" },
     { "name": "Kate", "status": "Comp Day", "until": "2026-08-31" },
     { "name": "Cathy", "status": "Vacation", "until": "2026-09-02" },
     { "name": "Kylie", "status": "OOO", "until": "2026-09-03" },
-    { "name": "George", "status": "OOO 1/2 Day", "until": "2026-09-03" },
+    { "name": "George", "status": "OOO (half day PM)", "until": "2026-09-03" },
+    { "name": "Kym", "status": "OOO (half day)", "until": "2026-09-03" },
     { "name": "George", "status": "OOO", "until": "2026-09-04" },
     { "name": "Kym", "status": "OOO", "until": "2026-09-08" },
     { "name": "VW", "status": "Vacation", "until": "2026-09-09" },
     { "name": "Leslie", "status": "OOO", "until": "2026-09-10" },
     { "name": "Cathy", "status": "OOO", "until": "2026-09-11" },
+    { "name": "Leslie", "status": "Miami F&B", "until": "2026-09-16" },
     { "name": "VW", "status": "Vacation", "until": "2026-09-18" },
-    { "name": "George", "status": "OOO 1/2 Day", "until": "2026-09-18" },
-    { "name": "Cathy", "status": "OOO", "until": "2026-09-18" },
-    { "name": "VW", "status": "Comp Day", "until": "2026-09-25" }
+    { "name": "George", "status": "OOO (half day PM)", "until": "2026-09-18" }
   ],
-  "news": {
+  "topNews": {
     "world": {
-      "headline": "Trump presses world leaders to join economic pressure campaign against Iran",
-      "source": "Reuters",
-      "time": "Today"
+      "headline": "Bessent: new oil pipelines will make Strait of Hormuz strategically irrelevant within two years",
+      "source": "CBS News",
+      "time": "Yesterday"
     },
     "germany": {
-      "headline": "VW boss warns workers of more job cuts as cost-cutting drive deepens",
+      "headline": "Germany leads call for hundreds of billions in EU budget cuts as Gamescom kicks off in Cologne",
       "source": "The Local Germany",
       "time": "Yesterday"
     },
     "chicago": {
-      "headline": "McCormick Place operator MPEA invests $24M+ yearly with minority- and women-owned firms",
-      "source": "McCormick Place Newsroom",
+      "headline": "Chicago Auto Show's Chris Konecki named new McCormick Place general manager",
+      "source": "Crain's Chicago Business",
       "time": "This morning"
     },
     "sports": {
-      "headline": "Bears wrap camp, set for preseason finale vs. Titans Saturday in Nashville",
-      "source": "ChicagoBears.com",
-      "time": "Today"
+      "headline": "Bears QB Caleb Williams shines in joint practice with Titans ahead of preseason finale",
+      "source": "Chicago Bears / Windy City Gridiron",
+      "time": "Yesterday"
     }
   },
   "industryNews": [
     {
-      "title": "Diversified rolls out green strategy at Accountex London",
+      "title": "Informa's B2B Live Events division posts 8% underlying revenue growth in H1 2026",
+      "source": "Trade Show Executive",
+      "date": "2026-08-20"
+    },
+    {
+      "title": "Black Hat USA 2026 wraps with record threat intelligence programming for security pros",
+      "source": "TSNN",
+      "date": "2026-08-15"
+    },
+    {
+      "title": "Gastech 2026 heads to Bangkok Sept. 14-17, uniting global energy decision-makers",
       "source": "Trade Show Executive",
       "date": "2026-08-25"
-    },
-    {
-      "title": "TSNN publishes Part Six of the 2026 Event Industry 50 Over 50 feature",
-      "source": "TSNN",
-      "date": "2026-08-24"
-    },
-    {
-      "title": "Houston First restructures leadership to support convention center expansion",
-      "source": "TSNN",
-      "date": "2026-08-21"
     }
   ],
   "kmNews": [
     {
-      "title": "Koelnmesse closes 2025 with ~€450M revenue and ~€60M group result; Anuga its largest event ever",
+      "title": "Koelnmesse closes 2025 with ~€450M revenue, €60M consolidated result, record Anuga turnout",
       "source": "Koelnmesse Press Office",
-      "date": "2026-08-28"
+      "date": "2026-08-20"
     },
     {
-      "title": "Koelnmesse launches Indonesia joint venture PT. Nine Koeln Indonesia with AMARA Expo",
+      "title": "Koelnmesse launches new Indonesia joint venture, PT. Nine Koeln Indonesia, in Jakarta",
       "source": "Koelnmesse Press Office",
-      "date": "2026-08-28"
+      "date": "2026-08-20"
     },
     {
-      "title": "Africa Food Show Cape Town rebrands as Anuga Select South Africa, Koelnmesse's first African platform",
-      "source": "Koelnmesse Press Office",
-      "date": "2026-08-28"
+      "title": "Koelnmesse Inc. to debut CAIHE, first Central Asia event, in Tashkent Nov. 24-26, 2026",
+      "source": "Koelnmesse Inc / h+h americas",
+      "date": "2026-08-15"
     }
   ]
 }
