@@ -1,12 +1,10 @@
 {
-  "generatedAt": "2026-08-29T06:00:00-05:00",
+  "lastUpdated": "2026-08-31T06:00:00-05:00",
   "ooo": [
-    { "name": "Kate", "status": "Gamescom", "until": "2026-08-28" },
-    { "name": "VW", "status": "Vacation", "until": "2026-08-28" },
     { "name": "Kate", "status": "Comp Day", "until": "2026-08-31" },
     { "name": "Cathy", "status": "Vacation", "until": "2026-09-02" },
     { "name": "Kylie", "status": "OOO", "until": "2026-09-03" },
-    { "name": "George", "status": "OOO (half day PM)", "until": "2026-09-03" },
+    { "name": "George", "status": "OOO (half day)", "until": "2026-09-03" },
     { "name": "Kym", "status": "OOO (half day)", "until": "2026-09-03" },
     { "name": "George", "status": "OOO", "until": "2026-09-04" },
     { "name": "Kym", "status": "OOO", "until": "2026-09-08" },
@@ -14,63 +12,25 @@
     { "name": "Leslie", "status": "OOO", "until": "2026-09-10" },
     { "name": "Cathy", "status": "OOO", "until": "2026-09-11" },
     { "name": "Leslie", "status": "Miami F&B", "until": "2026-09-16" },
-    { "name": "VW", "status": "Vacation", "until": "2026-09-18" },
-    { "name": "George", "status": "OOO (half day PM)", "until": "2026-09-18" }
+    { "name": "Saloni", "status": "OOO", "until": "2026-09-16" },
+    { "name": "George", "status": "OOO (half day)", "until": "2026-09-18" },
+    { "name": "Cathy", "status": "OOO", "until": "2026-09-18" },
+    { "name": "VW", "status": "Comp Day", "until": "2026-09-25" }
   ],
   "topNews": {
-    "world": {
-      "headline": "Bessent: new oil pipelines will make Strait of Hormuz strategically irrelevant within two years",
-      "source": "CBS News",
-      "time": "Yesterday"
-    },
-    "germany": {
-      "headline": "Germany leads call for hundreds of billions in EU budget cuts as Gamescom kicks off in Cologne",
-      "source": "The Local Germany",
-      "time": "Yesterday"
-    },
-    "chicago": {
-      "headline": "Chicago Auto Show's Chris Konecki named new McCormick Place general manager",
-      "source": "Crain's Chicago Business",
-      "time": "This morning"
-    },
-    "sports": {
-      "headline": "Bears QB Caleb Williams shines in joint practice with Titans ahead of preseason finale",
-      "source": "Chicago Bears / Windy City Gridiron",
-      "time": "Yesterday"
-    }
+    "world": { "headline": "Iceland vote leans against EU membership as Ukraine faces 72 hours of drone strikes", "source": "Euronews", "time": "Yesterday" },
+    "germany": { "headline": "Gamescom wraps in Cologne as VW boss warns staff of more job losses", "source": "The Local Germany", "time": "This week" },
+    "chicago": { "headline": "Chris Konecki named new McCormick Place general manager", "source": "Crain's Chicago Business", "time": "This week" },
+    "sports": { "headline": "Bears finalize 53-man roster after strong preseason finale over Titans", "source": "Windy City Gridiron", "time": "This week" }
   },
   "industryNews": [
-    {
-      "title": "Informa's B2B Live Events division posts 8% underlying revenue growth in H1 2026",
-      "source": "Trade Show Executive",
-      "date": "2026-08-20"
-    },
-    {
-      "title": "Black Hat USA 2026 wraps with record threat intelligence programming for security pros",
-      "source": "TSNN",
-      "date": "2026-08-15"
-    },
-    {
-      "title": "Gastech 2026 heads to Bangkok Sept. 14-17, uniting global energy decision-makers",
-      "source": "Trade Show Executive",
-      "date": "2026-08-25"
-    }
+    { "title": "Forge unveiled as new corporate brand uniting Emerald and Questex post-Apollo acquisition", "source": "Trade Show Executive", "date": "2026-08-28" },
+    { "title": "IAAPA Expo to return to Orlando's Orange County Convention Center in November with expanded floor", "source": "TSNN", "date": "2026-08-27" },
+    { "title": "Anime NYC organizers debut Memorial Day 2027 event with LeftField Media's Korean-focused KPEX launch", "source": "BizBash", "date": "2026-08-26" }
   ],
   "kmNews": [
-    {
-      "title": "Koelnmesse closes 2025 with ~€450M revenue, €60M consolidated result, record Anuga turnout",
-      "source": "Koelnmesse Press Office",
-      "date": "2026-08-20"
-    },
-    {
-      "title": "Koelnmesse launches new Indonesia joint venture, PT. Nine Koeln Indonesia, in Jakarta",
-      "source": "Koelnmesse Press Office",
-      "date": "2026-08-20"
-    },
-    {
-      "title": "Koelnmesse Inc. to debut CAIHE, first Central Asia event, in Tashkent Nov. 24-26, 2026",
-      "source": "Koelnmesse Inc / h+h americas",
-      "date": "2026-08-15"
-    }
+    { "title": "Koelnmesse closes 2025 financial year with ~€450M revenue and ~€60M consolidated result", "source": "Koelnmesse Press Office", "date": "2026-08-25" },
+    { "title": "Koelnmesse to launch CAIHE, its first Central Asia event, in Tashkent this November", "source": "Koelnmesse Press Office", "date": "2026-08-20" },
+    { "title": "Koelnmesse strengthens sales presence and reorganizes for growth in the Middle East", "source": "PR Newswire", "date": "2026-08-18" }
   ]
 }
