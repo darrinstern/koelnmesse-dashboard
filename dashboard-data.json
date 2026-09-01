@@ -1,7 +1,6 @@
 {
-  "lastUpdated": "2026-08-31T06:00:00-05:00",
+  "lastUpdated": "2026-09-01T06:00:00-05:00",
   "ooo": [
-    { "name": "Kate", "status": "Comp Day", "until": "2026-08-31" },
     { "name": "Cathy", "status": "Vacation", "until": "2026-09-02" },
     { "name": "Kylie", "status": "OOO", "until": "2026-09-03" },
     { "name": "George", "status": "OOO (half day)", "until": "2026-09-03" },
@@ -11,26 +10,26 @@
     { "name": "VW", "status": "Vacation", "until": "2026-09-09" },
     { "name": "Leslie", "status": "OOO", "until": "2026-09-10" },
     { "name": "Cathy", "status": "OOO", "until": "2026-09-11" },
-    { "name": "Leslie", "status": "Miami F&B", "until": "2026-09-16" },
     { "name": "Saloni", "status": "OOO", "until": "2026-09-16" },
+    { "name": "Leslie", "status": "Miami F&B", "until": "2026-09-16" },
+    { "name": "VW", "status": "Vacation", "until": "2026-09-18" },
     { "name": "George", "status": "OOO (half day)", "until": "2026-09-18" },
-    { "name": "Cathy", "status": "OOO", "until": "2026-09-18" },
-    { "name": "VW", "status": "Comp Day", "until": "2026-09-25" }
+    { "name": "Cathy", "status": "OOO", "until": "2026-09-18" }
   ],
   "topNews": {
-    "world": { "headline": "Iceland vote leans against EU membership as Ukraine faces 72 hours of drone strikes", "source": "Euronews", "time": "Yesterday" },
-    "germany": { "headline": "Gamescom wraps in Cologne as VW boss warns staff of more job losses", "source": "The Local Germany", "time": "This week" },
+    "world": { "headline": "Eurozone inflation jumps to 3.3% in August as energy prices surge", "source": "Euronews", "time": "Today" },
+    "germany": { "headline": "Merz warns a far-right win in Saxony-Anhalt would 'considerably damage' the state", "source": "The Local Germany", "time": "Today" },
     "chicago": { "headline": "Chris Konecki named new McCormick Place general manager", "source": "Crain's Chicago Business", "time": "This week" },
-    "sports": { "headline": "Bears finalize 53-man roster after strong preseason finale over Titans", "source": "Windy City Gridiron", "time": "This week" }
+    "sports": { "headline": "Bears acquire DB Clark Phillips III, send Gervon Dexter Sr. to Falcons in trade", "source": "Yardbarker", "time": "Today" }
   },
   "industryNews": [
-    { "title": "Forge unveiled as new corporate brand uniting Emerald and Questex post-Apollo acquisition", "source": "Trade Show Executive", "date": "2026-08-28" },
-    { "title": "IAAPA Expo to return to Orlando's Orange County Convention Center in November with expanded floor", "source": "TSNN", "date": "2026-08-27" },
-    { "title": "Anime NYC organizers debut Memorial Day 2027 event with LeftField Media's Korean-focused KPEX launch", "source": "BizBash", "date": "2026-08-26" }
+    { "title": "Fred Dixon returns to NYC Tourism + Conventions as President and CEO", "source": "TSNN", "date": "2026-08-31" },
+    { "title": "LeftField Media targets Korean entertainment market with three-day KPEX launch", "source": "TSNN", "date": "2026-08-28" },
+    { "title": "Black Hat USA 2026 introduces more attendee-centric experiences and programming", "source": "TSNN", "date": "2026-08-27" }
   ],
   "kmNews": [
-    { "title": "Koelnmesse closes 2025 financial year with ~€450M revenue and ~€60M consolidated result", "source": "Koelnmesse Press Office", "date": "2026-08-25" },
-    { "title": "Koelnmesse to launch CAIHE, its first Central Asia event, in Tashkent this November", "source": "Koelnmesse Press Office", "date": "2026-08-20" },
-    { "title": "Koelnmesse strengthens sales presence and reorganizes for growth in the Middle East", "source": "PR Newswire", "date": "2026-08-18" }
+    { "title": "gamescom 2026 closes with 368,000 visitors from 131 countries, sold-out show floor a first", "source": "GamesBeat / Games Press", "date": "2026-08-31" },
+    { "title": "Koelnmesse named Digital Champion 2026 for digital transformation initiatives", "source": "Koelnmesse Press Office", "date": "2026-08-28" },
+    { "title": "Koelnmesse-backed platform to unite four furniture trade fairs in Jakarta, Sept 23-27", "source": "Koelnmesse Press Office", "date": "2026-08-25" }
   ]
 }
