@@ -1,35 +1,76 @@
 {
-  "lastUpdated": "2026-09-01T06:00:00-05:00",
+  "generatedAt": "2026-09-01T06:00:00-05:00",
   "ooo": [
+    { "name": "Kate", "status": "Comp Day", "until": "2026-08-31" },
     { "name": "Cathy", "status": "Vacation", "until": "2026-09-02" },
     { "name": "Kylie", "status": "OOO", "until": "2026-09-03" },
-    { "name": "George", "status": "OOO (half day)", "until": "2026-09-03" },
-    { "name": "Kym", "status": "OOO (half day)", "until": "2026-09-03" },
+    { "name": "George", "status": "OOO Half Day", "until": "2026-09-03" },
     { "name": "George", "status": "OOO", "until": "2026-09-04" },
+    { "name": "Kylie", "status": "OOO", "until": "2026-09-04" },
+    { "name": "Kym", "status": "OOO Half Day", "until": "2026-09-04" },
     { "name": "Kym", "status": "OOO", "until": "2026-09-08" },
     { "name": "VW", "status": "Vacation", "until": "2026-09-09" },
-    { "name": "Leslie", "status": "OOO", "until": "2026-09-10" },
     { "name": "Cathy", "status": "OOO", "until": "2026-09-11" },
-    { "name": "Saloni", "status": "OOO", "until": "2026-09-16" },
     { "name": "Leslie", "status": "Miami F&B", "until": "2026-09-16" },
+    { "name": "Saloni", "status": "OOO", "until": "2026-09-17" },
     { "name": "VW", "status": "Vacation", "until": "2026-09-18" },
-    { "name": "George", "status": "OOO (half day)", "until": "2026-09-18" },
+    { "name": "George", "status": "OOO Half Day", "until": "2026-09-18" },
     { "name": "Cathy", "status": "OOO", "until": "2026-09-18" }
   ],
-  "topNews": {
-    "world": { "headline": "Eurozone inflation jumps to 3.3% in August as energy prices surge", "source": "Euronews", "time": "Today" },
-    "germany": { "headline": "Merz warns a far-right win in Saxony-Anhalt would 'considerably damage' the state", "source": "The Local Germany", "time": "Today" },
-    "chicago": { "headline": "Chris Konecki named new McCormick Place general manager", "source": "Crain's Chicago Business", "time": "This week" },
-    "sports": { "headline": "Bears acquire DB Clark Phillips III, send Gervon Dexter Sr. to Falcons in trade", "source": "Yardbarker", "time": "Today" }
+  "news": {
+    "world": {
+      "headline": "Global markets retreat as oil hits mid-$80s and Mideast tensions lift Treasury yields",
+      "source": "Rio Times",
+      "time": "Today"
+    },
+    "germany": {
+      "headline": "Inflation in Germany rises in August ahead of Saxony-Anhalt election campaign",
+      "source": "The Local Germany",
+      "time": "Today"
+    },
+    "chicago": {
+      "headline": "Chris Konecki named McCormick Place GM; venue earns Platinum sustainability certification",
+      "source": "Crain's Chicago Business",
+      "time": "This morning"
+    },
+    "sports": {
+      "headline": "Bears finalize 53-man roster, sign 14 to practice squad ahead of Sept. 13 opener vs Panthers",
+      "source": "Bleacher Nation",
+      "time": "Today"
+    }
   },
   "industryNews": [
-    { "title": "Fred Dixon returns to NYC Tourism + Conventions as President and CEO", "source": "TSNN", "date": "2026-08-31" },
-    { "title": "LeftField Media targets Korean entertainment market with three-day KPEX launch", "source": "TSNN", "date": "2026-08-28" },
-    { "title": "Black Hat USA 2026 introduces more attendee-centric experiences and programming", "source": "TSNN", "date": "2026-08-27" }
+    {
+      "title": "$616 Million Economic Jolt: New York Resort Doubles Down on Trade Show and Events Business",
+      "source": "TSNN",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Fred Dixon Returns to NYC Tourism + Conventions as President and CEO",
+      "source": "TSNN",
+      "date": "2026-08-31"
+    },
+    {
+      "title": "5 Trends Transforming Trade Show Food Service",
+      "source": "TSNN",
+      "date": "2026-08-31"
+    }
   ],
   "kmNews": [
-    { "title": "gamescom 2026 closes with 368,000 visitors from 131 countries, sold-out show floor a first", "source": "GamesBeat / Games Press", "date": "2026-08-31" },
-    { "title": "Koelnmesse named Digital Champion 2026 for digital transformation initiatives", "source": "Koelnmesse Press Office", "date": "2026-08-28" },
-    { "title": "Koelnmesse-backed platform to unite four furniture trade fairs in Jakarta, Sept 23-27", "source": "Koelnmesse Press Office", "date": "2026-08-25" }
+    {
+      "title": "Koelnmesse closes 2025 financial year with ~€450M revenue and ~€60M consolidated group result",
+      "source": "Koelnmesse Press Office",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "gamescom 2026 expands to 1,600+ exhibitors from 67 countries across 233,000 sqm",
+      "source": "Koelnmesse Press Office",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Koelnmesse expands into Indonesia via new joint venture with AMARA Expo in Jakarta",
+      "source": "Koelnmesse Press Office",
+      "date": "2026-09-01"
+    }
   ]
 }
