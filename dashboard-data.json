@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-01T06:00:00-05:00",
+  "lastUpdated": "2026-09-02T06:00:00-05:00",
   "ooo": [
-    { "name": "Kate", "status": "Comp Day", "until": "2026-08-31" },
-    { "name": "Cathy", "status": "Vacation", "until": "2026-09-02" },
-    { "name": "Kylie", "status": "OOO", "until": "2026-09-03" },
-    { "name": "George", "status": "OOO Half Day", "until": "2026-09-03" },
-    { "name": "George", "status": "OOO", "until": "2026-09-04" },
-    { "name": "Kylie", "status": "OOO", "until": "2026-09-04" },
-    { "name": "Kym", "status": "OOO Half Day", "until": "2026-09-04" },
-    { "name": "Kym", "status": "OOO", "until": "2026-09-08" },
-    { "name": "VW", "status": "Vacation", "until": "2026-09-09" },
-    { "name": "Cathy", "status": "OOO", "until": "2026-09-11" },
-    { "name": "Leslie", "status": "Miami F&B", "until": "2026-09-16" },
-    { "name": "Saloni", "status": "OOO", "until": "2026-09-17" },
-    { "name": "VW", "status": "Vacation", "until": "2026-09-18" },
-    { "name": "George", "status": "OOO Half Day", "until": "2026-09-18" },
-    { "name": "Cathy", "status": "OOO", "until": "2026-09-18" }
+    {"name": "Cathy", "status": "Vacation", "until": "2026-09-02"},
+    {"name": "Kylie", "status": "OOO", "until": "2026-09-03"},
+    {"name": "George", "status": "Half Day", "until": "2026-09-03"},
+    {"name": "Kym", "status": "Half Day", "until": "2026-09-03"},
+    {"name": "George", "status": "OOO", "until": "2026-09-04"},
+    {"name": "Kym", "status": "OOO", "until": "2026-09-08"},
+    {"name": "VW", "status": "Vacation", "until": "2026-09-09"},
+    {"name": "Leslie", "status": "OOO", "until": "2026-09-10"},
+    {"name": "Cathy", "status": "OOO", "until": "2026-09-11"},
+    {"name": "Leslie", "status": "Miami F&B", "until": "2026-09-16"},
+    {"name": "VW", "status": "Vacation", "until": "2026-09-18"},
+    {"name": "George", "status": "Half Day", "until": "2026-09-18"},
+    {"name": "Cathy", "status": "OOO", "until": "2026-09-18"},
+    {"name": "VW", "status": "Competing Show", "until": "2026-09-25"},
+    {"name": "Cathy", "status": "OOO", "until": "2026-09-25"}
   ],
-  "news": {
+  "topNews": {
     "world": {
-      "headline": "Global markets retreat as oil hits mid-$80s and Mideast tensions lift Treasury yields",
-      "source": "Rio Times",
+      "headline": "US resumes strikes on Iranian targets near Strait of Hormuz amid rising tensions",
+      "source": "Associated Press",
       "time": "Today"
     },
     "germany": {
-      "headline": "Inflation in Germany rises in August ahead of Saxony-Anhalt election campaign",
+      "headline": "Germany blames Russia for drone attack at airport, announces counter-measures",
       "source": "The Local Germany",
       "time": "Today"
     },
     "chicago": {
-      "headline": "Chris Konecki named McCormick Place GM; venue earns Platinum sustainability certification",
-      "source": "Crain's Chicago Business",
-      "time": "This morning"
+      "headline": "Chicago health officials confirm first West Nile virus death, two cases this year",
+      "source": "CBS Chicago",
+      "time": "Today"
     },
     "sports": {
-      "headline": "Bears finalize 53-man roster, sign 14 to practice squad ahead of Sept. 13 opener vs Panthers",
-      "source": "Bleacher Nation",
+      "headline": "Bears finalize 53-man roster, acquire DB Clark Phillips III in trade with Falcons",
+      "source": "Chicago Bears / NFL",
       "time": "Today"
     }
   },
@@ -51,26 +51,26 @@
       "date": "2026-08-31"
     },
     {
-      "title": "5 Trends Transforming Trade Show Food Service",
+      "title": "Diversified Rolls Out Green Strategy at Accountex London",
       "source": "TSNN",
-      "date": "2026-08-31"
+      "date": "2026-08-25"
     }
   ],
   "kmNews": [
     {
-      "title": "Koelnmesse closes 2025 financial year with ~€450M revenue and ~€60M consolidated group result",
+      "title": "gamescom 2026 draws 1,600+ exhibitors and 233,000 sqm in record Cologne edition",
       "source": "Koelnmesse Press Office",
-      "date": "2026-09-01"
+      "date": "2026-08-30"
     },
     {
-      "title": "gamescom 2026 expands to 1,600+ exhibitors from 67 countries across 233,000 sqm",
-      "source": "Koelnmesse Press Office",
-      "date": "2026-09-01"
+      "title": "Koelnmesse launches Central Asia International Hardware Expo (CAIHE), first event in the region",
+      "source": "Koelnmesse Press Office / PR Newswire",
+      "date": "2026-06-24"
     },
     {
-      "title": "Koelnmesse expands into Indonesia via new joint venture with AMARA Expo in Jakarta",
+      "title": "Koelnmesse debuts in Africa with launch of Anuga Select South Africa",
       "source": "Koelnmesse Press Office",
-      "date": "2026-09-01"
+      "date": "2026-06-18"
     }
   ]
 }
